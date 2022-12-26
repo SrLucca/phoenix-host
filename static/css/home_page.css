@@ -1,0 +1,111 @@
+@font-face{
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+    font-family: SFPro;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    }
+
+body {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.line-left {
+    width: 1px;
+    background-color: #00DFF2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 60px;
+    z-index: 1000;
+    pointer-events: none;
+}
+
+.line-right {
+    width: 1px;
+    background-color: #00DFF2;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 60px;
+    z-index: 1000;
+}
+
+.gradient{
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 1080px;
+    background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
+    radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
+    opacity: 1;
+    
+}
+
+.header{
+    position: relative;
+    /* Layout Properties */
+    top: 50px;
+    left: 207px;
+    width: 1507px;
+    height: 51px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.header-content{
+    position: relative;
+    /* Layout Properties */
+    left: -20px;
+
+}
+
+#header-logo{
+    /* Layout Properties */
+    position: relative;
+    top: 4px;
+    left: 100px;
+    width: 63px;
+    height: 51px;
+    opacity: 1;
+}
+
+.header-content a{
+        /* UI Properties */
+        position: relative;
+        top: -10px;
+        left: 282px;
+        width: 691px;
+        height: 40px;
+
+
+        text-align: left;
+        font-family: SFPro, Sans-serif;
+        font-style: normal;
+        font-size: 25px;
+
+        letter-spacing: 0px;
+        color: #F2F2F2;
+        opacity: 1;
+
+        padding-right: 25px;
+        text-decoration: none;
+}
+
+#nuvem-1{
+    position: relative;
+    top: 116px;
+    left: -101px;
+    width: 291px;
+    height: 114px;
+}
+
+
+
