@@ -23,7 +23,7 @@ body {
     top: 0;
     bottom: 0;
     left: 60px;
-    z-index: 1000;
+    z-index: 1;
     pointer-events: none;
 }
 
@@ -34,7 +34,7 @@ body {
     top: 0;
     bottom: 0;
     right: 60px;
-    z-index: 1000;
+    z-index: 1;
 }
 
 .gradient{
@@ -99,13 +99,135 @@ body {
         text-decoration: none;
 }
 
+#carrinho{
+
+    position: relative;
+    left: 710px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.loginBtn{
+    /* Layout Properties */
+    position: relative;
+    top: -42.5px;
+    left: 1450px;
+    width: 110px;
+    height: 38px;
+    /* UI Properties */
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    opacity: 1;
+}
+
+.loginBtn a{
+    left: 31px;
+    top: 5px;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+    letter-spacing: 0px;
+    color: #0C234D;
+    opacity: 1;
+}
+
 #nuvem-1{
     position: relative;
     top: 116px;
     left: -101px;
     width: 291px;
     height: 114px;
+    z-index: 1000;
 }
 
+.top-page{
+    position: relative;
+    /* Layout Properties */
+    top: 128px;
+    left: 250px;
+    width: 554px;
+    height: 266px;
+}
 
+.top-page h1{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 65px;
 
+    text-align: left;
+    letter-spacing: 0px;
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.top-page p{
+    position: relative;
+    top: 20px;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 25px;
+
+    text-align: left;
+    letter-spacing: 0px;
+    color: #F2F2F2;
+    opacity: 1;
+
+    margin-inline-end: -11em;
+}
+
+#servidor{
+    position: relative;
+    /* Layout Properties */
+    top: -185px;
+    left: 1150px;
+    width: 611px;
+    height: 577px;
+}
+
+.show-plans{
+
+    position: relative;
+
+    /* Layout Properties */
+    top: -335px;
+    left: 230px;
+    width: 352px;
+    height: 138px;
+}
+
+.show-btn{
+    position: relative;
+    top: -121px;
+    left: 17px;
+    width: 320px;
+    height: 60px;
+    background: 0% 0% no-repeat padding-box padding-box #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+}
+
+.show-btn a{
+    position: relative;
+    left: 27px;
+    width: 161px;
+    height: 37px;
+    top: 16px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3358A7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.show-btn img{
+    position: relative;
+    left: 111px;
+    top: 13px;
+}
