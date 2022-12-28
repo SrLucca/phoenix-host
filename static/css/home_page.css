@@ -346,6 +346,93 @@ body {
     opacity: 1;
 }
 
+.game-servers img{
+    position: inherit;
+    left: -40px;
+    top: -27px;
+}
+
+#rectangle-2{
+    position: inherit;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    /* border: 1px solid #707070; */
+    height: 11px;
+    top: -34px;
+    width: 329px;
+    left: 34px;
+}
+
+.game-servers p{
+    left: 30px;
+    top: -13px;
+
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
+    margin-inline-end: 200px
+}
+
+#p-3{
+    left: 30px;
+    top: 1px;
+
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
+
+    margin-inline-end: 81px;
+}
+
+#dedicatedBtn-2{
+    position: inherit;
+    left: 30px;
+    top: 10px;
+    height: 43px;
+    width: 272px;
+
+    /* UI Properties */
+    border: 1px solid #1E49A0;
+    border-radius: 22px;
+    opacity: 1;
+}
+
+#dedicatedBtn-2 a{
+    position: inherit;
+    top: 10px;
+    left: 13px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3358A7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+#dedicatedBtn-2 img{
+    position: inherit;
+    top: 10px;
+    left: 98px;
+}
+
 .vps-servers{
     position:  relative;
     /* Layout Properties */
@@ -358,4 +445,91 @@ body {
     border: 1px solid #707070;
     border-radius: 34px;
     opacity: 1;
+}
+
+.vps-servers img{
+    position: inherit;
+    left: 34px;
+    top: -76px;
+}
+
+#rectangle-3{
+    position: inherit;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    /* border: 1px solid #707070; */
+    height: 11px;
+    top: -82px;
+    width: 329px;
+    left: 34px;
+}
+
+.vps-servers p{
+    left: 30px;
+    top: -13px;
+
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
+    margin-inline-end: 200px
+}
+
+#p-4{
+    left: 30px;
+    top: 1px;
+
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
+
+    margin-inline-end: 81px;
+}
+
+#dedicatedBtn-3{
+    position: inherit;
+    left: 30px;
+    top: 10px;
+    height: 43px;
+    width: 272px;
+
+    /* UI Properties */
+    border: 1px solid #1E49A0;
+    border-radius: 22px;
+    opacity: 1;
+}
+
+#dedicatedBtn-3 a{
+    position: inherit;
+    top: 10px;
+    left: 13px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3358A7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+#dedicatedBtn-3 img{
+    position: inherit;
+    top: 10px;
+    left: 98px;
 }
