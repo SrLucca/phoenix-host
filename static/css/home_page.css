@@ -42,7 +42,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 1571px;
+    height: 2233px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -450,7 +450,7 @@ body {
 .vps-servers img{
     position: inherit;
     left: 34px;
-    top: -76px;
+    top: -75px;
 }
 
 #rectangle-3{
@@ -465,7 +465,7 @@ body {
 
 .vps-servers p{
     left: 30px;
-    top: -13px;
+    top: -61px;
 
     position: inherit;
     font-family: SFPro, Sans-serif;
@@ -482,7 +482,7 @@ body {
 
 #p-4{
     left: 30px;
-    top: 1px;
+    top: -43px;
 
     position: inherit;
     font-family: SFPro, Sans-serif;
@@ -501,7 +501,7 @@ body {
 #dedicatedBtn-3{
     position: inherit;
     left: 30px;
-    top: 10px;
+    top: -33px;
     height: 43px;
     width: 272px;
 
@@ -532,4 +532,72 @@ body {
     position: inherit;
     top: 10px;
     left: 98px;
+}
+
+.locations{
+    position: relative;
+    top: -1159px;
+    left: 171px;
+
+    height: 552px;
+
+}
+
+.locations h1{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    left: 400px;
+    top: -31px;
+    position: inherit;
+
+
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.locations p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    top: -21px;
+    left: -250px;
+    position: inherit;
+
+    text-align: center;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+#coutry-1{
+
+    position: inherit;
+
+    top: 70px;
+    width: 723px;
+    height: 104px;
+    left: -24px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+#coutry-2{
+    position: inherit;
+}
+
+#coutry-3{
+    position: inherit;
+}
+
+#coutry-4{
+    position: inherit;
 }
