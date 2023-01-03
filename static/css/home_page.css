@@ -25,6 +25,8 @@ body {
     left: 60px;
     z-index: 1;
     pointer-events: none;
+
+    display: none;
 }
 
 .line-right {
@@ -35,6 +37,8 @@ body {
     bottom: 0;
     right: 60px;
     z-index: 1;
+
+    display: none;
 }
 
 .gradient{
@@ -547,8 +551,8 @@ body {
     font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 50px;
-    left: 400px;
-    top: -31px;
+    left: 5px;
+    top: 107px;
     position: inherit;
 
 
@@ -556,6 +560,9 @@ body {
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    margin-inline-end: 1510px;
+    line-height: 67px;
+    
 }
 
 .locations p{
@@ -563,41 +570,158 @@ body {
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    top: -21px;
-    left: -250px;
+    top: 141px;
+    left: 9px;
     position: inherit;
-
-    text-align: center;
+    text-align: left;
     font-family: SFPro, Sans-serif;
     font-style: normal;
-    font-size: 16px;
+    font-size: 21.5px;
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
+    width: 411px;
+    word-break: break-all;
+
 }
 
-#coutry-1{
+.coutry-1{
 
     position: inherit;
 
-    top: 70px;
-    width: 723px;
+    top: -91px;
+    width: 680px;
     height: 104px;
-    left: -24px;
+    left: 847px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     border-radius: 12px;
     opacity: 1;
 }
 
-#coutry-2{
+.coutry-1 img{
+    position: inherit;
+    top: 11px;
+    left: 28px;
+}
+
+#line-1{
+    position: inherit;
+    width: 484px;
+    left: 196px;
+    height: 104px;
+    top: -87px;
+
+
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 14px;
+    opacity: 1;
+}
+#line-1 strong{
     position: inherit;
 }
 
-#coutry-3{
+#line-1 strong h3{
+    top: 16px;
+    left: 31px;
+    
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 34px;
+    position: inherit;
+
+
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
+}
+
+#line-1 p{
+    position: inherit;
+    top: 18px;
+    left: 31px;
+    
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 22px;
+
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
+}
+
+
+.coutry-2{
+    position: inherit;
+
+    top: -54px;
+    width: 680px;
+    height: 104px;
+    left: 847px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.coutry-2 img{
+    position: inherit;
+    top: 11px;
+    left: 28px;
+}
+
+#line-2{
+    position: inherit;
+    width: 484px;
+    left: 196px;
+    height: 104px;
+    top: -87px;
+
+    
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 14px;
+    opacity: 1;
+}
+
+#line-2 strong{
     position: inherit;
 }
 
-#coutry-4{
+#line-2 strong h3{
+    top: 16px;
+    left: 31px;
+    
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 34px;
     position: inherit;
+
+
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
+}
+
+#line-2 p{
+    position: inherit;
+    top: 18px;
+    left: 31px;
+    
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 22px;
+
+    text-align: left;
+    letter-spacing: 0px;
+    color: #262624;
+    opacity: 1;
 }
