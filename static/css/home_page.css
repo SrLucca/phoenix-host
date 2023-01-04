@@ -948,6 +948,8 @@ body {
     left: 600px;
     top: 88px;
 
+    text-align: center;
+
     width: 403px;
     height: 58px;
     /* UI Properties */
@@ -969,7 +971,7 @@ body {
 
 #see-infra a strong p{
     position: inherit;
-    left: 25px;
+    left: -20px;
     top: 16px;
 
     font-family: SFPro, Sans-serif;
@@ -983,5 +985,148 @@ body {
 #see-infra a img{
     position: inherit;
     top: -5px;
-    left: 357px;
+    left: 164px;
+}
+
+.garantias{
+    position: relative;
+    top: -891px;
+    left: 183px;
+    height: 1000px;
+    width: 1541px;
+
+
+}
+
+.garantias strong{
+    position: inherit;
+}
+
+.garantias strong h1{
+    position: inherit;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 40px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.garantias p{
+    position: inherit;
+    top: 16px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    opacity: 1;
+
+    word-break: break-all;
+}
+
+.high-perfomance{
+    position: inherit;
+    top: 68px;
+
+    width: 766px;
+    height: 276px;
+    
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.high-perfomance strong{
+    position: inherit;
+}
+
+.high-perfomance strong h2{
+    position: inherit;
+    top: 50px;
+    left: 21px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 48px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.high-perfomance p{
+    position: inherit;
+    left: 21px;
+    top: 63px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.custom-plans{
+    position: inherit;
+    top: -522px;
+    left: 820px;
+
+    width: 702px;
+    height: 276px;
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.uptime{
+    position: inherit;
+    top: 100px;
+
+    width: 341px;
+    height: 314px;
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.suport{
+    position: inherit;
+    top: -490px;
+    left: 390px;
+
+    width: 591px;
+    height: 314px;
+
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.hdd{
+    position: inherit;
+    top: -804px;
+    left: 1037px;
+
+    width: 482px;
+    height: 314px;
+
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
 }
