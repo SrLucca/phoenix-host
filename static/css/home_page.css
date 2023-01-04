@@ -46,7 +46,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 2233px;
+    height: 2800px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -75,7 +75,7 @@ body {
     /* Layout Properties */
     position: relative;
     top: 4px;
-    left: 100px;
+    left: 41px;
     width: 63px;
     height: 51px;
     opacity: 1;
@@ -85,7 +85,7 @@ body {
         /* UI Properties */
         position: relative;
         top: -10px;
-        left: 282px;
+        left: 264px;
         width: 691px;
         height: 40px;
 
@@ -99,14 +99,14 @@ body {
         color: #F2F2F2;
         opacity: 1;
 
-        padding-right: 25px;
+        padding-right: 89px;
         text-decoration: none;
 }
 
 #carrinho{
 
     position: relative;
-    left: 710px;
+    left: 402px;
     /* UI Properties */
     opacity: 1;
 }
@@ -540,9 +540,10 @@ body {
 
 .locations{
     position: relative;
-    top: -1159px;
+    top: -1274px;
     left: 171px;
 
+    width: 0;
     height: 552px;
 
 }
@@ -570,7 +571,7 @@ body {
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    top: 141px;
+    top: 130px;
     left: 9px;
     position: inherit;
     text-align: left;
@@ -724,4 +725,193 @@ body {
     letter-spacing: 0px;
     color: #262624;
     opacity: 1;
+}
+
+.processor{
+    position: relative;
+    top: -1421px;
+    left: 171px;
+
+    width: 0;
+    height: 552px;
+
+}
+
+.processor h1{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    left: 5px;
+    top: 107px;
+    position: inherit;
+
+
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-inline-end: -363px;
+    line-height: 67px;
+    
+}
+
+.processor p{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+    top: 130px;
+    left: 9px;
+    position: inherit;
+    width: 411px;
+
+    text-align: left;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 21.5px;
+
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+    
+    word-break: break-all;
+
+}
+
+.block-1{
+    position: inherit;
+
+    width: 364px;
+    height: 119px;
+    left: 9px;
+    top: 158px;
+
+    /* UI Properties */
+    border: 3px solid #FFFFFF;
+    border-radius: 32px;
+    opacity: 1
+}
+
+.block-1 img{
+    position: inherit;
+
+    width: 77px;
+    height: 77px;
+    left: 33px;
+    top: 17px;
+}
+
+.block-1 strong{
+    position: inherit;
+}
+
+.block-1 strong h3{
+
+    position: inherit;
+    top: -65px;
+    left: 129px;
+
+    text-align: left;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.block-1 p{
+    position: inherit;
+    top: -57px;
+    left: 129px;
+    
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 15px;
+
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.block-2{
+    position: inherit;
+    
+    width: 364px;
+    height: 119px;
+    left: 9px;
+    top: 187px;
+
+    /* UI Properties */
+    border: 3px solid #FFFFFF;
+    border-radius: 32px;
+    opacity: 1
+}
+
+.block-2 img{
+    position: inherit;
+    
+    width: 77px;
+    height: 77px;
+    left: 33px;
+    top: 17px;
+}
+
+.block-2 strong{
+    position: inherit;
+}
+
+.block-2 strong h3{
+
+    position: inherit;
+    top: -65px;
+    left: 129px;
+
+    text-align: left;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+
+    letter-spacing: -1px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.block-2 p{
+    position: inherit;
+    top: -57px;
+    left: 129px;
+    
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 15px;
+
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.velocimeter{
+
+    position: inherit;
+
+    top: -100px;
+    width: 680px;
+    height: 104px;
+    left: 847px;
+}
+
+.velocimeter img{
+    position: inherit;
+    top: -193px;
+    left: -89px;
+
+    width: 766px;
+    height: 424px;
+
 }
