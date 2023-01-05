@@ -12,7 +12,7 @@
     }
 
 body {
-    width: 100%;
+    width: 1920px;
     height: 100%;
     position: relative;
     
@@ -1630,26 +1630,24 @@ body {
     position: relative;
     top: -1487px;
     height: 771px;
+    width: 1920px;
 }
 
 .discord img{
     position: inherit;
-    width: 1920px;
+    width: 1900px;
     height: 770px;
 
 
     opacity: 1;
 }
 
-.discord strong{
+
+.discord h1{
     top: -513px;
     left: 220px;
     position: inherit;
-}
-
-.discord strong h1{
-    position: inherit;
-    
+    width: 452px;
 
 
     font-family: SFPro, Sans-serif;
@@ -1834,4 +1832,114 @@ body {
     /* UI Properties */
     border: 2px solid #C7C7C7;
     opacity: 1;
+}
+
+.subscribe{
+
+    position: relative;
+    width: 1920px;
+    height: 398px;
+    top: -1410px;
+
+    background: rgb(86,139,209);
+    background: linear-gradient(270deg, rgba(86,139,209,1) 0%, rgba(24,50,98,1) 100%);
+}
+
+.subscribe h1{
+    position: inherit;
+    top: 126px;
+    left: 350px;
+    width: 800px;
+
+
+    text-align: left;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: -2px;
+
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.contract-button{
+    position: inherit;
+    top: -6px;
+    left: 1221px;
+
+    width: 296px;
+    height: 137px;
+    /* UI Properties */
+    border: 1px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.contract-button p{
+    position: inherit;
+    left: 38px;
+    top: 19px;
+
+    text-align: left;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 21px;
+    font-weight: bold;
+    letter-spacing: -1px;
+
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.contract-button-2{
+    position: inherit;
+    top: 35px;
+
+    width: 296px;
+    height: 75px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+
+    cursor: pointer;
+}
+
+.contract-button-2 a{
+    position: inherit;
+    text-decoration: none;
+}
+
+.contract-button-2 a p{
+
+
+    position: inherit;
+    left: 21px;
+    top: 21px;
+
+    text-align: left;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 26px;
+    
+    font-weight: bold;
+    letter-spacing: -1px;
+
+    color: #193463;
+    opacity: 1;
+}
+
+.contract-button-2 a img{
+    position: inherit;
+    top: -5px;
+    left: 244px;
+
+    width: 21px;
+    height: 19px;
+
 }
