@@ -1,0 +1,272 @@
+@font-face{
+    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+    font-family: SFPro;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    
+    }
+
+body {
+    width: 1920px;
+    height: 100%;
+    position: relative;
+    
+}
+
+
+.gradient{
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 9000px;
+    background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
+    radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
+    opacity: 1;
+    
+}
+
+.header{
+    position: relative;
+    /* Layout Properties */
+    top: 50px;
+    left: 207px;
+    width: 1507px;
+    height: 51px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.header-content{
+    position: relative;
+    /* Layout Properties */
+    left: -20px;
+
+}
+
+#header-logo{
+    /* Layout Properties */
+    position: relative;
+    top: 4px;
+    left: 41px;
+    width: 63px;
+    height: 51px;
+    opacity: 1;
+
+    z-index: 1000;
+}
+
+.header-content a{
+        /* UI Properties */
+        position: relative;
+        top: -10px;
+        left: 264px;
+        width: 691px;
+        height: 40px;
+
+
+        text-align: left;
+        font-family: SFPro, Sans-serif;
+        font-style: normal;
+        font-size: 25px;
+
+        letter-spacing: 0px;
+        color: #F2F2F2;
+        opacity: 1;
+
+        padding-right: 89px;
+        text-decoration: none;
+}
+
+#carrinho{
+
+    position: relative;
+    left: 402px;
+    /* UI Properties */
+    opacity: 1;
+}
+
+.loginBtn{
+    /* Layout Properties */
+    position: relative;
+    top: -42.5px;
+    left: 1450px;
+    width: 110px;
+    height: 38px;
+    /* UI Properties */
+    background: #F2F2F2 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    opacity: 1;
+}
+
+.loginBtn a{
+    left: 31px;
+    top: 5px;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+    letter-spacing: 0px;
+    color: #0C234D;
+    opacity: 1;
+}
+
+.top-page{
+    position: relative;
+    top: -43px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+
+.top-page img{
+    position: inherit;
+
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+}
+
+#paraquedas{
+    position: inherit;
+
+    top: -1631px;
+    left: 1702px;
+    width: 79px;
+    height: 77px;
+}
+
+#boneco-rust{
+    position: inherit;
+
+    top: -839px;
+    left: 976px;
+    width: 673px;
+    height: 835px;
+}
+
+#line-1{
+    position: relative;
+    top: -45px;
+
+
+    width: 1920px;
+    height: 33px;
+    background: #A4C5F7 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    opacity: 1;
+}
+
+.top-page-rust{
+    position: inherit;
+    top: -1586px;
+    left: 223px;
+
+    width: 752px;
+    height: 427px;
+}
+
+.top-page-rust h1{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 74px;
+    text-align: left;
+    font-weight: 900;
+    color: #F2F2F2;
+    opacity: 1;
+    letter-spacing: -4px;
+    word-spacing: -8px;
+    line-height: 84px;
+}
+
+.top-page-rust p{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 15px;
+    position: inherit;
+    font-weight: bold;
+    left: 4px;
+}
+
+.plans{
+
+    position: relative;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 1213px;
+    height: 1635px;
+}
+
+.plans h1{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 42px;
+    text-align: center;
+    font-weight: 800;
+    color: #F2F2F2;
+    opacity: 1;
+    letter-spacing: -1px;
+    word-spacing: -8px;
+}
+
+.plans p{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 18.70px;
+    text-align: center;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 23px;
+    position: inherit;
+    font-weight: normal;
+    left: 4px;
+}
+
+.click{
+
+    margin-left: auto;
+    margin-right: auto;
+    width: 511px;
+    height: 58px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #FFFFFF;
+    border-radius: 29px;
+    opacity: 1;
+    top: 83px;
+    position: inherit;
+}
+
+.click p{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    text-align: left;
+    color: #1C376B;
+    opacity: 1;
+    position: inherit;
+    font-weight: 800;
+    left: 35px;
+    top: 16px;
+
+}
+
+.click img{
+    position: inherit;
+    top: 16px;
+    width: 34px;
+    height: 18px;
+    left: 395px;
+    top: -4px;
+}
