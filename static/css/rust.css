@@ -270,3 +270,607 @@ body {
     left: 395px;
     top: -4px;
 }
+
+.bloco-1{   
+
+
+    position: inherit;
+    top: 128px;
+
+    width: 371px;
+    height: 594px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.bloco-1 p{
+    position: inherit;
+    top: 50px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.bloco-1 h1{
+    position: inherit;
+    top: 65px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 41px;
+    text-align: left;
+    color: #034AA6;
+    opacity: 1;
+    font-weight: 800;
+}
+
+#p2{
+    top: 85px;
+}
+
+.bloco-1 hr{
+    position: inherit;
+    top: 122px;
+    left: 35px;
+    width: 242px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #D1D1D1;
+    opacity: 1;
+}
+
+.infos-1{
+    position: inherit;
+}
+
+.infos-1 p{
+    line-height: 2;
+    top: 165px;
+    position: inherit;
+    font-weight: normal;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+
+}
+
+.button-1{
+    position: inherit;
+    left: 35px;
+
+    top: 190px;
+    width: 162px;
+    height: 43px;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1
+}
+
+.button-1 p{
+    position: inherit;
+    font-weight: 900; 
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 12px;
+    left: 14px;;
+}
+
+.bloco-2{   
+
+
+    position: inherit;
+    top: -466px;
+    left: 419px;
+    
+    width: 371px;
+    height: 594px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.bloco-2 p{
+    position: inherit;
+    top: 50px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.bloco-2 h1{
+    position: inherit;
+    top: 65px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 41px;
+    text-align: left;
+    color: #034AA6;
+    opacity: 1;
+    font-weight: 800;
+}
+
+#p3{
+    top: 85px;
+}
+
+.bloco-2 hr{
+    position: inherit;
+    top: 122px;
+    left: 35px;
+    width: 242px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #D1D1D1;
+    opacity: 1;
+}
+
+.infos-2{
+    position: inherit;
+}
+
+.infos-2 p{
+    line-height: 2;
+    top: 165px;
+    position: inherit;
+    font-weight: normal;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+
+}
+
+.button-2{
+    position: inherit;
+    left: 35px;
+
+    top: 190px;
+    width: 162px;
+    height: 43px;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1
+}
+
+.button-2 p{
+    position: inherit;
+    font-weight: 900; 
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 12px;
+    left: 14px;;
+}
+
+.bloco-3{   
+
+
+    position: inherit;
+    top: -1059px; 
+    left: 842px;
+
+    width: 371px;
+    height: 594px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.bloco-3 p{
+    position: inherit;
+    top: 50px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.bloco-3 h1{
+    position: inherit;
+    top: 65px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 41px;
+    text-align: left;
+    color: #034AA6;
+    opacity: 1;
+    font-weight: 800;
+}
+
+#p4{
+    top: 85px;
+}
+
+.bloco-3 hr{
+    position: inherit;
+    top: 122px;
+    left: 35px;
+    width: 242px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #D1D1D1;
+    opacity: 1;
+}
+
+.infos-3{
+    position: inherit;
+}
+
+.infos-3 p{
+    line-height: 2;
+    top: 165px;
+    position: inherit;
+    font-weight: normal;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+
+}
+
+.button-3{
+    position: inherit;
+    left: 35px;
+
+    top: 190px;
+    width: 162px;
+    height: 43px;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1
+}
+
+.button-3 p{
+    position: inherit;
+    font-weight: 900; 
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 12px;
+    left: 14px;;
+}
+
+.bloco-4{   
+
+
+    position: inherit;
+    top: -1010px;
+
+    width: 371px;
+    height: 594px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.bloco-4 p{
+    position: inherit;
+    top: 50px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.bloco-4 h1{
+    position: inherit;
+    top: 65px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 41px;
+    text-align: left;
+    color: #034AA6;
+    opacity: 1;
+    font-weight: 800;
+}
+
+#p5{
+    top: 85px;
+}
+
+.bloco-4 hr{
+    position: inherit;
+    top: 122px;
+    left: 35px;
+    width: 242px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #D1D1D1;
+    opacity: 1;
+}
+
+.infos-4{
+    position: inherit;
+}
+
+.infos-4 p{
+    line-height: 2;
+    top: 165px;
+    position: inherit;
+    font-weight: normal;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+
+}
+
+.button-4{
+    position: inherit;
+    left: 35px;
+
+    top: 190px;
+    width: 162px;
+    height: 43px;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1
+}
+
+.button-4 p{
+    position: inherit;
+    font-weight: 900; 
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 12px;
+    left: 14px;;
+}
+
+.bloco-5{   
+
+
+    position: inherit;
+    top: -1602px; 
+    left: 419px;
+    
+    width: 371px;
+    height: 594px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.bloco-5 p{
+    position: inherit;
+    top: 50px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.bloco-5 h1{
+    position: inherit;
+    top: 65px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 41px;
+    text-align: left;
+    color: #034AA6;
+    opacity: 1;
+    font-weight: 800;
+}
+
+#p6{
+    top: 85px;
+}
+
+.bloco-5 hr{
+    position: inherit;
+    top: 122px;
+    left: 35px;
+    width: 242px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #D1D1D1;
+    opacity: 1;
+}
+
+.infos-5{
+    position: inherit;
+}
+
+.infos-5 p{
+    line-height: 2;
+    top: 165px;
+    position: inherit;
+    font-weight: normal;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+
+}
+
+.button-5{
+    position: inherit;
+    left: 35px;
+
+    top: 190px;
+    width: 162px;
+    height: 43px;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1
+}
+
+.button-5 p{
+    position: inherit;
+    font-weight: 900; 
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 12px;
+    left: 14px;;
+}
+
+.bloco-6{   
+
+
+    position: inherit;
+    top: -2195px; 
+    left: 842px;
+
+    width: 371px;
+    height: 594px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+}
+
+.bloco-6 p{
+    position: inherit;
+    top: 50px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 19px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+    font-weight: 800;
+}
+
+.bloco-6 h1{
+    position: inherit;
+    top: 65px;
+    left: 35px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 41px;
+    text-align: left;
+    color: #034AA6;
+    opacity: 1;
+    font-weight: 800;
+}
+
+#p7{
+    top: 85px;
+}
+
+.bloco-6 hr{
+    position: inherit;
+    top: 122px;
+    left: 35px;
+    width: 242px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #D1D1D1;
+    opacity: 1;
+}
+
+.infos-6{
+    position: inherit;
+}
+
+.infos-6 p{
+    line-height: 2;
+    top: 165px;
+    position: inherit;
+    font-weight: normal;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    text-align: left;
+    color: #262624;
+    opacity: 1;
+
+}
+
+.button-6{
+    position: inherit;
+    left: 35px;
+
+    top: 190px;
+    width: 162px;
+    height: 43px;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    border-radius: 14px;
+    opacity: 1
+}
+
+.button-6 p{
+    position: inherit;
+    font-weight: 900; 
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 12px;
+    left: 14px;;
+}
