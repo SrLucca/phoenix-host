@@ -874,3 +874,31 @@ body {
     top: 12px;
     left: 14px;;
 }
+
+.additional-packs{
+    margin-left: auto;
+    margin-right: auto;
+    position: inherit;
+
+    top: -2100px;
+
+    width: 556px;
+    height: 58px;
+    border: 1px solid #FFFFFF;
+    border-radius: 29px;
+    opacity: 1;
+}
+
+.additional-packs P{
+    position: inherit;
+    font-weight: 900;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+    text-align: left;
+    color: #F2F2F2;
+    opacity: 1;
+    top: 16px;
+    left: 36px;
+
+}
