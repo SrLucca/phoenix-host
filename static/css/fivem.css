@@ -163,14 +163,35 @@ body {
     opacity: 1;
 }
 
+#linha1{
+    position: absolute;
+    background-color: red;
+    width: 229px;
+    height: 5px;
+    top: 500px;
+    z-index: 100;
+    display: none;
+}
+
+#linha2{
+    position: absolute;
+    height: 426px;
+    width: 5px;
+    left: 292px;
+    top: 653px;
+    background-color: red;
+    z-index: 100;
+    display: none;
+
+}
 
 .top-page-rust{
     position: inherit;
-    top: -1586px;
-    left: 223px;
-
+    top: -736px;
+    left: 224px;
     width: 752px;
     height: 427px;
+    z-index: 1000;
 }
 
 .top-page-rust h1{
