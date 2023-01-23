@@ -40,6 +40,7 @@ body {
     height: 51px;
     /* UI Properties */
     opacity: 1;
+    z-index: 1000;
 }
 
 .header-content{
@@ -126,12 +127,12 @@ body {
 
 .top-page img{
     position: inherit;
-
-    top: 0px;
+    top: 170px;
     left: 0px;
     width: 1920px;
-    height: 1080px;
+    height: 940px;
 }
+
 
 #paraquedas{
     position: inherit;
@@ -163,13 +164,35 @@ body {
     opacity: 1;
 }
 
+#linha1{
+    position: absolute;
+    background-color: red;
+    width: 229px;
+    height: 5px;
+    top: 500px;
+    z-index: 100;
+    display: none;
+}
+
+#linha2{
+    position: absolute;
+    height: 426px;
+    width: 5px;
+    left: 292px;
+    top: 653px;
+    background-color: red;
+    z-index: 100;
+    display: none;
+
+}
+
 .top-page-rust{
     position: inherit;
-    top: -1586px;
-    left: 223px;
-
+    top: -645px;
+    left: 224px;
     width: 752px;
     height: 427px;
+    z-index: 1000;
 }
 
 .top-page-rust h1{
