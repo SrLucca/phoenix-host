@@ -24,7 +24,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 7810px;
+    height: 7846px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -1195,7 +1195,7 @@ body {
 .infos{
 
     position: relative;
-    top: 667px;
+    top: 537px;
     left: 167px;
 
     width: 1541px;
@@ -1264,9 +1264,287 @@ body {
     left: 164px;
 }
 
+.garantias{
+    position: relative;
+    top: 779px;
+    left: 183px;
+    height: 1000px;
+    width: 1541px;
+
+
+}
+
+.garantias strong{
+    position: inherit;
+}
+
+.garantias strong h1{
+    position: inherit;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 40px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.garantias p{
+    position: inherit;
+    top: 16px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 20px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    opacity: 1;
+
+    word-break: break-all;
+}
+
+.high-perfomance{
+    position: inherit;
+    top: 68px;
+
+    width: 766px;
+    height: 276px;
+    
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.high-perfomance strong{
+    position: inherit;
+}
+
+.high-perfomance strong h2{
+    position: inherit;
+    top: 50px;
+    left: 21px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 48px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.high-perfomance p{
+    position: inherit;
+    left: 21px;
+    top: 63px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.custom-plans{
+    position: inherit;
+    top: -522px;
+    left: 820px;
+
+    width: 702px;
+    height: 276px;
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.custom-plans strong{
+    position: inherit;
+}
+
+.custom-plans strong h2{
+    position: inherit;
+    top: 50px;
+    left: 21px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 48px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.custom-plans p{
+    position: inherit;
+    left: 21px;
+    top: 63px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.uptime{
+    position: inherit;
+    top: 100px;
+
+    width: 341px;
+    height: 314px;
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.uptime strong{
+    position: inherit;
+}
+
+.uptime strong h2{
+    position: inherit;
+    top: 50px;
+    left: 21px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 48px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.uptime p{
+    position: inherit;
+    left: 21px;
+    top: 63px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.suport{
+    position: inherit;
+    top: -490px;
+    left: 390px;
+
+    width: 591px;
+    height: 314px;
+
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.suport strong{
+    position: inherit;
+}
+
+.suport strong h2{
+    position: inherit;
+    top: 50px;
+    left: 21px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 48px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.suport p{
+    position: inherit;
+    left: 21px;
+    top: 63px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.hdd{
+    position: inherit;
+    top: -804px;
+    left: 1037px;
+
+    width: 482px;
+    height: 314px;
+
+    /* UI Properties */
+    border: 2px solid #FFFFFF;
+    border-radius: 25px;
+    opacity: 1;
+}
+
+.hdd strong{
+    position: inherit;
+}
+
+.hdd strong h2{
+    position: inherit;
+    top: 50px;
+    left: 21px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 48px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
+
+.hdd p{
+    position: inherit;
+    left: 21px;
+    top: 63px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 17px;
+
+    text-align: left;
+
+    color: #F2F2F2;
+    opacity: 1;
+}
 #hr-1{
     position: relative;
-    top: 900px;
+    top: 660px;
     height: 30px;
     /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -1278,7 +1556,7 @@ body {
 
 .faixa{
     position: relative;
-    top: 900px;
+    top: 656px;
     left: 1249px;
 
 
@@ -1389,7 +1667,7 @@ body {
 
 .depoiments-1{
     position: relative;
-    top: 70px;
+    top: -178px;
     left: 125px;
 
     width: 985px;
@@ -1467,7 +1745,7 @@ body {
 
 .depoiments-2{
     position: relative;
-    top: 80px;
+    top: -168px;
     left: 125px;
 
     width: 985px;
@@ -1545,7 +1823,7 @@ body {
 
 .depoiments-3{
     position: relative;
-    top: 90px;
+    top: -158px;
     left: 125px;
 
     width: 985px;
