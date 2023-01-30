@@ -38,7 +38,7 @@
                     of a page when looking at its layout the font is big last day.</p>
             </div>
 
-            <img id="servidor" src="/static/img/home_page/Servidor.png" alt="">
+            <img id="servidor" data-value="10" src="/static/img/home_page/Servidor.png" alt="">
 
             <div class="show-plans">
                 <img src="static/img/home_page/Nuvem pequena-1.png" alt="">
@@ -364,5 +364,31 @@
         
     <div class="line-left"></div>
     <div class="line-right"></div>
+
+    <script type="text/javascript">
+
+    document.addEventListener("mousemove", parallax);
+    var img1 = document.getElementById('servidor')
+    var img2 = document.getElementById('nuvem-1')
+    function parallax(event) {
+        
+        if(event){
+
+            var posx = event.screenX / 50
+            var posy = event.screenY / 50
+
+
+
+            console.log(posx,posy)
+
+            img1.style.transform = 'rotateX('+(posy)+'deg) rotateY('+(-posx)+'deg)';
+            img2.style.transform = 'rotateX('+(posx)+'deg) rotateY('+(-posy)+'deg)';
+
+        }
+        
+            
+    }
+
+    </script>
 </body>
 </html>
