@@ -41,7 +41,7 @@
             <img id="servidor" value="-15" src="/static/img/home_page/Servidor.png" alt="">
 
             <div class="show-plans">
-                <img src="static/img/home_page/Nuvem pequena-1.png" alt="">
+                <img src="static/img/home_page/Nuvem pequena-1.png" id="nuvem-2" alt="">
                 <div class="show-btn">
                     <a href="">VER JOGOS</a>
                     <img src="static/img/home_page/seta-direita.png" alt="">
@@ -368,11 +368,13 @@
     <script type="text/javascript">
 
     document.addEventListener("mousemove", parallax);
-    var img1 = document.getElementById('servidor')
-    var img2 = document.getElementById('nuvem-1')
+    var img1 = document.getElementById('servidor');
+    var img2 = document.getElementById('nuvem-1');
+    var img3 = document.getElementById('nuvem-2');
 
     var rect = img1.getBoundingClientRect();
     var rect2 = img2.getBoundingClientRect();
+    var rect3 = img3.getBoundingClientRect();
     function parallax(event) {
         
         if(event){
@@ -386,23 +388,29 @@
 
             var current_x1 = rect.left;
             var current_x2 = rect2.left;
+            var current_x3 = rect3.left;
 
             var current_y1 = rect.top;
             var current_y2 = rect2.top;
+            var current_y3 = rect3.top;
 
 
             current_x1 += (-posx);
             current_x2 += (posx);
+            current_x3 += (posx);
 
             current_y1 += (posy);
             current_y2 += (posy);
+            current_y3 += (posy);
+            
 
             img1.style.left = (current_x1)+'px';
             img2.style.left = (current_x2)+'px';
+            img3.style.left = (-current_x3/15)+'px';
 
             img1.style.top = (-current_y1)+'px';
             img2.style.top = (current_y2)+'px';
-
+            img3.style.top = (-current_y3/30)+'px';
         }
         
             

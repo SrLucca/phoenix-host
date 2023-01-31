@@ -222,6 +222,12 @@ body {
     height: 138px;
 }
 
+#nuvem-2{
+    position: relative;
+    top: -16px;
+    left: -2px;
+}
+
 .show-btn{
     position: relative;
     top: -121px;
