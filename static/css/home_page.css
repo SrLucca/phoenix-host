@@ -339,7 +339,7 @@ body {
 
 #p-2{
     left: 30px;
-    top: 1px;
+    top: -80px;
 
     position: inherit;
     font-family: SFPro, Sans-serif;
@@ -358,7 +358,7 @@ body {
 #dedicatedBtn{
     position: inherit;
     left: 30px;
-    top: 10px;
+    top: -81px;
     height: 43px;
     width: 272px;
 
