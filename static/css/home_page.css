@@ -310,6 +310,33 @@ body {
     opacity: 1;
 }
 
+@keyframes glowing {
+    0% {
+        background-color: rgb(37, 150, 190);
+        box-shadow: 0 0 5px rgb(37, 150, 190);
+    }
+    50% {
+        background-color: #9cf4f7;
+        box-shadow: 0 0 20px #9cf4f7;
+    }
+    100% {
+        background-color: rgb(37, 150, 190);
+        box-shadow: 0 0 5px rgb(37, 150, 190);
+    }
+}
+
+.luzinha{
+    position: inherit;
+    background-color: rgb(37, 150, 190);
+    width: 42px;
+    height: 17px;
+    top: -272px;
+    left: 86px;
+    opacity: 0.5;
+
+    animation: glowing 1300ms infinite;
+}
+
 #p-2{
     left: 30px;
     top: 1px;
