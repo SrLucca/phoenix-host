@@ -30,7 +30,7 @@
                 </div>
             </div>
 
-            <img src="static/img/home_page/Nuvem pequena.png" alt="nuvem" id="nuvem-1" srcset="">
+            <img src="static/img/home_page/Nuvem pequena.png" value="15" alt="nuvem" id="nuvem-1" srcset="">
 
             <div class="top-page">
                 <h1>HOSPEDAGEM DE SERVIDORES DE JOGOS</h1>
@@ -38,7 +38,7 @@
                     of a page when looking at its layout the font is big last day.</p>
             </div>
 
-            <img id="servidor" data-value="10" src="/static/img/home_page/Servidor.png" alt="">
+            <img id="servidor" value="-15" src="/static/img/home_page/Servidor.png" alt="">
 
             <div class="show-plans">
                 <img src="static/img/home_page/Nuvem pequena-1.png" alt="">
@@ -370,19 +370,38 @@
     document.addEventListener("mousemove", parallax);
     var img1 = document.getElementById('servidor')
     var img2 = document.getElementById('nuvem-1')
+
+    var rect = img1.getBoundingClientRect();
+    var rect2 = img2.getBoundingClientRect();
     function parallax(event) {
         
         if(event){
 
-            var posx = event.screenX / 50
-            var posy = event.screenY / 50
+            var posx = event.screenX;
+            var posy = event.screenY;
+
+            posx = posx / 90;
+            posy = posy / 90;
 
 
+            var current_x1 = rect.left;
+            var current_x2 = rect2.left;
 
-            console.log(posx,posy)
+            var current_y1 = rect.top;
+            var current_y2 = rect2.top;
 
-            img1.style.transform = 'rotateX('+(posy)+'deg) rotateY('+(-posx)+'deg)';
-            img2.style.transform = 'rotateX('+(posx)+'deg) rotateY('+(-posy)+'deg)';
+
+            current_x1 += (-posx);
+            current_x2 += (posx);
+
+            current_y1 += (posy);
+            current_y2 += (posy);
+
+            img1.style.left = (current_x1)+'px';
+            img2.style.left = (current_x2)+'px';
+
+            img1.style.top = (-current_y1)+'px';
+            img2.style.top = (current_y2)+'px';
 
         }
         
