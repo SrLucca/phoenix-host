@@ -997,6 +997,7 @@ body {
     opacity: 1;
 }
 
+
 .velocimeter{
 
     position: inherit;
@@ -1005,6 +1006,26 @@ body {
     width: 680px;
     height: 104px;
     left: 847px;
+}
+
+@keyframes movimentaPonteiro {
+    
+    0%{
+        transform: rotate(-160deg);
+    }
+
+    100%{
+        transform: rotate(0deg);
+    }
+}
+
+#ponteiro{
+    position: absolute;
+    top: -16px;
+    left: 249px;
+    width: 150px;
+    height: 100px;
+    animation: none;
 }
 
 .velocimeter img{
