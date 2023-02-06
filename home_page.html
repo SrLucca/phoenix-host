@@ -397,20 +397,24 @@
     <script type="text/javascript">
 
     document.addEventListener("mousemove", parallax);
-    document.addEventListener("scroll", winodwPosition);
+    document.addEventListener("scroll", windowPosition);
+
+
     var img1 = document.getElementById('servidor');
     var img2 = document.getElementById('nuvem-1');
     var img3 = document.getElementById('nuvem-2');
 
+    
+    let contador = 0;
 
-    var rect = img1.getBoundingClientRect();
-    var rect2 = img2.getBoundingClientRect();
-    var rect3 = img3.getBoundingClientRect();
-
-    console.log(rect.top)
+    var rect = 0;
+    var rect2 = 0;
+    var rect3 = 0;
 
 
-    function winodwPosition(event){
+    function windowPosition(event){
+
+        
         
         if(window.pageYOffset >= 1500){
 
@@ -419,59 +423,68 @@
             ponteiro.style.animation = 'movimentaPonteiro 1500ms 1 ease-in';
 
         }
+
+
     }
+
 
 
     function parallax(event) {
         
-        if(event){
+        if(window.pageYOffset < 300){
 
-            
-            if(window.pageYOffset <= 500){
+            contador += 1;
 
-
-                var posx = event.screenX;
-                var posy = event.screenY;
-
-                posx = posx / 90;
-                posy = posy / 90;
-
-                
-
-                var current_x1 = rect.left;
-                var current_x2 = rect2.left;
-                var current_x3 = rect3.left;
-
-                var current_y1 = rect.top;
-                var current_y2 = rect2.top;
-                var current_y3 = rect3.top;
-                
-
-                current_x1 += (-posx);
-                current_x2 += (posx);
-                current_x3 += (posx);
-
-
-                current_y1 += (posy);
-                current_y2 += (posy);
-                current_y3 += (posy);
-
-                
-
-                img1.style.left = (current_x1)+'px';
-                img2.style.left = (current_x2)+'px';
-                img3.style.left = (-current_x3/15)+'px';
-
-                img1.style.top = (-current_y1)+'px';
-                img2.style.top = (current_y2)+'px';
-                img3.style.top = (-current_y3/30)+'px';
+            if(contador == 1){
+                rect = img1.getBoundingClientRect();
+                rect2 = img2.getBoundingClientRect();
+                rect3 = img3.getBoundingClientRect();
             }
 
+            if(contador > 1){
+
+                if(event){
+                    var posx = event.screenX;
+                    var posy = event.screenY;
+
+                    posx = posx / 90;
+                    posy = posy / 90;
+
+
+
+                    var current_x1 = rect.left;
+                    var current_x2 = rect2.left;
+                    var current_x3 = rect3.left;
+
+                    var current_y1 = rect.top;
+                    var current_y2 = rect2.top;
+                    var current_y3 = rect3.top;
+
+
+                    current_x1 += (-posx);
+                    current_x2 += (posx);
+                    current_x3 += (posx);
+
+
+                    current_y1 += (posy);
+                    current_y2 += (posy);
+                    current_y3 += (posy);
+
+
+
+                    img1.style.left = (current_x1)+'px';
+                    img2.style.left = (current_x2)+'px';
+                    img3.style.left = (-current_x3/15)+'px';
+
+                    img1.style.top = (-current_y1)+'px';
+                    img2.style.top = (current_y2)+'px';
+                    img3.style.top = (-current_y3/30)+'px';
+
+                }
+            }
+            
         }
 
-        
-
-        
             
     }
 
