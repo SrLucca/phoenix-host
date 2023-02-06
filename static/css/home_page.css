@@ -1011,7 +1011,8 @@ body {
 @keyframes movimentaPonteiro {
     
     0%{
-        transform: rotate(-160deg);
+        transform: rotate(-90deg);
+        transform-origin: bottom left;
     }
 
     100%{
@@ -1019,12 +1020,36 @@ body {
     }
 }
 
+#velocimetro{
+    position: absolute;
+    top: -101px;
+    left: 91px;
+    width: 377px;
+    height: 326px;
+}
+
+#serv-1-velo{
+    position: absolute;
+    top: -192px;
+    left: -91px;
+    width: 244px;
+    height: 424px;
+}
+
+#serv-2-velo{
+    position: absolute;
+    top: -108px;
+    left: 436px;
+    width: 242px;
+    height: 338px;
+}
+
 #ponteiro{
     position: absolute;
     top: -16px;
     left: 249px;
-    width: 150px;
-    height: 100px;
+    width: 112px;
+    height: 90px;
     animation: none;
 }
 

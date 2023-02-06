@@ -179,7 +179,9 @@
                 </div>
                 
                 <div class="velocimeter">
-                    <img src="static/img/home_page/VELOCÍMETRO.png" alt="BRASIL" srcset="">
+                    <img id="velocimetro" src="static/img/home_page/animation/VELOCÍMETRO.png" alt="">
+                    <img id="serv-1-velo" src="static/img/home_page/animation/SERVER 1.png" alt="">
+                    <img id="serv-2-velo" src="static/img/home_page/animation/SERVER 2.png" alt="">
                     <img id="ponteiro" src="static/img/home_page/animation/PONTEIRO.png" alt="">
                 </div>
             </div>
@@ -404,6 +406,8 @@
     var rect = img1.getBoundingClientRect();
     var rect2 = img2.getBoundingClientRect();
     var rect3 = img3.getBoundingClientRect();
+
+    console.log(rect.top)
 
 
     function winodwPosition(event){
