@@ -205,7 +205,7 @@
                 <p>It is a long established fact that a reader will be distracted by the readable content of<br> 
                     a page when looking at its.when looking at its.when looking at its.</p>
 
-                <div class="high-perfomance">
+                <div class="high-perfomance" id="high-perfomance">
                     <strong><h2>ALTA<br>PERFORMANCE</h2></strong>
                     <p>Contamos com servidores de última geração e alta performance. Sua aplicação sempre<br>
                         funcionará o mais rápido possível.</p>
@@ -404,6 +404,12 @@
     var img2 = document.getElementById('nuvem-1');
     var img3 = document.getElementById('nuvem-2');
 
+    var high_perfomance = document.getElementById('high-perfomance');
+    var custom_plans = document.getElementById('custom_plans');
+    var up_time = document.getElementsByClassName('up-time');
+    var suport = document.getElementsByClassName('suport');
+    var hdd = document.getElementsByClassName('hdd');
+
     
     let contador = 0;
 
@@ -413,8 +419,18 @@
 
 
     function windowPosition(event){
-
         
+        console.log(window.pageYOffset);
+        
+
+        if(window.pageYOffset >= 3700){
+
+            
+            
+            high_perfomance.style.transition = ".3s, background-size .3s .3s";
+            high_perfomance.style.setProperty('--_i', '100%')
+
+        }
         
         if(window.pageYOffset >= 1500){
 
