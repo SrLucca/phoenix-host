@@ -211,27 +211,27 @@
                         funcionará o mais rápido possível.</p>
                 </div>
 
-                <div class="uptime">
+                <div id="uptime" class="uptime">
                     <strong><h2>99% DE<br>UPTIME</h2></strong>
                     <p>Contamos com servidores de última<br>geração e alta performance. Sua<br>aplicação sempre
                         funcionará.</p>
                 </div>
 
-                <div class="custom-plans">
+                <div  id="custom-plans" class="custom-plans">
                     <strong><h2>PLANOS ADICIONAIS<br>DISPONÍVEIS</h2></strong>
                     <p>Contamos com servidores de última geração e alta performance.<br>Sua aplicação sempre
                         funcionará o mais rápido possível.</p>
 
                 </div>
 
-                <div class="suport">
+                <div id="suport" class="suport">
                     <strong><h2>SUPORTE<br>ESPECIALIZADO</h2></strong>
                     <p>Contamos com servidores de última geração e alta performance.<br>Sua aplicação sempre
                         funcionará o mais rápido possível.</p>
 
                 </div>
 
-                <div class="hdd">
+                <div id="hdd" class="hdd">
                     <strong><h2>MAIS DE<br>10TB</h2></strong>
                     <p>Contamos com servidores de últimageração e<br>alta performance.Sua aplicação sempre
                         funcionará<br>o mais rápido possível.</p>
@@ -405,10 +405,10 @@
     var img3 = document.getElementById('nuvem-2');
 
     var high_perfomance = document.getElementById('high-perfomance');
-    var custom_plans = document.getElementById('custom_plans');
-    var up_time = document.getElementsByClassName('up-time');
-    var suport = document.getElementsByClassName('suport');
-    var hdd = document.getElementsByClassName('hdd');
+    var custom_plans = document.getElementById('custom-plans');
+    var up_time = document.getElementById('uptime');
+    var suport = document.getElementById('suport');
+    var hdd = document.getElementById('hdd');
 
     
     let contador = 0;
@@ -427,8 +427,20 @@
 
             
             
-            high_perfomance.style.transition = ".3s, background-size .3s .3s";
+            high_perfomance.style.transition = ".6s, background-size .6s .6s";
             high_perfomance.style.setProperty('--_i', '100%')
+
+            up_time.style.transition = ".7s, background-size .7s .7s";
+            up_time.style.setProperty('--_i', '100%')
+
+            custom_plans.style.transition = ".8s, background-size .8s .8s";
+            custom_plans.style.setProperty('--_i', '100%')
+
+            suport.style.transition = ".9s, background-size .9s .9s";
+            suport.style.setProperty('--_i', '100%')
+
+            hdd.style.transition = "1s, background-size 1s 1s";
+            hdd.style.setProperty('--_i', '100%')
 
         }
         

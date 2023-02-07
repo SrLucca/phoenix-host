@@ -1203,9 +1203,9 @@ body {
     cursor: pointer;    
 }
 
-.high-perfomance {
-    --_i: 0%;
-    transition: none;
+.high-perfomance:hover {
+    --_i: 100%;
+    transition: .6s, background-size .6s .6s;
     
 }
 
@@ -1267,13 +1267,12 @@ body {
     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
     conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
     cursor: pointer;
 }
 
 .custom-plans:hover {
     --_i: 100%;
-    transition: .3s, background-size .3s .3s;
+    transition: .7s, background-size .7s .7s;
 }
 
 
@@ -1336,13 +1335,12 @@ body {
     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
     conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
     cursor: pointer;
 }
 
 .uptime:hover {
     --_i: 100%;
-    transition: .3.5s, background-size .3s .3s;
+    transition: .8s, background-size .8s .8s;
 }
 
 .uptime strong{
@@ -1405,13 +1403,12 @@ body {
     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
     conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
     cursor: pointer;
 }
 
 .suport:hover {
     --_i: 100%;
-    transition: .3s, background-size .3s .3s;
+    transition: .9s, background-size .9s .9s;
 }
 
 .suport strong{
@@ -1474,13 +1471,12 @@ body {
     var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
     conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
     0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
-    transition: .3s, background-position .3s .3s;
     cursor: pointer;
 }
 
 .hdd:hover {
     --_i: 100%;
-    transition: .3s, background-size .3s .3s;
+    transition: 1s, background-size 1s 1s;
 }
 
 .hdd strong{
