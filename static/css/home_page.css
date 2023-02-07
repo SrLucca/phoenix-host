@@ -1011,13 +1011,55 @@ body {
 @keyframes movimentaPonteiro {
     
     0%{
-        transform: rotate(-90deg);
-        transform-origin: bottom left;
+        transform: rotate(0);
+        transform-origin: bottom right;
     }
 
     100%{
-        transform: rotate(0deg);
+        transform: rotate(140deg);
+        transform-origin: bottom right;
     }
+}
+
+#ponteiro{
+    position: absolute;
+    top: 71px;
+    left: 162px;
+    width: 125px;
+    height: 6px;
+    animation: none;
+    background: #3B76D445;
+}
+
+#seta1{
+    width: 4px;
+    height: 17px;
+    left: 1px;
+    top: -11px;
+    background: #3B76D445 no-repeat;
+    position: inherit;
+    transform: rotate(45deg);
+}
+
+#seta2{
+    width: 4px;
+    height: 15px;
+    left: 0px;
+    top: 1px;
+    background: #3B76D445 no-repeat;
+    position: inherit;
+    transform: rotate(141deg);
+}
+
+#centro-ponteiro{
+    background: #172e52 no-repeat;
+    border-radius: 100%;
+    width: 17px;
+    height: 17px;
+    position: inherit;
+    left: 282px;
+    top: 67px;
+    z-index: 100;
 }
 
 #velocimetro{
@@ -1044,14 +1086,7 @@ body {
     height: 338px;
 }
 
-#ponteiro{
-    position: absolute;
-    top: -10px;
-    left: 269px;
-    width: 111px;
-    height: 59px;
-    animation: none;
-}
+
 
 .velocimeter img{
     position: inherit;
