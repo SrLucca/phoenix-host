@@ -1016,7 +1016,7 @@ body {
     }
 
     100%{
-        transform: rotate(140deg);
+        transform: rotate(150deg);
         transform-origin: bottom right;
     }
 }
@@ -1098,7 +1098,7 @@ body {
     transition: none;
     counter-set: num var(--num);
     font: 800 40px system-ui;
-
+    margin-inline-end: 576px;
     --num: none;
 
 }
@@ -1124,6 +1124,7 @@ body {
     font: 800 40px system-ui;
 
     --decimal: none;
+    margin-inline-end: 576px;
 
 }
 
@@ -1142,6 +1143,7 @@ body {
     left: 270px;
     top: -105px;
     z-index: 1;
+    margin-inline-end: 576px;
 
 }
 
@@ -1156,6 +1158,7 @@ body {
     left: 305px;
     top: -227px;
     z-index: 1;
+    margin-inline-end: 576px;
 
 }
 
