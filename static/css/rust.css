@@ -134,6 +134,10 @@ body {
     height: 1080px;
 }
 
+#fundo{
+    z-index: 2;
+}
+
 #paraquedas{
     position: inherit;
 
@@ -141,7 +145,23 @@ body {
     left: 1702px;
     width: 79px;
     height: 77px;
+
+    animation: move-paraquedas 10s 1 ease-in;
+    z-index: 1;
 }
+
+
+@keyframes move-paraquedas {
+    0% {
+    transform: translate(0px,10px);
+    }
+
+    100%{
+        transform: translate(-200px,750px);
+    }
+}
+
+
 
 #boneco-rust{
     position: inherit;
@@ -150,6 +170,7 @@ body {
     left: 976px;
     width: 673px;
     height: 835px;
+    z-index: 3;
 }
 
 #line-1{
@@ -172,6 +193,7 @@ body {
 
     width: 752px;
     height: 427px;
+    z-index: 4;
 }
 
 .top-page-rust h1{
