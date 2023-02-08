@@ -1028,37 +1028,38 @@ body {
     width: 125px;
     height: 6px;
     animation: none;
-    background: #3B76D445;
+    background: #3b76d4;
+    z-index: 10;
 }
 
 #seta1{
     width: 4px;
-    height: 17px;
+    height: 19px;
     left: 1px;
-    top: -11px;
-    background: #3B76D445 no-repeat;
+    top: -12px;
+    background: #3b76d4 no-repeat;
     position: inherit;
     transform: rotate(45deg);
 }
 
 #seta2{
     width: 4px;
-    height: 15px;
-    left: 0px;
-    top: 1px;
-    background: #3B76D445 no-repeat;
+    height: 19px;
+    left: 1px;
+    top: -1px;
+    background: #3b76d4 no-repeat;
     position: inherit;
-    transform: rotate(141deg);
+    transform: rotate(134deg);
 }
 
 #centro-ponteiro{
     background: #172e52 no-repeat;
     border-radius: 100%;
-    width: 17px;
-    height: 17px;
+    width: 20px;
+    height: 20px;
     position: inherit;
-    left: 282px;
-    top: 67px;
+    left: 281px;
+    top: -178px;
     z-index: 100;
 }
 
@@ -1068,6 +1069,94 @@ body {
     left: 91px;
     width: 377px;
     height: 326px;
+}
+
+@property --num {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+@property --decimal {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+#contador{
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #255096;
+    font-size: 21px;
+    left: 245px;
+    top: -51px;
+    z-index: 1;
+
+    transition: none;
+    counter-set: num var(--num);
+    font: 800 40px system-ui;
+
+    --num: none;
+
+}
+
+#contador::after {
+    content: counter(num);
+}
+
+#contador-decimal{
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #255096;
+    font-size: 21px;
+    left: 278px;
+    top: -173px;
+    z-index: 1;
+
+    transition: none;
+    counter-set: num2 var(--decimal);
+    font: 800 40px system-ui;
+
+    --decimal: none;
+
+}
+
+#contador-decimal::after {
+    content: counter(num2);
+}
+
+#contador-str-1{
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #255096;
+    font-size: 21px;
+    left: 270px;
+    top: -105px;
+    z-index: 1;
+
+}
+
+#contador-str-2{
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #255096;
+    font-size: 21px;
+    left: 305px;
+    top: -227px;
+    z-index: 1;
+
 }
 
 #serv-1-velo{

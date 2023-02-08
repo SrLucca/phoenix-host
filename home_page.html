@@ -180,6 +180,8 @@
                 
                 <div class="velocimeter">
                     <img id="velocimetro" src="static/img/home_page/animation/VELOCÍMETRO.png" alt="">
+                    
+                    <h1 id="contador"></h1><h1 id="contador-str-1">.</h1><h1 id="contador-decimal"></h1><h1 id="contador-str-2">Ghz</h1>
                     <img id="serv-1-velo" src="static/img/home_page/animation/SERVER 1.png" alt="">
                     <img id="serv-2-velo" src="static/img/home_page/animation/SERVER 2.png" alt="">
                     <div id="centro-ponteiro"></div>
@@ -450,10 +452,18 @@
         if(window.pageYOffset >= 1500){
 
             var ponteiro = document.getElementById('ponteiro');
+            var contador = document.getElementById('contador');
+            var contador_decimal = document.getElementById('contador-decimal');
 
             ponteiro.style.animation = 'movimentaPonteiro 1500ms 1 ease-in';
-            ponteiro.style.transform = 'rotate(140deg)'
-            ponteiro.style.transformOrigin = 'bottom right'
+            ponteiro.style.transform = 'rotate(140deg)';
+            ponteiro.style.transformOrigin = 'bottom right';
+
+            contador.style.transition = '--num 1.5s';
+            contador.style.setProperty('--num','4');
+
+            contador_decimal.style.transition = '--decimal 1.5s';
+            contador_decimal.style.setProperty('--decimal','8');
 
         }
 
