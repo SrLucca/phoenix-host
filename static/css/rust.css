@@ -147,6 +147,7 @@ body {
     height: 77px;
 
     animation: move-paraquedas 10s 1 ease-in;
+    animation-fill-mode: forwards;
     z-index: 1;
 }
 

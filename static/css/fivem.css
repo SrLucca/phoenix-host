@@ -133,6 +133,36 @@ body {
     height: 1031px;
 }
 
+@keyframes shine {
+    
+    0%{
+        filter:drop-shadow(17px 0px 50px #d5e2fb);
+    }
+
+    40%{
+        filter:drop-shadow(17px 0px 30px #d5e2fb);
+    }
+
+    100%{
+        filter:drop-shadow(17px 0px 50px #d5e2fb);
+    }
+}
+
+#letreiro{
+    position: relative;
+    top: 734px;
+    width: 246px;
+    left: -263px;
+    height: 1047px;
+    z-index: 2;
+    transform: rotate(-5deg);
+    opacity: 1;
+
+    animation: shine 1.5s infinite ease-in-out;
+    
+
+}
+
 
 #paraquedas{
     position: inherit;
@@ -158,10 +188,11 @@ body {
 
 
     width: 1920px;
-    height: 33px;
+    height: 41px;
     background: #A4C5F7 0% 0% no-repeat padding-box;
     border: 1px solid #707070;
     opacity: 1;
+    z-index: 1000;
 }
 
 #linha1{
@@ -188,7 +219,7 @@ body {
 
 .top-page-rust{
     position: inherit;
-    top: -736px;
+    top: -1697px;
     left: 224px;
     width: 752px;
     height: 427px;
