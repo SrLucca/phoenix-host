@@ -133,6 +133,39 @@ body {
     height: 1031px;
 }
 
+#personagem{
+    
+    position: absolute;
+    z-index: 10000;
+    left: 1102px;
+    height: 1104px;
+    top: -7px;
+    width: 818px;
+
+}
+
+@keyframes move-aviao {
+    0% {
+    transform: translate(0px,0px);
+    }
+
+    100%{
+        transform: translate(-2000px,-120px);
+    }
+}
+
+#aviao{
+    width: 295px;
+    height: 61px;
+    left: 100px;
+    top: -684px;
+    left: 1600px;
+    z-index: 0;
+    
+    animation: move-aviao 5s 1 ease-in;
+    animation-fill-mode: forwards;
+}
+
 @keyframes shine {
     
     0%{
@@ -219,7 +252,7 @@ body {
 
 .top-page-rust{
     position: inherit;
-    top: -1697px;
+    top: -1766px;
     left: 224px;
     width: 752px;
     height: 427px;
@@ -287,6 +320,7 @@ body {
     font-weight: normal;
     left: 4px;
 }
+
 
 .click{
 
@@ -423,6 +457,11 @@ body {
     opacity: 1;
     top: 12px;
     left: 14px;;
+}
+
+.bloco-1:hover{
+
+    background-color: #1C376B;
 }
 
 .bloco-2{   
