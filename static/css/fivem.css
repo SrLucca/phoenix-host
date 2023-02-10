@@ -162,22 +162,22 @@ body {
     left: 1600px;
     z-index: 0;
     
-    animation: move-aviao 5s 1 ease-in;
+    animation: move-aviao 3s 1 ease-in;
     animation-fill-mode: forwards;
 }
 
 @keyframes shine {
     
     0%{
-        filter:drop-shadow(17px 0px 50px #d5e2fb);
+        filter:drop-shadow(17px 0px 10px #d5e2fb);
     }
 
     40%{
-        filter:drop-shadow(17px 0px 30px #d5e2fb);
+        filter:drop-shadow(17px 0px 20px #d5e2fb);
     }
 
     100%{
-        filter:drop-shadow(17px 0px 50px #d5e2fb);
+        filter:drop-shadow(17px 0px 10px #d5e2fb);
     }
 }
 
@@ -1915,3 +1915,4 @@ body {
     color: #F2F2F2;
     opacity: 1;
 }
+

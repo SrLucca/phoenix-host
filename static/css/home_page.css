@@ -2495,3 +2495,294 @@ body {
     color: #F2F2F2;
     opacity: 1;
 }
+
+@media only screen and (max-width: 1024px) {
+    body {
+        width: 1024px;
+    }
+
+    .gradient{
+        width: 1024px;
+    }
+
+    .header-content a{
+        left: 44px;
+        font-size: 16px;
+        padding-right: 49px;
+    }
+
+    #header-logo{
+        left: -28px;
+        width: 52px;
+        height: 39px;
+    }
+
+    #carrinho{
+        left: 44px;
+        opacity: 1;
+        width: 27px;
+        height: 27px;
+        top: -3px;
+    }
+
+    .loginBtn{
+        top: -31.5px;
+        left: 709px;
+        width: 62px;
+        height: 23px;
+    }
+
+    .loginBtn a{
+        left: 12px;
+        top: 2px;
+        font-family: SFPro, Sans-serif;
+        font-style: normal;
+        font-size: 16px;
+        letter-spacing: 0px;
+        color: #0C234D;
+        opacity: 1;
+    }
+
+    #nuvem-1{
+        width: 208px;
+        height: 80px;
+    }
+
+    #nuvem-2{
+        width: 213px;
+        top: -54.3226px;
+    }
+
+    .show-btn{
+        top: -117px;
+        left: -2px;
+        width: 162px;
+        height: 38px;;
+    }
+
+    .show-plans{
+        top: -282px;
+        left: 135px;
+    }
+    .show-btn a{
+        font-size: 14px;
+        left: 14px;
+        top: 3px;
+    }
+
+    .show-btn{
+        top: -87px;
+        left: 2px;
+        width: 164px;
+        height: 36px;
+    }
+
+    .show-btn img{
+        left: 67px;
+        top: 10px;
+    }
+
+    .top-page{
+        top: 19px;
+        left: 185px;
+    }
+    
+    .top-page h1{
+        font-size: 34px;
+        width: 294px;
+
+    }
+
+    .top-page p{
+        font-size: 14px;
+        width: 285px;
+        top: 8px;
+
+    }
+
+    #servidor{
+        left: 592.11px;
+        top: -253.678px;
+        width: 353px;
+        height: 330px;
+    }
+
+    .dedicated-servers{
+        width: 230px;
+        height: 224px;
+        top: -170px;
+    }
+
+    .dedicated-servers img{
+        width: 100px;
+    }
+    #rectangle-1{
+        width: 180px;
+        left: 17px;
+    }
+
+    .dedicated-servers p{
+        left: 17px;
+        top: -33px;
+        font-size: 13px;
+    }
+
+    #p-2{
+        left: 17px;
+        top: -114px;
+        font-size: 9px;
+    }
+
+    #dedicatedBtn{
+        left: 17px;
+        top: -102px;
+        height: 23px;
+        width: 175px;
+    }
+
+
+    #dedicatedBtn a{
+        top: 2px;
+        left: 13px;
+        font-family: SFPro, Sans-serif;
+        font-style: normal;
+        font-size: 13px;
+    }
+    #dedicatedBtn img{
+        top: 5px;
+        position: absolute;
+        left: 148px;
+        width: 12px;
+    }
+
+    .game-servers{
+        width: 230px;
+        height: 224px;
+        top: -394px;
+        left: 444px;
+    }
+
+    .game-servers img{
+        width: 100px;
+        left: -13px;
+    }
+    #rectangle-2{
+        width: 180px;
+        left: 17px;
+    }
+
+    .game-servers p{
+        left: 17px;
+        top: -33px;
+        font-size: 13px;
+    }
+
+    #p-3{
+        left: 17px;
+        top: -32px;
+        font-size: 9px;
+    }
+
+    #dedicatedBtn-2{
+        left: 17px;
+        top: -18px;
+        height: 23px;
+        width: 175px;
+    }
+
+
+    #dedicatedBtn-2 a{
+        top: 2px;
+        left: 13px;
+        font-family: SFPro, Sans-serif;
+        font-style: normal;
+        font-size: 13px;
+    }
+    #dedicatedBtn-2 img{
+        top: 5px;
+        position: absolute;
+        left: 148px;
+        width: 12px;
+    }
+
+    .vps-servers{
+        width: 230px;
+        height: 224px;
+        top: -614px;
+        left: 760px;
+    }
+
+    .vps-servers img{
+        width: 64px;
+        left: 17px;
+        top: -48px;
+    }
+    #rectangle-3{
+        width: 180px;
+        left: 17px;
+        top: -211px;
+    }
+
+    .vps-servers p{
+        left: 17px;
+        font-size: 13px;
+        top: -209px;
+    }
+
+    #p-4{
+        left: 17px;
+        font-size: 9px;
+        top: -208px;
+    }
+
+    #dedicatedBtn-3{
+        top: -195px;
+        left: 17px;
+        height: 23px;
+        width: 175px;
+    }
+
+
+    #dedicatedBtn-3 a{
+        top: 2px;
+        left: 13px;
+        font-family: SFPro, Sans-serif;
+        font-style: normal;
+        font-size: 13px;
+    }
+    #dedicatedBtn-3 img{
+        top: 5px;
+        position: absolute;
+        left: 148px;
+        width: 12px;
+    }
+
+    .glowing{
+        width: 65px;
+        height: 157px;
+        top: -210px;
+        left: 26px;
+    }
+
+    .locations{
+        top: -673px;
+        left: 92px;
+    }
+
+    .processor{
+        top: -922px;
+        left: 92px;
+    }
+
+    .infos{
+        top: -782px;
+        left: 92px;
+        width: 886px;
+        height: 625px;
+    }
+
+    .info-content{
+        width: 422px;
+        height: 623px;
+    }
+}
