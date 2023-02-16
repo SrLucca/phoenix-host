@@ -458,12 +458,45 @@ body {
     top: 12px;
     left: 14px;;
 }
-
-.bloco-1:hover{
-
-    background-color: #1C376B;
+.balao{
+    position: absolute;
+    display: none;
+    top: 145px;
+    left: -186px;
 }
 
+.bubble {
+	height: 88px;
+    width: 265px;
+    /* min-width: 200px; */
+    background: #bebe17;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 50px;
+    font-size: 200px;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+}
+
+.pointer {
+    height: 34px;
+    width: 24px;
+    background: rgb(79, 79, 5);
+    margin: -22px auto 0px;
+    transform: rotate(225deg);
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    left: 81px;
+    top: 1px;
+    z-index: 100;
+}
+
+.bloco-1:hover + .balao{
+
+    display: block;
+}
 .bloco-2{   
 
 

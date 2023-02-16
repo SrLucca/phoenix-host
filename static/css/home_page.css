@@ -1010,7 +1010,7 @@ body {
     position: inherit;
 
     top: -100px;
-    width: 680px;
+    width: 78px;
     height: 104px;
     left: 847px;
 }
@@ -2512,6 +2512,10 @@ body {
         width: 1024px;
     }
 
+    .header-content{
+        width: 829px;
+    }
+
     .header-content a{
         left: 44px;
         font-size: 16px;
@@ -3115,6 +3119,43 @@ body {
 
     .hdd{
         width: 236px;
+    }
+
+    #hr-1{
+        top: -1305px;
+    }
+
+    .depoiments-1{
+        top: -2081px;
+        left: 125px;
+        width: 985px;
+        height: 201px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        opacity: 1;
+        margin-bottom: 32px;
+    }
+
+    .depoiments-2{
+        top: -2081px;
+        left: 125px;
+        width: 985px;
+        height: 201px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        opacity: 1;
+        margin-bottom: 32px;
+    }
+
+    .depoiments-3{
+        top: -2081px;
+        left: 125px;
+        width: 985px;
+        height: 201px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        border-radius: 30px;
+        opacity: 1;
+        margin-bottom: 32px;
     }
 
 }
