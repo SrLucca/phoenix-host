@@ -309,9 +309,9 @@ body {
 
 .tabela p{
     display: inline-block;
-    text-align: center;
-    left: 5px;
-    font-size: 15px;
+    text-align: left;
+    left: 33px;
+    font-size: 17px;
     color: #9D9D9D;
     letter-spacing: -1px;
     font-weight: 700;
@@ -336,7 +336,7 @@ body {
 .linha-1 p{
     color: #262624;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -2px;
 }
 
@@ -356,7 +356,7 @@ body {
 .linha-2 p{
     color: #262624;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -2px;
 }
 
@@ -376,7 +376,7 @@ body {
 .linha-3 p{
     color: #262624;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -2px;
 }
 
@@ -396,7 +396,7 @@ body {
 .linha-4 p{
     color: #262624;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -2px;
 }
 
@@ -416,7 +416,7 @@ body {
 .linha-5 p{
     color: #262624;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -2px;
 }
 
@@ -437,7 +437,7 @@ body {
 .linha-6 p{
     color: #262624;
     font-weight: 900;
-    font-size: 15px;
+    font-size: 17px;
     letter-spacing: -2px;
 }
 
