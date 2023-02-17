@@ -1066,7 +1066,7 @@ body {
     height: 20px;
     position: inherit;
     left: 281px;
-    top: -178px;
+    top: -311px;
     z-index: 100;
 }
 
@@ -1085,6 +1085,18 @@ body {
 }
 
 @property --decimal {
+    syntax: "<integer>";
+    initial-value: 0;
+    inherits: false;
+}
+
+@property --temp {
+    syntax: "<integer>";
+    initial-value: 58;
+    inherits: false;
+}
+
+@property --points {
     syntax: "<integer>";
     initial-value: 0;
     inherits: false;
@@ -1139,6 +1151,54 @@ body {
     content: counter(num2);
 }
 
+#temp{
+    position: absolute;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #0c1b34;
+    font-size: 21px;
+    left: 177px;
+    top: 96px;
+    z-index: 1;
+
+    transition: none;
+    counter-set: temp var(--temp);
+    font: 800 40px system-ui;
+    margin-inline-end: 576px;
+    --temp: none;
+
+}
+
+#temp::after {
+    content: counter(temp);
+}
+
+#points{
+    position: absolute;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #0c1b34;
+    font-size: 14px;
+    left: 283px;
+    top: 95px;
+    z-index: 1;
+
+    transition: none;
+    counter-set: points var(--points);
+    font: 800 40px system-ui;
+    margin-inline-end: 576px;
+    --points: none;
+
+}
+
+#points::after {
+    content: counter(points);
+}
+
 #contador-str-1{
     position: inherit;
     font-family: SFPro, Sans-serif;
@@ -1164,6 +1224,36 @@ body {
     font-size: 21px;
     left: 305px;
     top: -227px;
+    z-index: 1;
+    margin-inline-end: 576px;
+
+}
+
+#contador-str-3{
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #0c1b34;
+    font-size: 30px;
+    left: 226px;
+    top: -155px;
+    z-index: 1;
+    margin-inline-end: 576px;
+
+}
+
+#contador-str-4{
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    text-align: left;
+    color: #0c1b34;
+    font-size: 21px;
+    left: 378px;
+    top: -216px;
     z-index: 1;
     margin-inline-end: 576px;
 

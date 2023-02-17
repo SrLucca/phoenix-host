@@ -183,6 +183,8 @@
                     <img id="velocimetro" src="static/img/home_page/animation/VELOCÍMETRO.png" alt="">
                     
                     <h1 id="contador"></h1><h1 id="contador-str-1">.</h1><h1 id="contador-decimal"></h1><h1 id="contador-str-2">Ghz</h1>
+                    <h1 id="temp"></h1><h1 id="contador-str-3">º</h1>
+                    <h1 id="points"></h1><h1 id="contador-str-4">pts</h1>
                     <img id="serv-1-velo" src="static/img/home_page/animation/SERVER 1.png" alt="">
                     <img id="serv-2-velo" src="static/img/home_page/animation/SERVER 2.png" alt="">
                     <div id="centro-ponteiro"></div>
@@ -456,6 +458,9 @@
             var contador = document.getElementById('contador');
             var contador_decimal = document.getElementById('contador-decimal');
 
+            var temp = document.getElementById('temp');
+            var points = document.getElementById('points');
+
             ponteiro.style.animation = 'movimentaPonteiro 1500ms 1 ease-in';
             ponteiro.style.transform = 'rotate(150deg)';
             ponteiro.style.transformOrigin = 'bottom right';
@@ -465,6 +470,12 @@
 
             contador_decimal.style.transition = '--decimal 2s';
             contador_decimal.style.setProperty('--decimal','8');
+
+            temp.style.transition = ('--temp 2s');
+            temp.style.setProperty('--temp', '62');
+
+            points.style.transition = ('--points 2s');
+            points.style.setProperty('--points', '7830');
 
         }
 
