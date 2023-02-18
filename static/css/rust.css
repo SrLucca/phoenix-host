@@ -295,7 +295,6 @@ body {
     left: 395px;
     top: -4px;
 }
-
 .bloco-1{   
 
 
@@ -396,6 +395,69 @@ body {
     left: 14px;;
 }
 
+@keyframes opacity {
+    
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.balao{
+    position: absolute;
+    display: none;
+    top: -109px;
+    left: -186px;
+    animation: opacity 0.2s 1 ease-in;
+    animation-fill-mode: forwards;
+    
+}
+
+.bubble {
+	height: 88px;
+    width: 265px;
+    /* min-width: 200px; */
+    background: #0568A6;
+    margin: 0 auto;
+    border-radius: 7px;
+    margin-top: 50px;
+    font-size: 200px;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+    box-shadow: 4px 0px 3px 0px #000000;
+}
+
+#p-balao{
+    top: 12px;
+    font-size: 17px;
+    color: #F2F2F2;
+    font-weight: normal;
+    left: 20px;
+}
+
+.pointer {
+    height: 34px;
+    width: 24px;
+    background: #0568A6 ;
+    margin: -22px auto 0px;
+    transform: rotate(225deg);
+    border-radius: 0 0 12px 0;
+    margin-top: -22px;
+    position: relative;
+    left: 81px;
+    top: 1px;
+    z-index: 100;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+.bloco-1:hover > .balao{
+
+    display: block;
+}
 .bloco-2{   
 
 
@@ -511,6 +573,11 @@ body {
     opacity: 1;
 }
 
+.bloco-2:hover > .balao{
+
+    display: block;
+}
+
 .bloco-3 p{
     position: inherit;
     top: 50px;
@@ -596,6 +663,11 @@ body {
     opacity: 1;
     top: 12px;
     left: 14px;;
+}
+
+.bloco-3:hover > .balao{
+
+    display: block;
 }
 
 .bloco-4{   
@@ -696,6 +768,11 @@ body {
     opacity: 1;
     top: 12px;
     left: 14px;;
+}
+
+.bloco-4:hover > .balao{
+
+    display: block;
 }
 
 .bloco-5{   
@@ -799,6 +876,11 @@ body {
     left: 14px;;
 }
 
+.bloco-5:hover > .balao{
+
+    display: block;
+}
+
 .bloco-6{   
 
 
@@ -899,6 +981,12 @@ body {
     top: 12px;
     left: 14px;;
 }
+
+.bloco-6:hover > .balao{
+
+    display: block;
+}
+
 
 .additional-packs{
     margin-left: auto;
