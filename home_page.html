@@ -196,28 +196,28 @@
             </div>
 
             <div class="infos">
-                <div class="info-content">
 
-                    <div class="retangulo1">
-                        <h1>PROTEÇÃO DDOS</h1>
-                        <hr>
-                        <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
-                    </div>
-                    <div class="retangulo2">
-                        <h1>PROTEÇÃO DDOS</h1>
-                        <hr>
-                        <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
-                    </div>
-                    <div class="retangulo3">
-                        <h1>PROTEÇÃO DDOS</h1>
-                        <hr>
-                        <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
-                    </div>
-                    <div class="retangulo4">
-                        <h1>PROTEÇÃO DDOS</h1>
-                        <hr>
-                        <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
-                    </div>
+                <div id="retangulo1"  class="retangulo1" onclick="show_hide(1)">
+                    <h1>PROTEÇÃO DDOS</h1>
+                    <hr>
+                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
+                </div>
+                <div  id="retangulo2" class="retangulo2" onclick="show_hide(2)">
+                    <h1>PROTEÇÃO DDOS</h1>
+                    <hr>
+                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
+                </div>
+                <div  id="retangulo3" class="retangulo3" onclick="show_hide(3)">
+                    <h1>PROTEÇÃO DDOS</h1>
+                    <hr>
+                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
+                </div>
+                <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
+                    <h1>PROTEÇÃO DDOS</h1>
+                    <hr>
+                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
+                </div>
+                <div class="info-content">
                     
 
                 </div>
@@ -447,6 +447,36 @@
     var rect = 0;
     var rect2 = 0;
     var rect3 = 0;
+
+    function show_hide(id){
+        if(id == 1){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+        }
+
+        if(id == 2){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 10;
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+        }
+
+        if(id == 3){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 10;
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+        }
+
+        if(id == 4){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 10;
+        }
+    }
 
 
     function windowPosition(event){

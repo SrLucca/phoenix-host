@@ -1302,7 +1302,7 @@ body {
 }
 
 .info-content{
-    position: inherit;
+    position: absolute;
     left: 460px;
     top: -1px;
     height: 836px;
@@ -1311,19 +1311,22 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 0px 30px 30px 0px;
     opacity: 1;
+    z-index: 50;
     
 }
 
 .retangulo1{
 
     position: relative;
-    width: 466px;
+    width: 500px;
     height: 180px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: -432px;
+    left: 20px;
     top: 25px;
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 100;
 
 }
 
@@ -1361,13 +1364,15 @@ body {
 .retangulo2{
 
     position: relative;
-    width: 466px;
+    width: 500px;
     height: 180px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: -432px;
+    left: 20px;
     top: 46px;
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 100;
 
 }
 
@@ -1405,14 +1410,15 @@ body {
 .retangulo3{
 
     position: relative;
-    width: 466px;
+    width: 500px;
     height: 180px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: -432px;
+    left: 20px;
     top: 67px;
-
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 100;
 }
 
 .retangulo3 h1{
@@ -1449,14 +1455,15 @@ body {
 .retangulo4{
 
     position: relative;
-    width: 466px;
+    width: 500px;
     height: 180px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: -432px;
+    left: 20px;
     top: 89px;
-
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 100;
 }
 
 .retangulo4 h1{
