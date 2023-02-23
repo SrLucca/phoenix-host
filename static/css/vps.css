@@ -315,9 +315,55 @@ body {
     color: #9D9D9D;
     letter-spacing: -1px;
     font-weight: 700;
-    top: 29px;
+    top: 20px;
     width: 142px;
     position: inherit;
+}
+
+#subscribe{
+
+    position: inherit;
+    width: 119px;
+    height: 33px;
+    border: 1px solid #1E49A0;
+    border-radius: 22px;
+    opacity: 1;
+    top: 20px;
+    left: -27px;
+    text-align: left;
+    color: #034AA6;
+    font-weight: 600;
+}
+
+#subscribe a{
+    text-decoration: none;
+    /* vertical-align: bottom; */
+    top: 6px;
+    position: inherit; 
+    font-size: 16px;
+    left: 2px;
+}
+
+#subscribe2{
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    background: #034AA6 0% 0% no-repeat padding-box;
+    border: 1px solid #1E49A0;
+    border-radius: 22px;
+    opacity: 1;
+    left: 1088px;
+    top: 18px;
+}
+
+#subscribe2 a{
+    color: white;
+    font-weight: 900;
+    font-size: 16px;
+    text-decoration: none;
+    top: 6px;
+    position: inherit;
+    left: 15px;
 }
 
 .linha-1{
