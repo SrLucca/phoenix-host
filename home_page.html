@@ -208,9 +208,9 @@
                     <p>Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos e logs.</p>
                 </div>
                 <div  id="retangulo3" class="retangulo3" onclick="show_hide(3)">
-                    <h1>HARDWARE DE ÚLTIMA GERAÇÃO</h1>
+                    <h1 id="h1-bloco3">HARDWARE DE ÚLTIMA GERAÇÃO</h1>
                     <hr>
-                    <p>Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários.</p>
+                    <p id="p-bloco3">Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários.</p>
                 </div>
                 <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
                     <h1>SUPORTE</h1>
@@ -519,6 +519,8 @@
             p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
 
             retangulo3 = document.getElementById('retangulo3').style.zIndex = 10;
+            h1_bloco3 = document.getElementById('h1-bloco3').style.zIndex = 100;
+            p_bloco3 = document.getElementById('p-bloco3').style.zIndex = 100;
             img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'block';
             h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'block';
             p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'block';

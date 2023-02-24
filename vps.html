@@ -191,7 +191,43 @@
             </div>
 
             <div class="infos">
+
+                <div id="retangulo1"  class="retangulo1" onclick="show_hide(1)">
+                    <h1>PROTEÇÃO DDOS</h1>
+                    <hr>
+                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
+                </div>
+                <div  id="retangulo2" class="retangulo2" onclick="show_hide(2)">
+                    <h1>DASHBOARD</h1>
+                    <hr>
+                    <p>Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos e logs.</p>
+                </div>
+                <div  id="retangulo3" class="retangulo3" onclick="show_hide(3)">
+                    <h1>HARDWARE DE ÚLTIMA GERAÇÃO</h1>
+                    <hr>
+                    <p>Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários.</p>
+                </div>
+                <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
+                    <h1>SUPORTE</h1>
+                    <hr>
+                    <p>Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia.</p>
+                </div>
                 <div class="info-content">
+                    
+                    <img id="img-retangulo1" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
+                    <img id="img-retangulo2" src="/static/img/home_page/infos/DASHBOARD COMPLETO.png" alt="">
+                    <img id="img-retangulo3" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
+                    <img id="img-retangulo4" src="/static/img/home_page/infos/SUPORTE COMPLETA.png" alt="">
+
+                    <h1 id="h1-retangulo1">PROTEÇÃO DDOS</h1>
+                    <h1 id="h1-retangulo2">DASHBOARD</h1>
+                    <h1 id="h1-retangulo3">HARDWARE DE ÚLTIMA GERAÇÃO</h1>
+                    <h1 id="h1-retangulo4">SUPORTE</h1>
+                    
+                    <p id="p-retangulo1">Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. Também oferecemos planos de adicionais de Proteção DDoS disponíveis.</p>
+                    <p id="p-retangulo2">Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos e logs.</p>
+                    <p id="p-retangulo3">Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários.</p>
+                    <p id="p-retangulo4">Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia</p>
 
                 </div>
 
@@ -332,5 +368,97 @@
         </div>
     </div>
     
+    <script>
+        
+        function show_hide(id){
+        if(id == 1){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'block';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'block';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'block';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+        }
+
+        if(id == 2){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 10;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'block';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'block';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'block';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+        }
+
+        if(id == 3){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 10;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'block';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'block';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'block';
+
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+        }
+
+        if(id == 4){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 10;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'block';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'block';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
+        }
+    }
+    </script>
 </body>
 </html>

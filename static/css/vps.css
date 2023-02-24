@@ -796,7 +796,7 @@ body {
 }
 
 .info-content{
-    position: inherit;
+    position: absolute;
     left: 460px;
     top: -1px;
     height: 836px;
@@ -805,13 +805,272 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 0px 30px 30px 0px;
     opacity: 1;
+    z-index: 50;
+    display: flex;
     
+}
+.info-content img{
+    position: inherit;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+#img-retangulo1{
+    display: block;
+}
+
+#img-retangulo2{
+    display: none;
+}
+
+#img-retangulo3{
+    display: none;
+}
+
+#img-retangulo4{
+    display: none;
+}
+
+#h1-retangulo1{
+    display: block;
+}
+
+#h1-retangulo2{
+    display: none;
+}
+#h1-retangulo3{
+    display: none;
+}
+#h1-retangulo4{
+    display: none;
+}
+
+#p-retangulo1{
+    display: block;
+}
+
+#p-retangulo2{
+    display: none;
+}
+
+#p-retangulo3{
+    display: none;
+}
+
+#p-retangulo4{
+    display: none;
+}
+
+.info-content h1{
+    position: inherit;
+    font-size: 29px;
+    font-family: SFPro, Sans-serif;
+    font-weight: 700;
+    letter-spacing: -1px;
+    top: 615px;
+    left: 265px;
+}
+
+.info-content p{
+    position: inherit;
+    font-family: SFPro, Sans-serif;
+    font-size: 17px;
+    top: 663px;
+    left: 265px;
+    width: 691px;
+    
+}
+
+.retangulo1{
+
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    left: 20px;
+    top: 25px;
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 10;
+    cursor: pointer;
+
+}
+
+.retangulo1 h1{
+    font-size: 24px;
+    font-family: SFPro, Sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    top: 20px;
+    position: relative;
+    left: 40px;
+
+}
+
+.retangulo1 hr{
+    width: 369px;
+    height: 0px;
+    border: 3px solid #30549F;
+    opacity: 1;
+    position: inherit;
+    left: 40px;
+    top: 30px;
+}
+
+.retangulo1 p{
+    width: 418px;
+    height: 63px;
+    position: inherit;
+    left: 40px;
+    top: 41px;
+    font-family: SFPro, Sans-serif;
+    font-size: 14px;
+}
+
+.retangulo2{
+
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    left: 20px;
+    top: 46px;
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 100;
+    cursor: pointer;
+
+}
+
+.retangulo2 h1{
+    font-size: 24px;
+    font-family: SFPro, Sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    top: 20px;
+    position: relative;
+    left: 40px;
+
+}
+
+.retangulo2 hr{
+    width: 369px;
+    height: 0px;
+    border: 3px solid #30549F;
+    opacity: 1;
+    position: inherit;
+    left: 40px;
+    top: 30px;
+}
+
+.retangulo2 p{
+    width: 418px;
+    height: 63px;
+    position: inherit;
+    left: 40px;
+    top: 41px;
+    font-family: SFPro, Sans-serif;
+    font-size: 14px;
+}
+
+.retangulo3{
+
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    left: 20px;
+    top: 67px;
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.retangulo3 h1{
+    font-size: 24px;
+    font-family: SFPro, Sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    top: 20px;
+    position: relative;
+    left: 40px;
+
+}
+
+.retangulo3 hr{
+    width: 369px;
+    height: 0px;
+    border: 3px solid #30549F;
+    opacity: 1;
+    position: inherit;
+    left: 40px;
+    top: 30px;
+}
+
+.retangulo3 p{
+    width: 418px;
+    height: 63px;
+    position: inherit;
+    left: 40px;
+    top: 41px;
+    font-family: SFPro, Sans-serif;
+    font-size: 14px;
+}
+
+.retangulo4{
+
+    position: relative;
+    width: 500px;
+    height: 180px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 27px;
+    opacity: 1;
+    left: 20px;
+    top: 89px;
+    box-shadow: 27px -2px 99px #00000029;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.retangulo4 h1{
+    font-size: 24px;
+    font-family: SFPro, Sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+    top: 20px;
+    position: relative;
+    left: 40px;
+
+}
+
+.retangulo4 hr{
+    width: 369px;
+    height: 0px;
+    border: 3px solid #30549F;
+    opacity: 1;
+    position: inherit;
+    left: 40px;
+    top: 30px;
+}
+
+.retangulo4 p{
+    width: 418px;
+    height: 63px;
+    position: inherit;
+    left: 40px;
+    top: 41px;
+    font-family: SFPro, Sans-serif;
+    font-size: 14px;
 }
 
 #see-infra{
     position: inherit;
     left: 600px;
-    top: 88px;
+    top: 186px;
 
     text-align: center;
 

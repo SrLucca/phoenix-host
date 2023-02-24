@@ -1399,6 +1399,7 @@ body {
     top: 25px;
     box-shadow: 27px -2px 99px #00000029;
     z-index: 10;
+    cursor: pointer;
 
 }
 
@@ -1445,6 +1446,7 @@ body {
     top: 46px;
     box-shadow: 27px -2px 99px #00000029;
     z-index: 100;
+    cursor: pointer;
 
 }
 
@@ -1491,6 +1493,7 @@ body {
     top: 67px;
     box-shadow: 27px -2px 99px #00000029;
     z-index: 100;
+    cursor: pointer;
 }
 
 .retangulo3 h1{
@@ -1501,6 +1504,7 @@ body {
     top: 20px;
     position: relative;
     left: 40px;
+    z-index: 100;
 
 }
 
@@ -1522,6 +1526,7 @@ body {
     top: 41px;
     font-family: SFPro, Sans-serif;
     font-size: 14px;
+    z-index: 100;
 }
 
 .retangulo4{
@@ -1536,6 +1541,7 @@ body {
     top: 89px;
     box-shadow: 27px -2px 99px #00000029;
     z-index: 100;
+    cursor: pointer;
 }
 
 .retangulo4 h1{
