@@ -1284,6 +1284,37 @@ body {
     
 }
 
+@keyframes showCheck {
+    
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#notebook{
+    position: absolute;
+    top: 342px;
+    left: 671px;
+    width: auto;
+    height: auto;
+}
+
+#check{
+    position: absolute;
+    top: 364px;
+    left: 769px;
+    width: auto;
+    height: auto;
+    display: none;
+
+    animation: none;
+    animation-fill-mode: forwards;
+}
+
 .control-ddos-2{
     position: relative;
     width: 1307px;
@@ -1343,6 +1374,42 @@ body {
     left: 755px;
 
     
+}
+
+@keyframes rotateEng {
+    
+    0%{
+        opacity: 0;
+        rotate: 360deg;
+    }
+
+    100%{
+        opacity: 1;
+        opacity: 360deg;
+    }
+}
+
+#notebook2{
+    position: absolute;
+    width: 167px;
+    height: 132px;
+    top: 217px;
+    left: 962px;
+}
+
+#engrenagem{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 257px;
+    left: 1028px;
+
+    display: none;
+
+    animation: none;
+    animation-fill-mode: forwards;
+
+
 }
 
 .infos{

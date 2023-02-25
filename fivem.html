@@ -295,6 +295,8 @@
                     reada. It is a long established fact that a reader.</p>
 
             <img src="static/img/fivem/ACESSO ROOT COMPLETA.png" alt="">
+            <img id="notebook" src="static/img/fivem/animation/NOTEBOOK.png" alt="">
+            <img id="check" src="static/img/fivem/animation/CHECK.png" alt="">
             </div>
 
             <div class="control-ddos-2">
@@ -305,6 +307,8 @@
                         reada. It is a long established fact that a reader.</p>
     
                 <img src="static/img/fivem/KVM.png" alt="">
+                <img id="notebook2" src="static/img/fivem/animation/NOTEBOOK2.png" alt="">
+                <img id="engrenagem" src="static/img/fivem/animation/ENGRENAGEM.png" alt="">
             </div>
 
             <div class="infos">
@@ -462,6 +466,29 @@
     </div>
     
     <script>
+
+        document.addEventListener("scroll", windowPosition);
+
+        function windowPosition(event){
+        
+            
+        
+
+            if(window.pageYOffset >= 3416){
+
+                check = document.getElementById('check').style.display = 'block'
+                check = document.getElementById('check').style.animation = 'showCheck 1s 1 linear'
+
+                }
+
+            if(window.pageYOffset >= 3490){
+
+                engrenagem = document.getElementById('engrenagem').style.display = 'block'
+                engrenagem = document.getElementById('engrenagem').style.animation = 'rotateEng 1s 1 linear'
+
+            }
+        }
+
         function show_hide(id){
         if(id == 1){
             retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;

@@ -1221,6 +1221,109 @@ body {
     
 }
 
+@keyframes moveVassoura {
+    
+    0%{
+        rotate: 0deg;
+    }
+
+    20%{
+        rotate: 2deg;
+    }
+
+    40%{
+        rotate: 4deg;
+    }
+
+    50%{
+        rotate: 2deg;
+    }
+
+    60%{
+        rotate: 0deg;
+    }
+
+    70%{
+        rotate: -2deg;
+    }
+
+    80%{
+        rotate: -4deg;
+    }
+
+    90%{
+        rotate: -2deg;
+    }
+
+    100%{
+        rotate: 0deg;
+    }
+
+}
+
+#vassoura{
+    position: absolute;
+    top: 107px;
+    width: 172px;
+    left: 713px;
+    height: 369px;
+    z-index: 10;
+
+    animation: moveVassoura 3s infinite linear;
+}
+
+#servidor{
+    position: absolute;
+    top: 148px;
+    width: 331px;
+    left: 833px;
+    height: 354px;
+}
+
+#teia{
+
+    position: absolute;
+    width: 58px;
+    height: 92px;
+    top: 181px;
+    left: 1078px;
+    
+}
+
+@keyframes movePoeira {
+
+    0%{
+        transform: translateX(0px);
+    }
+
+    40%{
+        transform: translateX(-2px);
+    }
+
+    60%{
+        transform: translateX(0px);
+    }
+
+    80%{
+        transform: translateX(2px);
+    }
+
+    100%{
+        transform: translateX(0px);
+    }
+    
+}
+
+#poeira{
+    position: absolute;
+    width: 257px;
+    height: 229px;
+    top: 227px;
+    left: 700px;
+    z-index: 11;
+    animation: movePoeira 3s infinite linear;
+}
+
 .control-ddos-2{
     position: relative;
     width: 1307px;
@@ -1281,6 +1384,54 @@ body {
 
     
 }
+
+@keyframes shine {
+    
+    0%{
+        filter:drop-shadow(2px 2px 10px #becde8);
+    }
+
+    40%{
+        filter:drop-shadow(2px 2px 20px #becde8);
+    }
+
+    100%{
+        filter:drop-shadow(2px 2px 10px #becde8);
+    }
+}
+
+#doc{
+    
+    position: absolute;
+    width: 103px;
+    height: 99px;
+    top: 359px;
+    left: 947px;
+
+    animation: shine 2s infinite linear;
+
+}
+
+#engrenagem{
+    position: absolute;
+    width: 92px;
+    height: 64px;
+    top: 277px;
+    left: 957px;
+
+    animation: shine 2s infinite linear;
+}
+
+#solucao{
+    position: absolute;
+    width: 72px;
+    height: 64px;
+    top: 284px;
+    left: 1095px;
+
+    animation: shine 2s infinite linear;
+}
+
 
 .infos{
 
