@@ -286,7 +286,7 @@
                     fact that a reader will be distracted by the <br>
                     reada. It is a long established fact that a reader.</p>
 
-            <img src="static/img/minecraft/INSTALAÇÃO SIMPLIFICADA COMPLETA.png" alt="">
+            <img id="bloco" src="static/img/minecraft/INSTALAÇÃO SIMPLIFICADA COMPLETA.png" alt="">
             </div>
 
             <!--
@@ -458,4 +458,21 @@
     </div>
     
 </body>
+
+<script>
+
+
+    document.addEventListener("scroll", windowPosition);
+
+    function windowPosition(event){
+
+        console.log(window.pageYOffset);
+        if(window.pageYOffset >= 3279){
+            
+            document.getElementById('bloco').style.display = 'block';
+            document.getElementById('bloco').style.animation = 'popUp 0.5s 1 linear';
+        }
+    }
+    
+</script>
 </html>

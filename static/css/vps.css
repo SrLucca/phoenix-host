@@ -720,6 +720,51 @@ body {
     
 }
 
+@keyframes shine {
+    
+    0%{
+        filter:drop-shadow(2px 2px 10px #becde8);
+    }
+
+    40%{
+        filter:drop-shadow(2px 2px 20px #becde8);
+    }
+
+    100%{
+        filter:drop-shadow(2px 2px 10px #becde8);
+    }
+}
+
+#controle{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 197px;
+    left: 708px;
+
+    animation: shine 2s infinite linear;
+}
+
+#raio{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 91px;
+    left: 882px;
+
+    animation: shine 2s infinite linear;
+}
+
+#escudo{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 157px;
+    left: 1137px;
+
+    animation: shine 2s infinite linear;
+}
+
 .control-ddos-2{
     position: relative;
     width: 1307px;

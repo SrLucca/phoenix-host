@@ -1212,11 +1212,10 @@ body {
 
 .control-ddos img{
     position: inherit;
-    width: 570px;
-    height: 395px;
+    width: auto;
+    height: auto;
     top: -91px;
     left: 700px;
-
     
 }
 
@@ -1271,14 +1270,62 @@ body {
     transform: rotateY(180deg);
 }
 
+@keyframes popUp {
+
+    0%{
+        opacity: 0.5;
+        transform: scale(0.5);
+    }
+
+    50%{
+        opacity: 0.8;
+        transform: scale(0.8);
+    }
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+
 .control-ddos-2 img{
     position: inherit;
-    width: 399px;
-    height: 395px;
-    top: -91px;
+    width: 363px;
+    height: 288px;
+    top: -40px;
     left: 928px;
-
+    z-index: 10;
     
+    display: none;
+    animation: none;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveSeta {
+    
+    0%{
+        top: 204px;
+    }
+
+    100%{
+        top: 406px;
+    }
+}
+
+
+#seta{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    top: 204px;
+    left: 1004px;
+
+    animation: moveSeta 0.5s 1 linear;
+    animation-fill-mode: forwards;
+    animation-delay: 0.5s;
+    display: none;
 }
 
 .infos{
