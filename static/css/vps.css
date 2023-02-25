@@ -826,6 +826,37 @@ body {
     
 }
 
+@keyframes showCheck {
+    
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#notebook{
+    position: absolute;
+    top: 342px;
+    left: 726px;
+    width: auto;
+    height: auto;
+}
+
+#check{
+    position: absolute;
+    top: 364px;
+    left: 818px;
+    width: auto;
+    height: auto;
+    display: none;
+    animation: none;
+    animation-fill-mode: forwards;
+    transform: rotateY(180deg);
+}
+
 .infos{
 
     position: relative;

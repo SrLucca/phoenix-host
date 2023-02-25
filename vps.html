@@ -260,7 +260,9 @@
                         fact that a reader will be distracted by the <br>
                         reada. It is a long established fact that a reader.</p>
     
-                <img src="static/img/vps/ACESSO ROOT COMPLETA.png" alt="">
+                        <img src="static/img/fivem/ACESSO ROOT COMPLETA.png" alt="">
+                        <img id="notebook" src="static/img/fivem/animation/NOTEBOOK.png" alt="">
+                        <img id="check" src="static/img/fivem/animation/CHECK.png" alt="">
             </div>
             
 
@@ -372,6 +374,19 @@
     </div>
     
     <script>
+
+    document.addEventListener("scroll", windowPosition);
+
+    function windowPosition(event){
+
+
+        if(window.pageYOffset >= 4372){
+
+            check = document.getElementById('check').style.display = 'block'
+            check = document.getElementById('check').style.animation = 'showCheck 1s 1 linear'
+
+            }
+        }
         
         function show_hide(id){
         if(id == 1){
