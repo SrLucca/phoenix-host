@@ -77,16 +77,18 @@
                 </div>
             </div>
 
+
+            <div id="cat-1-1" class="category-1" onclick="selectCategory(1)">
+
+                <h1>PROTEÇÃO DDOS</h1>
+
+            </div>
+
+            <div id="cat-2-1" class="category-2" onclick="selectCategory(2)">
+                <h1>REDE</h1>
+            </div>
+
             <div id="infos-1" class="important-infos-1">
-                <div id="cat-1-1" class="category-1" onclick="selectCategory(1)">
-
-                    <h1>PROTEÇÃO DDOS</h1>
-
-                </div>
-
-                <div id="cat-2-1" class="category-2" onclick="selectCategory(2)">
-                    <h1>REDE</h1>
-                </div>
 
                 <div class="block-1">
                     <img src="static/img/infrastructure/170 TBPS DE CAPACIDADE DE MITIGAÇÃO.png" alt="">
@@ -134,45 +136,33 @@
                     </div>
             </div>
 
+
             <div id="infos-2" class="important-infos-2">
-                <div id="cat-1-2" class="category-1" onclick="selectCategory(1)">
-
-                    <h1>PROTEÇÃO DDOS</h1>
-
-                </div>
-
-                <div id="cat-2-2" class="category-2" onclick="selectCategory(2)">
-                    <h1>REDE</h1>
-                </div>
 
                 <div class="block-1">
-                    <img src="static/img/infrastructure/170 TBPS DE CAPACIDADE DE MITIGAÇÃO.png" alt="">
-                    <p>cu</p>
+                    <img src="static/img/infrastructure/170 TBPS DE CAPACIDADE.png" alt="">
+                    <p>170 Tbps de capacidade<br>de mitigação</p>
                 </div>
 
                 <div class="block-2">
-                    <img src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA JOGOS.png" alt="">
-                    <p>Filtros Layer 7 caracterizados<br>para jogos</p>
+                    <img src="static/img/infrastructure/CONECÇÃO COM OS PRICIPAIS PTT DO BRASIL.png" alt="">
+                    <p>Conexão com os principais<br>PTT do Brasil</p>
                 </div>
 
                 <div class="block-3">
-                    <img src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA APLICAÇÕES.png" alt="">
-                    <p>Filtros Layer 7 simples<br>para aplicações</p>
+                    <img src="static/img/infrastructure/PING BAIXO.png" alt="">
+                    <p>Ping<br>baixo</p>
                 </div>
 
-                <div class="block-4">
-                    <img src="static/img/infrastructure/PROTEÇÃO FLEXÍVEL.png" alt="">
-                    <p>Proteção<br>flexível</p>
+
+                <div class="block-5-2">
+                    <img src="static/img/infrastructure/REDE ANYCAST.png" alt="">
+                    <p>Rede<br>Anycast</p>
                 </div>
 
-                <div class="block-5">
-                    <img src="static/img/infrastructure/SEM USO DE NULL ROUTE.png" alt="">
-                    <p>Sem uso de<br>null route</p>
-                </div>
-
-                <div class="block-6">
-                    <img src="static/img/infrastructure/IA PARA IDENTIFICAR TRÁFEGO MALICIOSO.png" alt="">
-                    <p>Inteligência artificial para identificar o tráfego malicioso</p>
+                <div class="block-6-2">
+                    <img src="static/img/infrastructure/REDE REDUNDANTE.png" alt="">
+                    <p>Rede<br>Redundante</p>
                 </div>
 
                 <p style="
@@ -268,7 +258,7 @@
             if(category == 1){
                 
                 document.getElementById('cat-1-1').style.boxShadow = 'none';
-                document.getElementById('cat-2-1').style.boxShadow = '10px -6px 20px 1px rgba(0,0,0,0.61)';
+                document.getElementById('cat-2-1').style.boxShadow = 'inset 0px -80px 45px -33px rgba(0,0,0,0.75)';
 
                 document.getElementById('infos-1').style.display = 'block';
                 document.getElementById('infos-2').style.display = 'none';
@@ -276,8 +266,8 @@
 
             if(category == 2){
 
-                document.getElementById('cat-1-2').style.boxShadow = '10px -6px 20px 1px rgba(0,0,0,0.61)';
-                document.getElementById('cat-2-2').style.boxShadow = 'none';
+                document.getElementById('cat-1-1').style.boxShadow = 'inset 0px -80px 45px -33px rgba(0,0,0,0.75)';
+                document.getElementById('cat-2-1').style.boxShadow = 'none';
 
                 document.getElementById('infos-1').style.display = 'none';
                 document.getElementById('infos-2').style.display = 'block';
