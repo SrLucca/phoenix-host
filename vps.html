@@ -157,33 +157,33 @@
                 <p>It is a long established fact that a reader will be distracted by the readable content of<br> 
                     a page when looking at its.when looking at its.when looking at its.</p>
 
-                <div class="high-perfomance">
+                <div class="high-perfomance" id="high-perfomance">
                     <strong><h2>ALTA<br>PERFORMANCE</h2></strong>
                     <p>Contamos com servidores de última geração e alta performance. Sua aplicação sempre<br>
                         funcionará o mais rápido possível.</p>
                 </div>
 
-                <div class="uptime">
+                <div id="uptime" class="uptime">
                     <strong><h2>99% DE<br>UPTIME</h2></strong>
                     <p>Contamos com servidores de última<br>geração e alta performance. Sua<br>aplicação sempre
                         funcionará.</p>
                 </div>
 
-                <div class="custom-plans">
+                <div  id="custom-plans" class="custom-plans">
                     <strong><h2>PLANOS ADICIONAIS<br>DISPONÍVEIS</h2></strong>
                     <p>Contamos com servidores de última geração e alta performance.<br>Sua aplicação sempre
                         funcionará o mais rápido possível.</p>
 
                 </div>
 
-                <div class="suport">
+                <div id="suport" class="suport">
                     <strong><h2>SUPORTE<br>ESPECIALIZADO</h2></strong>
                     <p>Contamos com servidores de última geração e alta performance.<br>Sua aplicação sempre
                         funcionará o mais rápido possível.</p>
 
                 </div>
 
-                <div class="hdd">
+                <div id="hdd" class="hdd">
                     <strong><h2>MAIS DE<br>10TB</h2></strong>
                     <p>Contamos com servidores de últimageração e<br>alta performance.Sua aplicação sempre
                         funcionará<br>o mais rápido possível.</p>
@@ -338,14 +338,45 @@
                 </div>
             </div>
 
-            <div class="discord">
-                <h1>COMUNIDADE<br>EXCLUSIVA NO DISCORD</h1>
+            <div class="questions">
+                <h1>ENTENDA PORQUE<br>SOMOS OS MELHORES</h1>
+                <p>Selecionamos algumas perguntas frequentes que costumam fazer para nós</p>
+                
+                <div class="questions-2">
+                    <h3 id="h3-especial">Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
+                    <p>Selecionamos algumas perguntas frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que costumam
+                        fazer para nósSelecionamos algumas perguntas<br>frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que
+                        costumam fazerSelecionamos algumas perguntas frequentes que<br>costumam fazer para nós selecionamos algumas perguntas frequentes que
+                        costumam.</p>
 
-                <div class="member">
-                    <h1>QUERO SER MEMBRO</h1>
-
+                    <hr>
+                        
+                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
+                    <hr>
+                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
+                    <hr>
+                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
+                    <hr>
+                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
+                    <hr>
+                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
                 </div>
             </div>
+
+            <div class="subscribe">
+                <h1>HOSPEDAGEM DE JOGOS<br>COM ATÉ 30% OFF</h1>
+
+                <div class="contract-button">
+                    <p>A PARTIR DE R$ 128,99</p>
+                    <div class="contract-button-2">
+                        <a href="">
+                            <p>ASSINAR AGORA</p>
+                            <img src="static/img/home_page/seta-direita_azul.png" alt="SETA">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
             <div class="footer">
 
                 <div class="services">
@@ -384,6 +415,27 @@
 
             check = document.getElementById('check').style.display = 'block'
             check = document.getElementById('check').style.animation = 'showCheck 1s 1 linear'
+
+            }
+
+            if(window.pageYOffset >= 2049){
+
+            
+            
+                document.getElementById('high-perfomance').style.transition = ".6s, background-size .6s .6s";
+                document.getElementById('high-perfomance').style.setProperty('--_i', '100%');
+
+                document.getElementById('uptime').style.transition = ".7s, background-size .7s .7s";
+                document.getElementById('uptime').style.setProperty('--_i', '100%');
+
+                document.getElementById('custom-plans').style.transition = ".8s, background-size .8s .8s";
+                document.getElementById('custom-plans').style.setProperty('--_i', '100%');
+
+                document.getElementById('suport').style.transition = ".9s, background-size .9s .9s";
+                document.getElementById('suport').style.setProperty('--_i', '100%');
+
+                document.getElementById('hdd').style.transition = "1s, background-size 1s 1s";
+                document.getElementById('hdd').style.setProperty('--_i', '100%');
 
             }
         }

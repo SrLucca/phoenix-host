@@ -1234,6 +1234,66 @@ body {
     top: 173px;
 }
 
+.balao1{
+    position: absolute;
+    display: none;
+    top: 25px;
+    left: 36px;
+    animation: opacity 0.2s 1 ease-in;
+    animation-fill-mode: forwards;
+    
+}
+
+.balao2{
+    position: absolute;
+    display: none;
+    top: 122px;
+    left: -18px;;
+    animation: opacity 0.2s 1 ease-in;
+    animation-fill-mode: forwards;
+    
+}
+
+.balao3{
+    position: absolute;
+    display: none;
+    top: 198px;
+    left: 16px;
+    animation: opacity 0.2s 1 ease-in;
+    animation-fill-mode: forwards;
+    
+}
+
+#serv1{
+    cursor: pointer;
+}
+
+#serv2{
+    cursor: pointer;
+}
+
+
+#serv3{
+    cursor: pointer;
+}
+
+
+#serv1:hover + .balao1{
+
+    display: block;
+    
+}
+
+#serv2:hover + .balao2{
+
+    display: block;
+}
+
+#serv3:hover + .balao3{
+
+    display: block;
+}
+
 .control-ddos{
     position: relative;
     width: 1307px;
