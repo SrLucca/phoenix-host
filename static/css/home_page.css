@@ -358,7 +358,7 @@ body {
 #dedicatedBtn{
     position: inherit;
     left: 30px;
-    top: -81px;
+    top: -79px;
     height: 43px;
     width: 272px;
 
@@ -369,6 +369,14 @@ body {
 }
 
 #dedicatedBtn:hover{
+    cursor: pointer;
+}
+
+#dedicatedBtn-2:hover{
+    cursor: pointer;
+}
+
+#dedicatedBtn-3:hover{
     cursor: pointer;
 }
 
@@ -409,7 +417,7 @@ body {
 .balao{
     position: absolute;
     display: none;
-    top: -550px;
+    top: -66px;
     left: 257px;
     animation: opacity 0.2s 1 ease-in;
     animation-fill-mode: forwards;
@@ -443,228 +451,228 @@ body {
 }
 
 #outro a{
-    position: relative;
-    top: -126px;
-    left: -3px;
+    position: relative !important;
+    top: -126px !important;
+    left: -3px !important;
 }
 
 #outro a button{
-    position: relative;
-    border: solid 2px #FFFFFF;
-    border-radius: 25px;
-    height: 39px;
-    width: 111px;
-    background: transparent;
-    font-family: SFPro, sans-serif;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: left;
+    position: relative !important;
+    border: solid 2px #FFFFFF !important;
+    border-radius: 25px !important;
+    height: 39px !important;
+    width: 111px !important;
+    background: transparent !important;
+    font-family: SFPro, sans-serif !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    text-align: left !important;
 }
 
 #outro img {
-    position: relative;
-    height: 101px;
-    width: 178px;
-    top: -84px;
-    left: 8px;
+    position: relative !important;
+    height: 101px !important;
+    width: 178px !important;
+    top: -84px !important;
+    left: 8px !important;
 }
 
 #outro hr{
-    position: relative;
-    height: 2px;
-    background-color: #D1D1D1;
-    top: -132px;
+    position: relative !important;
+    height: 2px !important;
+    background-color: #D1D1D1 !important;
+    top: -132px !important;
 }
 
 #mta a{
-    position: relative;
-    top: -254px;
-    left: -3px;
+    position: relative !important;
+    top: -254px !important;
+    left: -3px !important;
 }
 
 #mta a button{
-    position: relative;
-    border: solid 2px #FFFFFF;
-    border-radius: 25px;
-    height: 39px;
-    width: 111px;
-    background: transparent;
-    font-family: SFPro, sans-serif;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: left;
+    position: relative !important;
+    border: solid 2px #FFFFFF !important;
+    border-radius: 25px !important;
+    height: 39px !important;
+    width: 111px !important;
+    background: transparent !important;
+    font-family: SFPro, sans-serif !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    text-align: left !important;
 }
 
 #mta img {
-    position: relative;
-    height: 101px;
-    width: 178px;
-    top: -211px;
-    left: 8px;
+    position: relative !important;
+    height: 101px !important;
+    width: 178px !important;
+    top: -211px !important;
+    left: 8px !important;
 }
 
 #mta hr{
-    position: relative;
-    height: 2px;
-    background-color: #D1D1D1;
-    top: -260px;
+    position: relative !important;
+    height: 2px !important;
+    background-color: #D1D1D1 !important;
+    top: -260px !important;
 }
 
 #mta a{
-    position: relative;
-    top: -254px;
-    left: -3px;
+    position: relative !important;
+    top: -254px !important;
+    left: -3px !important;
 }
 
 #mta a button{
-    position: relative;
-    border: solid 2px #FFFFFF;
-    border-radius: 25px;
-    height: 39px;
-    width: 111px;
-    background: transparent;
-    font-family: SFPro, sans-serif;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: left;
+    position: relative !important;
+    border: solid 2px #FFFFFF !important;
+    border-radius: 25px !important;
+    height: 39px !important;
+    width: 111px !important;
+    background: transparent !important;
+    font-family: SFPro, sans-serif !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    text-align: left !important;
 }
 
 #mta img {
-    position: relative;
-    height: 101px;
-    width: 178px;
-    top: -211px;
-    left: 8px;
+    position: relative !important;
+    height: 101px !important;
+    width: 178px !important;
+    top: -211px !important;
+    left: 8px !important;
 }
 
 #mta hr{
-    position: relative;
-    height: 2px;
-    background-color: #D1D1D1;
-    top: -260px;
+    position: relative !important;
+    height: 2px !important;
+    background-color: #D1D1D1 !important;
+    top: -260px !important;
 }
 
 #fivem{
-    position: inherit;
-    top: -132px;
+    position: inherit !important;
+    top: -132px !important;
 }
 
 #fivem a{
-    position: relative;
-    top: -254px;
-    left: -3px;
+    position: relative !important;
+    top: -254px !important;
+    left: -3px !important;
 }
 
 #fivem a button{
-    position: relative;
-    border: solid 2px #FFFFFF;
-    border-radius: 25px;
-    height: 39px;
-    width: 111px;
-    background: transparent;
-    font-family: SFPro, sans-serif;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: left;
+    position: relative !important;
+    border: solid 2px #FFFFFF !important;
+    border-radius: 25px !important;
+    height: 39px !important;
+    width: 111px !important;
+    background: transparent !important;
+    font-family: SFPro, sans-serif !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    text-align: left !important;
 }
 
 #fivem img {
-    position: relative;
-    height: 101px;
-    width: 178px;
-    top: -211px;
-    left: 8px;
+    position: relative !important;
+    height: 101px !important;
+    width: 178px !important;
+    top: -211px !important;
+    left: 8px !important;
 }
 
 #fivem hr{
-    position: relative;
-    height: 2px;
-    background-color: #D1D1D1;
-    top: -260px;
+    position: relative !important;
+    height: 2px !important;
+    background-color: #D1D1D1 !important;
+    top: -260px !important;
 }
 
 #minecraft{
-    position: inherit;
-    top: -261px;
+    position: inherit !important;
+    top: -261px !important;
 }
 
 #minecraft a{
-    position: relative;
-    top: -254px;
-    left: -3px;
+    position: relative !important;
+    top: -254px !important;
+    left: -3px !important;
 }
 
 #minecraft a button{
-    position: relative;
-    border: solid 2px #FFFFFF;
-    border-radius: 25px;
-    height: 39px;
-    width: 111px;
-    background: transparent;
-    font-family: SFPro, sans-serif;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: left;
+    position: relative !important;
+    border: solid 2px #FFFFFF !important;
+    border-radius: 25px !important;
+    height: 39px !important;
+    width: 111px !important;
+    background: transparent !important;
+    font-family: SFPro, sans-serif !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    text-align: left !important;
 }
 
 #minecraft img {
-    position: relative;
-    height: 101px;
-    width: 178px;
-    top: -211px;
-    left: 8px;
+    position: relative !important;
+    height: 101px !important;
+    width: 178px !important;
+    top: -211px !important;
+    left: 8px !important;
 }
 
 #minecraft hr{
-    position: relative;
-    height: 2px;
-    background-color: #D1D1D1;
-    top: -260px;
+    position: relative !important;
+    height: 2px !important;
+    background-color: #D1D1D1 !important;
+    top: -260px !important;
 }
 
 #rust{
-    position: inherit;
-    top: -397px;
+    position: inherit !important;
+    top: -397px !important;
 }
 
 #rust a{
-    position: relative;
-    top: -254px;
-    left: -3px;
+    position: relative !important;
+    top: -254px !important;
+    left: -3px !important;
 }
 
 #rust a button{
-    position: relative;
-    border: solid 2px #FFFFFF;
-    border-radius: 25px;
-    height: 39px;
-    width: 111px;
-    background: transparent;
-    font-family: SFPro, sans-serif;
-    color: #FFFFFF;
-    font-weight: 800;
-    font-size: 14px;
-    text-align: left;
+    position: relative !important;
+    border: solid 2px #FFFFFF !important;
+    border-radius: 25px !important;
+    height: 39px !important;
+    width: 111px !important;
+    background: transparent !important;
+    font-family: SFPro, sans-serif !important;
+    color: #FFFFFF !important;
+    font-weight: 800 !important;
+    font-size: 14px !important;
+    text-align: left !important;
 }
 
 #rust img {
-    position: relative;
-    height: 101px;
-    width: 178px;
-    top: -211px;
-    left: 8px;
+    position: relative !important;
+    height: 101px !important;
+    width: 178px !important;
+    top: -211px !important;
+    left: 8px !important;
 }
 
 #rust hr{
-    position: relative;
-    height: 2px;
-    background-color: #D1D1D1;
-    top: -260px;
+    position: relative !important;
+    height: 2px !important;
+    background-color: #D1D1D1 !important;
+    top: -260px !important;
 }
 
 
@@ -681,9 +689,49 @@ body {
     transition: 0.3s;
 }
 
+#dedicatedBtn:hover > a{
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
 #dedicatedBtn:hover > .balao{
     display: block;
+    top: -544px;
+    left: 259px;
 }
+
+#dedicatedBtn-2:hover{
+    background-color: #3870c8;
+    transition: 0.3s;
+}
+
+#dedicatedBtn-2:hover > a{
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+#dedicatedBtn-2:hover > .balao{
+    display: block;
+    top: -544px;
+    left: 259px;
+}
+
+#dedicatedBtn-3:hover{
+    background-color: #3870c8;
+    transition: 0.3s;
+}
+
+#dedicatedBtn-3:hover > a{
+    transition: 0.3s;
+    color: #FFFFFF;
+}
+
+#dedicatedBtn-3:hover > .balao{
+    display: block;
+    top: -544px;
+    left: 259px;
+}
+
 
 
 .game-servers{
