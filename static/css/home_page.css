@@ -182,6 +182,8 @@ body {
     margin-inline-end: -11em;
 }
 
+
+
 @keyframes inclinacao {
     
     0%{
@@ -379,6 +381,9 @@ body {
 #dedicatedBtn-3:hover{
     cursor: pointer;
 }
+
+
+
 
 #dedicatedBtn a{
     position: inherit;
@@ -761,7 +766,7 @@ body {
     height: 11px;
     top: -34px;
     width: 329px;
-    left: 34px;
+    left: 34
 }
 
 .game-servers p{
@@ -3297,660 +3302,190 @@ body {
     opacity: 1;
 }
 
-@media only screen and (max-width: 1024px) {
-    body {
-        width: 1024px;
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+.gradient{
+    width: 100%;
+    height: 100%;
+}
+
+#nuvem-1 {
+    top: 224px;
+    left: 33px;
+    width: 122px;
+    height: 53px;
+  }
+
+  #nuvem-2{
+    max-width: 72%;
+  }
+
+  .top-page {
+    top: 658px;
+    left: 93px;
+    width: 300px;
+    height: 144px;
+  }
+
+  .top-page h1 {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .top-page p {
+    top: 10px;
+    font-size: 15px;
+    margin-inline-end: 0;
+    text-align: center;
+  }
+
+.luzinha{
+    display: none;
+}
+
+#servidor{
+    top: 80px;
+    left: 27px;
+    height: 375px;
+    max-width: 22%;
+}
+
+.show-plans{
+    top: 398px;
+    left: 119px;
+    /* max-width: 50%; */
+    margin-bottom: 456px;
+}
+
+.show-btn{
+    top: -103px;
+    left: 17px;
+    width: 229px;
+}
+
+.show-btn img{
+    left: 48px;
+    top: 19px;
+}
+
+.dedicated-servers,
+.game-servers, .vps-servers {
+    width: 313px;
+    max-width: 484px;
+    left: auto;
+    right: auto;
+    top: 0;
+    height: 321px;
+    margin-left: 97px;
+    /* padding-top: 30px; */
+    margin-top: 82px;
+
+}
+
+.dedicated-servers p {
+    font-size: 21px;
+    top: -19px;
+    left: 10px;
+}
+
+#p-2 {
+font-size: 15px;
+top: -20px;
+left: 10px;
+margin-inline-end: 20px;
+}
+
+#dedicatedBtn {
+top: -6px;
+left: 10px;
+height: 35px;
+width: 200px;
+}
+
+#dedicatedBtn a {
+font-size: 18px;
+top: 8px;
+left: 10px;
+}
+
+#dedicatedBtn-2 a {
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
     }
 
-    .gradient{
-        width: 1024px;
+#dedicatedBtn-3 a {
+    font-size: 18px;
+    top: 8px;
+    left: 10px;
     }
 
-    .header-content{
-        width: 829px;
-    }
+#dedicatedBtn-2{
+    left: 12px;
+    top: -13px;
+}
 
-    .header-content a{
-        left: 44px;
-        font-size: 16px;
-        padding-right: 49px;
-    }
+#dedicatedBtn-3{
+    left: 12px;
+    top: -74px;
+}
 
-    #header-logo{
-        left: -28px;
-        width: 52px;
-        height: 39px;
-    }
-
-    #carrinho{
-        left: 44px;
-        opacity: 1;
-        width: 27px;
-        height: 27px;
-        top: -3px;
-    }
-
-    .loginBtn{
-        top: -31.5px;
-        left: 709px;
-        width: 62px;
-        height: 23px;
-    }
-
-    .loginBtn a{
-        left: 12px;
-        top: 2px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 16px;
-        letter-spacing: 0px;
-        color: #0C234D;
-        opacity: 1;
-    }
-
-    #nuvem-1{
-        width: 208px;
-        height: 80px;
-    }
-
-    #nuvem-2{
-        width: 213px;
-        top: -54.3226px;
-    }
-
-    .show-btn{
-        top: -125px;
-        left: 10px;
-        width: 162px;
-        height: 38px;;
-    }
-
-    .show-plans{
-        top: -282px;
-        left: 135px;
-    }
-    .show-btn a{
-        font-size: 14px;
-        left: 14px;
-        top: 3px;
-    }
-
-    .show-btn img{
-        left: 67px;
-        top: 10px;
-    }
-
-    .top-page{
-        top: 19px;
-        left: 185px;
-    }
+.dedicated-servers img, .game-servers img{
+left: 10px;
+top: -25px;
+max-width: 42%;
+height: auto;
+}
+.vps-servers img{
+    left: 10px;
+    top: -66px;
+    max-width: 32%;
+    height: auto;
     
-    .top-page h1{
-        font-size: 34px;
-        width: 294px;
+    
+}
 
+
+
+#rectangle-1,
+#rectangle-2, .glowing{
+display: none;
+}
+
+
+.game-servers p {
+    font-size: 21px;
+    top: -19px;
+    left: 10px;
+}
+
+
+.vps-servers p {
+    font-size: 21px;
+    top: -75px;
+    left: 10px;
+}
+
+    #p-2 {
+    font-size: 15px;
+    top: -20px;
+    left: 10px;
+    margin-inline-end: 20px;
     }
 
-    .top-page p{
-        font-size: 14px;
-        width: 285px;
-        top: 8px;
-
-    }
-
-    .luzinha{
-        display: none;
-    }
-
-    #servidor{
-        left: 592.11px;
-        top: -253.678px;
-        width: 353px;
-        height: 330px;
-    }
-
-    .dedicated-servers{
-        width: 230px;
-        height: 224px;
-        top: -269px;
-    }
-
-    .dedicated-servers img{
-        width: 100px;
-        top: -28px;
-    }
-    #rectangle-1{
-        width: 180px;
-        left: 17px;
-        top: -34px;
-    }
-
-    .dedicated-servers p{
-        left: 17px;
-        top: -26px;
-        font-size: 13px;
-    }
-
-    #p-2{
-        left: 17px;
+    #p-3 {
+        font-size: 15px;
         top: -20px;
-        font-size: 9px;
+        left: 10px;
+        margin-inline-end: 20px;
     }
 
-    #dedicatedBtn{
-        left: 17px;
-        top: -19px;
-        height: 23px;
-        width: 175px;
-    }
-
-
-    #dedicatedBtn a{
-        top: 2px;
-        left: 13px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 13px;
-    }
-    #dedicatedBtn img{
-        top: 5px;
-        position: absolute;
-        left: 148px;
-        width: 12px;
-    }
-
-    
-    .game-servers{
-        width: 230px;
-        height: 224px;
-        top: -495px;
-        left: 444px;
-    }
-
-    .game-servers img{
-        width: 114px;
-        left: -13px;
-    }
-    #rectangle-2{
-        width: 180px;
-        left: 17px;
-    }
-
-    .game-servers p{
-        left: 17px;
-        top: -33px;
-        font-size: 13px;
-    }
-
-    #p-3{
-        left: 17px;
-        top: -32px;
-        font-size: 9px;
-    }
-
-    #dedicatedBtn-2{
-        left: 17px;
-        top: -33px;
-        height: 23px;
-        width: 175px;
-    }
-
-
-    #dedicatedBtn-2 a{
-        top: 2px;
-        left: 13px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 13px;
-    }
-    #dedicatedBtn-2 img{
-        top: 5px;
-        position: absolute;
-        left: 148px;
-        width: 12px;
-    }
-
-    .vps-servers{
-        width: 230px;
-        height: 224px;
-        top: -715px;
-        left: 760px;
-    }
-
-    .vps-servers img{
-        width: 64px;
-        left: 17px;
-        top: -31px;
-    }
-    #rectangle-3{
-        width: 180px;
-        left: 17px;
-        top: -144px;
-    }
-
-    .vps-servers p{
-        left: 17px;
-        font-size: 13px;
-        top: -144px;
-    }
-
-    #p-4{
-        left: 17px;
-        font-size: 9px;
-        top: -147px;
-    }
-
-    #dedicatedBtn-3{
-        top: -146px;
-        left: 17px;
-        height: 23px;
-        width: 175px;
-    }
-
-
-    #dedicatedBtn-3 a{
-        top: 2px;
-        left: 13px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 13px;
-    }
-    #dedicatedBtn-3 img{
-        top: 5px;
-        position: absolute;
-        left: 148px;
-        width: 12px;
-    }
-
-    .glowing{
-        width: 65px;
-        height: 108px;
-        top: -136px;
-        left: 21px;
-    }
-
-    .locations{
-        top: -738px;
-        left: 92px;
-    }
-
-    .locations h1{
-        
-    line-height: 35px;
-    font-size: 32px;
-    }
-
-    .locations p{
-        font-size: 16.5px;
-        width: 312px;
-    }
-
-    .coutry-1{
-        top: -34px;
-        width: 402px;
-        height: 57px;
-        left: 500px;
-    }
-
-    .coutry-1 img{
-        width: 58px;
-    }
-
-    #line-1{
-        width: 278px;
-        height: 57px;
-        top: -41px;
-        left: 124px;
-    }
-
-    #line-1 strong h3{
-        top: 8px;
-        left: 31px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    #line-1 p{
-        top: 10px;
-        left: 31px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 19px;
-    }
-
-    .coutry-2{
-        top: -11px;
-        width: 402px;
-        height: 57px;
-        left: 500px;
-    }
-
-    .coutry-2 img{
-        width: 58px;
-    }
-
-    #line-2{
-        width: 278px;
-        height: 57px;
-        top: -41px;
-        left: 124px;
-    }
-
-    #line-2 strong h3{
-        top: 8px;
-        left: 31px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 16px;
-    }
-
-    #line-2 p{
-        top: 10px;
-        left: 31px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 19px;
-    }
-
-    .processor{
-        top: -1048px;
-        left: 92px;
-    }
-
-    .processor h1{
-        
-        line-height: 35px;
-        font-size: 32px;
-        }
-    
-    .processor p{
-        font-size: 16.5px;
-        width: 312px;
-    }
-
-    #ponteiro{
-        display: none;
-    }
-
-    #velocimetro{
-        display: none;
-    }
-
-    #serv-1-velo{
-        display: none;
-    }
-
-    #serv-2-velo{
-        display: none;
-    }
-
-    #contador{
-        display: none;
-    }
-
-    #contador-str-1{
-        display: none;
-    }
-
-    #contador-decimal{
-        display: none;
-    }
-
-    #contador-str-2{
-        display: none;
-    }
-
-    #centro-ponteiro{
-        display: none;
-    }
-
-    #velocimetro-respons{
-        display: block;
-        position: relative;
-        width: 485px;
-        height: 309px;
-        left: -419px;
-        top: -60px;
-    }
-
-    .block-1{
-        width: 290px;
-        height: 61px;
-    }
-
-    .block-1 img{
-        width: 53px;
-        height: 46px;
-        left: 25px;
-        top: 5px;
-    }
-
-    .block-1 strong h3{
-        top: -41px;
-        left: 100px;
-        text-align: left;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
+    #p-4 {
         font-size: 14px;
-    };
-
-    .block-1 p{
-        font-size: 10px;
+        top: -76px;
+        left: 10px;
+        margin-inline-end: 20px;
     }
 
-    .block-1 p{
-        font-size: 10px;
-        left: 100px;
-        top: -45px;
-    }
-
-    .block-2{
-        width: 290px;
-        height: 61px;
-    }
-
-    .block-2 img{
-        width: 53px;
-        height: 46px;
-        left: 25px;
-        top: 5px;
-    }
-
-    .block-2 strong h3{
-        top: -41px;
-        left: 100px;
-        text-align: left;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 14px;
-    };
-
-    .block-2 p{
-        font-size: 10px;
-    }
-
-    .block-2 p{
-        font-size: 10px;
-        left: 100px;
-        top: -45px;
-    }
-
-
-    .infos{
-        top: -1055px;
-        left: 92px;
-        width: 886px;
-        height: 625px;
-    }
-
-    .info-content{
-        width: 422px;
-        height: 623px;
-    }
-
-    #see-infra{
-        margin-left: auto;
-        margin-right: auto;
-        width: 296px;
-        height: 41px;
-    }
-
-    #see-infra strong p{
-        font-size: 14px;
-    }
-
-    #see-infra a img{
-        left: 76px;
-    }
-
-    .garantias{
-        left: 92px;
-    }
-
-    .garantias strong h1{
-        font-size: 24px;
-    }
-
-    .garantias p{
-        font-size: 13px;
-    }
-
-    .high-perfomance{
-        width: 512px;
-        height: 147px;
-    }
-
-    .high-perfomance p{
-        top: 16px;
-        font-size: 9px;
-    }
-
-    .high-perfomance strong h2{
-        top: 10px;
-        left: 21px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 27px;
-    }
-
-    .custom-plans{
-        top: -275px;
-        left: 566px;
-        width: 355px;
-        height: 147px;
-    }
-
-    .custom-plans p{
-        top: 16px;
-        font-size: 9px;
-    }
-
-    .custom-plans strong h2{
-        top: 10px;
-        left: 21px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 27px;
-    }
-
-    .uptime{
-        top: 118px;
-        width: 264px;
-        height: 176px;
-    }
-
-    .uptime strong h2{
-        top: 10px;
-        left: 21px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 27px;
-    }
-
-    .uptime p{
-        top: 25px;
-        font-size: 9px;
-    }
-
-    .suport{
-        top: -203px;
-        left: 267px;
-        height: 166px;
-        width: 397px;
-    }
-
-    .suport strong h2{
-        top: 10px;
-        left: 21px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 27px;
-    }
-
-    .suport p{
-        top: 25px;
-        font-size: 9px;
-    }
-
-    .hdd{
-        top: -368px;
-        left: 667px;
-        height: 166px;
-    }
-
-    .hdd strong h2{
-        top: 10px;
-        left: 21px;
-        font-family: SFPro, Sans-serif;
-        font-style: normal;
-        font-size: 27px;
-    }
-
-    .hdd p{
-        top: 19px;
-        font-size: 9px;
-    }
-
-    .hdd{
-        width: 236px;
-    }
-
-    #hr-1{
-        top: -1305px;
-    }
-
-    .depoiments-1{
-        top: -2081px;
-        left: 125px;
-        width: 985px;
-        height: 201px;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 30px;
-        opacity: 1;
-        margin-bottom: 32px;
-    }
-
-    .depoiments-2{
-        top: -2081px;
-        left: 125px;
-        width: 985px;
-        height: 201px;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 30px;
-        opacity: 1;
-        margin-bottom: 32px;
-    }
-
-    .depoiments-3{
-        top: -2081px;
-        left: 125px;
-        width: 985px;
-        height: 201px;
-        background: #FFFFFF 0% 0% no-repeat padding-box;
-        border-radius: 30px;
-        opacity: 1;
-        margin-bottom: 32px;
-    }
 
 }
