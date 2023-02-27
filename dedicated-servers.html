@@ -244,8 +244,12 @@
                     
                     <img id="img-retangulo1" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
                     <img id="img-retangulo2" src="/static/img/home_page/infos/DASHBOARD COMPLETO.png" alt="">
-                    <img id="img-retangulo3" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
+                    <img style="margin-left: 17%;" id="img-retangulo3" src="/static/img/dedicated-servers/SERVIDORES COM PROCESSADORES PARA JOGOS COMPLETO.png" alt="">
+                    <img id="controle" src="/static/img/dedicated-servers/CONTROLE.png" alt="">
                     <img id="img-retangulo4" src="/static/img/home_page/infos/SUPORTE COMPLETA.png" alt="">
+                    <img id="balaoazul1" src="/static/img/home_page/infos/BALÃO AZUL.png" alt="">
+                    <img id="balaoazul2" src="/static/img/home_page/infos/BALÃO AZUL.png" alt="">
+                    <img id="balaocinza" src="/static/img/home_page/infos/BALÃO CINZA.png" alt="">
 
                     <h1 id="h1-retangulo1">PROTEÇÃO DDOS</h1>
                     <h1 id="h1-retangulo2">DASHBOARD</h1>
@@ -444,7 +448,7 @@
 
         }
 
-        function show_hide(id){
+    async function show_hide(id){
         if(id == 1){
             retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;
             img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'block';
@@ -460,11 +464,15 @@
             img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
             h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
             p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            controle = document.getElementById('controle').style.display = 'none';
 
             retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
             img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
             h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
             p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
+            balaocinza = document.getElementById('balaocinza').style.display = 'none';
         }
 
         if(id == 2){
@@ -482,11 +490,15 @@
             img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
             h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
             p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            controle = document.getElementById('controle').style.display = 'none';
             
             retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
             img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
             h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
             p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
+            balaocinza = document.getElementById('balaocinza').style.display = 'none';
         }
 
         if(id == 3){
@@ -506,11 +518,23 @@
             img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'block';
             h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'block';
             p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'block';
+            controle = document.getElementById('controle').style.display = 'block';
+
 
             retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
             img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
             h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
+            balaocinza = document.getElementById('balaocinza').style.display = 'none';
+
+            controle = document.getElementById('controle').style.animation = 'popUp 0.5s linear';
+            await sleep(500);
+            controle = document.getElementById('controle').style.animation = 'trhdEffect 10s infinite linear none';
+            
+            
+
+            
         }
 
         if(id == 4){
@@ -528,11 +552,22 @@
             img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
             h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
             p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
-            
+            controle = document.getElementById('controle').style.display = 'none';
+
             retangulo4 = document.getElementById('retangulo4').style.zIndex = 10;
             img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'block';
             h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'block';
             p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
+
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
+
+            await sleep(500);
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'block';
+            await sleep(500);
+            balaocinza = document.getElementById('balaocinza').style.display = 'block';
+            await sleep(500);
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'block';
+            
         }
     }
         

@@ -328,36 +328,45 @@
                     <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
                 </div>
                 <div  id="retangulo2" class="retangulo2" onclick="show_hide(2)">
-                    <h1>DASHBOARD</h1>
+                    <h1>INFRAESTRUTURA</h1>
                     <hr>
-                    <p>Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos e logs.</p>
+                    <p>Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.</p>
                 </div>
                 <div  id="retangulo3" class="retangulo3" onclick="show_hide(3)">
-                    <h1 id="h1-bloco3">HARDWARE DE ÚLTIMA GERAÇÃO</h1>
-                    <hr>
-                    <p id="p-bloco3">Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários.</p>
-                </div>
-                <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
                     <h1>SUPORTE</h1>
                     <hr>
                     <p>Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia.</p>
                 </div>
+                <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
+                    <h1>GARANTIA DE REEMBOLSO</h1>
+                    <hr>
+                    <p>Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço.</p>
+                </div>
                 <div class="info-content">
                     
                     <img id="img-retangulo1" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
-                    <img id="img-retangulo2" src="/static/img/home_page/infos/DASHBOARD COMPLETO.png" alt="">
-                    <img id="img-retangulo3" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
-                    <img id="img-retangulo4" src="/static/img/home_page/infos/SUPORTE COMPLETA.png" alt="">
+                    <img style="margin-top: 9%;" width="653" height="400" id="img-retangulo2" src="/static/img/rust/INFRAESTRUTURA.png" alt="">
+                    <img style="display: none;" id="img-retangulo3" src="/static/img/home_page/infos/SUPORTE COMPLETA.png" alt="">
+                    <img id="balaoazul1" src="/static/img/home_page/infos/BALÃO AZUL.png" alt="">
+                    <img id="balaoazul2" src="/static/img/home_page/infos/BALÃO AZUL.png" alt="">
+                    <img id="balaocinza" src="/static/img/home_page/infos/BALÃO CINZA.png" alt="">
+
+                    <img id="img-retangulo4" src="/static/img/rust/GARANTIA DE REEMBOLSO COMPLETA.png" alt="">
+                    <img id="robo1" src="/static/img/rust/animations/ROBO 1.png" alt="">
+                    <img id="robo2" src="/static/img/rust/animations/ROBO 2.png" alt="">
+                    <img id="setadir" src="/static/img/rust/animations/SETA DIREITA.png" alt="">
+                    <img id="setaesq" src="/static/img/rust/animations/SETA ESQUERDA.png" alt="">
+
 
                     <h1 id="h1-retangulo1">PROTEÇÃO DDOS</h1>
-                    <h1 id="h1-retangulo2">DASHBOARD</h1>
-                    <h1 id="h1-retangulo3">HARDWARE DE ÚLTIMA GERAÇÃO</h1>
-                    <h1 id="h1-retangulo4">SUPORTE</h1>
+                    <h1 id="h1-retangulo2">INFRAESTRUTURA</h1>
+                    <h1 id="h1-retangulo3">SUPORTE</h1>
+                    <h1 id="h1-retangulo4">GARANTIA DE REEMBOLSO</h1>
                     
                     <p id="p-retangulo1">Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. Também oferecemos planos de adicionais de Proteção DDoS disponíveis.</p>
-                    <p id="p-retangulo2">Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos e logs.</p>
-                    <p id="p-retangulo3">Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários.</p>
-                    <p id="p-retangulo4">Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia</p>
+                    <p id="p-retangulo2">Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.</p>
+                    <p id="p-retangulo3">Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia.</p>
+                    <p id="p-retangulo4">Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço.</p>
 
                 </div>
 
@@ -476,10 +485,153 @@
     
 </body>
     <script>
-
         function sleep(ms) {
             return new Promise(resolve => setTimeout(resolve, ms));
         }
+
+        
+        async function show_hide(id){
+        if(id == 1){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'block';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'block';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'block';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
+            balaocinza = document.getElementById('balaocinza').style.display = 'none';
+
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            robo1 = document.getElementById('robo1').style.display = 'none';
+            robo2 = document.getElementById('robo2').style.display = 'none';
+            setadir = document.getElementById('setadir').style.display = 'none';
+            setaesq = document.getElementById('setaesq').style.display = 'none';
+        }
+
+        if(id == 2){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 10;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'block';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'block';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'block';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
+            balaocinza = document.getElementById('balaocinza').style.display = 'none';
+            
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            robo1 = document.getElementById('robo1').style.display = 'none';
+            robo2 = document.getElementById('robo2').style.display = 'none';
+            setadir = document.getElementById('setadir').style.display = 'none';
+            setaesq = document.getElementById('setaesq').style.display = 'none';
+        }
+
+        if(id == 3){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 10;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'block';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'block';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'block';
+
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            robo1 = document.getElementById('robo1').style.display = 'none';
+            robo2 = document.getElementById('robo2').style.display = 'none';
+            setadir = document.getElementById('setadir').style.display = 'none';
+            setaesq = document.getElementById('setaesq').style.display = 'none';
+            robo1 = document.getElementById('robo1').style.animation = 'none';
+            robo2 = document.getElementById('robo2').style.animation = 'none';
+            setadir = document.getElementById('setadir').style.animation = 'none';
+            setaesq = document.getElementById('setaesq').style.animation = 'none';
+
+            await sleep(500);
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'block';
+            await sleep(500);
+            balaocinza = document.getElementById('balaocinza').style.display = 'block';
+            await sleep(500);
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'block';
+
+            
+        }
+
+        if(id == 4){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
+            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
+            balaocinza = document.getElementById('balaocinza').style.display = 'none';
+
+            balaoazul1 = document.getElementById('balaoazul1').style.animation = 'none';
+            balaoazul2 = document.getElementById('balaoazul2').style.animation = 'none';
+            balaocinza = document.getElementById('balaocinza').style.animation = 'none';
+            
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 10;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'block';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
+            
+
+            robo2 = document.getElementById('robo2').style.display = 'block';
+            robo2 = document.getElementById('robo2').style.animation = 'popUp 0.5s linear';
+            await sleep(500);
+            setaesq = document.getElementById('setaesq').style.display = 'block';
+            setaesq = document.getElementById('setaesq').style.animation = 'reveal 0.5s linear';
+            await sleep(500);
+            robo1 = document.getElementById('robo1').style.display = 'block';
+            robo1 = document.getElementById('robo1').style.animation = 'popUp 0.5s linear';
+            await sleep(500);
+            setadir = document.getElementById('setadir').style.display = 'block';
+            setadir = document.getElementById('setadir').style.animation = 'reveal 0.5s linear';
+            
+        }
+    }
+
 
         document.addEventListener("scroll", windowPosition);
 

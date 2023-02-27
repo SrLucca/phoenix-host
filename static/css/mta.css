@@ -1573,7 +1573,7 @@ body {
 }
 
 .retangulo2 p{
-    width: 418px;
+    width: 389px;
     height: 63px;
     position: inherit;
     left: 40px;
@@ -1630,6 +1630,33 @@ body {
     z-index: 100;
 }
 
+#balaoazul1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 208px;
+    top: 29px;
+    display: none;
+}
+
+#balaoazul2{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 143px;
+    left: 208px;
+    display: none;
+}
+
+#balaocinza{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 358px;
+    top: 94px;
+    display: none;
+}
+
 .retangulo4{
 
     position: relative;
@@ -1674,6 +1701,74 @@ body {
     top: 41px;
     font-family: SFPro, Sans-serif;
     font-size: 14px;
+}
+
+@keyframes popUp {
+
+    0%{
+        opacity: 0.3;
+        transform: scale(0.5);
+    }
+
+    50%{
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+
+    100%{
+        opacity: 0.7;
+        transform: scale(1);
+    }
+    
+}
+
+@keyframes reveal {
+    
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#robo1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0px;
+    left: 312px;
+    z-index: 10;
+    display: none;
+
+}
+
+#robo2{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 11px;
+    z-index: 10;
+    display: none;
+    
+}
+
+#setadir{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 143px;
+    top: 121px;
+    display: none;
+}
+
+#setaesq{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 132px;
+    display: none;
 }
 
 #see-infra{

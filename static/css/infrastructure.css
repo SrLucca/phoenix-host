@@ -24,7 +24,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 5746px;
+    height: 6035px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -1361,9 +1361,9 @@ body {
 
 .important-infos-1{
     position: relative;
+    top: -301px;
 
     margin-top: 125px;
-    margin-bottom: 200px;
 
     margin-left: auto;
     margin-right: auto;
@@ -1379,9 +1379,9 @@ body {
 
 .important-infos-2{
     position: relative;
+    top: -301px;
 
     margin-top: 125px;
-    margin-bottom: 200px;
 
     margin-left: auto;
     margin-right: auto;
@@ -1403,7 +1403,7 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 31px;
     opacity: 1;
-    top: 374px;
+    top: 79px;
     left: 278px;
     cursor: pointer;
     margin-bottom: 68px;
@@ -1428,7 +1428,7 @@ body {
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 31px;
     opacity: 1;
-    top: 180px;
+    top: -115px;
     left: 636px;
     cursor: pointer;
     margin-bottom: 68px;
@@ -2181,7 +2181,7 @@ body {
 
 #hr-1{
     position: relative;
-    top: -28px;
+    top: 148px;
     height: 30px;
     /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;

@@ -252,15 +252,35 @@
                     top: 358px;" src="static/img/rust/medalha-de-ouro (1).png" alt="BRONZE">
                     
                     <p style="color: #D1D1D1; left: 164px;">Servidor</p>
-                    <p style="top: 180px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;">Los Hermanos</p>
+                    <p style="top: 180px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;" id="serv1">Los Hermanos</p>
+                    <div class="balao1">
+                        <div class="bubble">
+                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
+                        </div>
+                        <div class="pointer"></div>
+                    </div>
                     <div class="barrinha-1">
                     </div>
+
                     <p style="top: 185px;left: 444px;font-weight: 700;word-spacing: -3px;font-size: 18px;">1664 Players</p>
-                    <p style="top: 273px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;">4FUN</p>
+                    <p style="top: 273px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;" id="serv2">4FUN</p>
+                    <div class="balao2">
+                        <div class="bubble">
+                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
+                        </div>
+                        <div class="pointer"></div>
+                    </div>
                     <div class="barrinha-2">
                     </div>
+
                     <p style="top: 279px;left: 444px;font-weight: 700;word-spacing: -3px;font-size: 18px;">1268 Players</p>
-                    <p style="top: 356px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;">GAME4FUN</p>
+                    <p style="top: 356px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;" id="serv3">GAME4FUN</p>
+                    <div class="balao3">
+                        <div class="bubble">
+                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
+                        </div>
+                        <div class="pointer"></div>
+                    </div>
                     <div class="barrinha-3">
                     </div>
                     <p style="top: 363px;left: 444px;font-weight: 700;word-spacing: -3px;font-size: 18px;">812 Players</p>
@@ -302,7 +322,56 @@
             -->
 
             <div class="infos">
+
+                <div id="retangulo1"  class="retangulo1" onclick="show_hide(1)">
+                    <h1>PROTEÇÃO DDOS</h1>
+                    <hr>
+                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
+                </div>
+                <div  id="retangulo2" class="retangulo2" onclick="show_hide(2)">
+                    <h1>INFRAESTRUTURA</h1>
+                    <hr>
+                    <p>Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.</p>
+                </div>
+                <div  id="retangulo3" class="retangulo3" onclick="show_hide(3)">
+                    <h1>REDE</h1>
+                    <hr>
+                    <p>Rede de alta performance e redundante para que possa proporcionar baixa latência e estabilidade de conexão aos servidores de FiveM.</p>
+                </div>
+                <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
+                    <h1>GARANTIA DE REEMBOLSO</h1>
+                    <hr>
+                    <p>Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço.</p>
+                </div>
                 <div class="info-content">
+                    
+                    <img id="img-retangulo1" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
+                    <img style="margin-top: 9%;" width="653" height="400" id="img-retangulo2" src="/static/img/rust/INFRAESTRUTURA.png" alt="">
+                    
+                    <img id="img-retangulo3" src="/static/img/fivem/REDE COMPLETA.png" alt="">
+                    <img id="planeta" src="/static/img/fivem/animation/PLANETA.png" alt="">
+                    <img id="steve" src="/static/img/fivem/animation/PERSONAGEM STEVE.png" alt="">
+                    <img id="rustman" src="/static/img/fivem/animation/PERSONAGEM RUST.png" alt="">
+                    <img id="carro" src="/static/img/fivem/animation/CARRO.png" alt="">
+                    <img id="pontos" src="/static/img/fivem/animation/PONTOS.png" alt="">
+                    <img id="ligacao" src="/static/img/fivem/animation/LIGAÇÃO.png" alt="">
+                    
+
+                    <img id="img-retangulo4" src="/static/img/rust/GARANTIA DE REEMBOLSO COMPLETA.png" alt="">
+                    <img id="robo1" src="/static/img/rust/animations/ROBO 1.png" alt="">
+                    <img id="robo2" src="/static/img/rust/animations/ROBO 2.png" alt="">
+                    <img id="setadir" src="/static/img/rust/animations/SETA DIREITA.png" alt="">
+                    <img id="setaesq" src="/static/img/rust/animations/SETA ESQUERDA.png" alt="">
+
+                    <h1 id="h1-retangulo1">PROTEÇÃO DDOS</h1>
+                    <h1 id="h1-retangulo2">INFRAESTRUTURA</h1>
+                    <h1 id="h1-retangulo3">REDE</h1>
+                    <h1 id="h1-retangulo4">GARANTIA DE REEMBOLSO</h1>
+                    
+                    <p id="p-retangulo1">Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. Também oferecemos planos de adicionais de Proteção DDoS disponíveis.</p>
+                    <p id="p-retangulo2">Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.</p>
+                    <p id="p-retangulo3">Rede de alta performance e redundante para que possa proporcionar baixa latência e estabilidade de conexão aos servidores de FiveM.</p>
+                    <p id="p-retangulo4">Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço.</p>
 
                 </div>
 
@@ -311,44 +380,6 @@
                         <strong><p>INFRAESTRUTURA COMPLETA</p></strong>
                         <img src="static/img/home_page/seta-direita.png" alt="SETA">
                     </a>
-                </div>
-            </div>
-            <div class="garantias">
-
-                <strong><h1>NÓS GARANTIMOS</h1></strong>
-                <p>It is a long established fact that a reader will be distracted by the readable content of<br> 
-                    a page when looking at its.when looking at its.when looking at its.</p>
-
-                <div class="high-perfomance">
-                    <strong><h2>ALTA<br>PERFORMANCE</h2></strong>
-                    <p>Contamos com servidores de última geração e alta performance. Sua aplicação sempre<br>
-                        funcionará o mais rápido possível.</p>
-                </div>
-
-                <div class="uptime">
-                    <strong><h2>99% DE<br>UPTIME</h2></strong>
-                    <p>Contamos com servidores de última<br>geração e alta performance. Sua<br>aplicação sempre
-                        funcionará.</p>
-                </div>
-
-                <div class="custom-plans">
-                    <strong><h2>PLANOS ADICIONAIS<br>DISPONÍVEIS</h2></strong>
-                    <p>Contamos com servidores de última geração e alta performance.<br>Sua aplicação sempre
-                        funcionará o mais rápido possível.</p>
-
-                </div>
-
-                <div class="suport">
-                    <strong><h2>SUPORTE<br>ESPECIALIZADO</h2></strong>
-                    <p>Contamos com servidores de última geração e alta performance.<br>Sua aplicação sempre
-                        funcionará o mais rápido possível.</p>
-
-                </div>
-
-                <div class="hdd">
-                    <strong><h2>MAIS DE<br>10TB</h2></strong>
-                    <p>Contamos com servidores de últimageração e<br>alta performance.Sua aplicação sempre
-                        funcionará<br>o mais rápido possível.</p>
                 </div>
             </div>
 
@@ -461,12 +492,166 @@
 
 <script>
 
+    function sleep(ms) {
+                return new Promise(resolve => setTimeout(resolve, ms));
+            }
+
+    async function show_hide(id){
+        if(id == 1){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'block';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'block';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'block';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            planeta = document.getElementById('planeta').style.display = 'none'
+            carro = document.getElementById('carro').style.display = 'none'
+            rustman = document.getElementById('rustman').style.display = 'none'
+            steve = document.getElementById('steve').style.display = 'none';
+            pontos = document.getElementById('pontos').style.display = 'none';
+            ligacao = document.getElementById('ligacao').style.display = 'none';
+
+
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            robo1 = document.getElementById('robo1').style.display = 'none';
+            robo2 = document.getElementById('robo2').style.display = 'none';
+            setadir = document.getElementById('setadir').style.display = 'none';
+            setaesq = document.getElementById('setaesq').style.display = 'none';
+        }
+
+        if(id == 2){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 10;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'block';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'block';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'block';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            planeta = document.getElementById('planeta').style.display = 'none'
+            carro = document.getElementById('carro').style.display = 'none'
+            rustman = document.getElementById('rustman').style.display = 'none'
+            steve = document.getElementById('steve').style.display = 'none';
+            pontos = document.getElementById('pontos').style.display = 'none';
+            ligacao = document.getElementById('ligacao').style.display = 'none';
+            
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            robo1 = document.getElementById('robo1').style.display = 'none';
+            robo2 = document.getElementById('robo2').style.display = 'none';
+            setadir = document.getElementById('setadir').style.display = 'none';
+            setaesq = document.getElementById('setaesq').style.display = 'none';
+        }
+
+        if(id == 3){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 10;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'block';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'block';
+            planeta = document.getElementById('planeta').style.display = 'block'
+
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
+            robo1 = document.getElementById('robo1').style.display = 'none';
+            robo2 = document.getElementById('robo2').style.display = 'none';
+            setadir = document.getElementById('setadir').style.display = 'none';
+            setaesq = document.getElementById('setaesq').style.display = 'none';
+
+            
+            await sleep(500);
+            carro = document.getElementById('carro').style.display = 'block'
+            carro = document.getElementById('carro').style.animation = 'popUp 0.5s linear';
+            await sleep(500);
+            rustman = document.getElementById('rustman').style.display = 'block'
+            rustman = document.getElementById('rustman').style.animation = 'popUp 0.5s linear';
+            await sleep(500);
+            steve = document.getElementById('steve').style.display = 'block';
+            steve = document.getElementById('steve').style.animation = 'popUp 0.5s linear';
+            await sleep(600);
+            pontos = document.getElementById('pontos').style.display = 'block';
+            pontos = document.getElementById('pontos').style.animation = 'reveal 0.5s linear';
+            await sleep(700);
+            ligacao = document.getElementById('ligacao').style.display = 'block';
+            ligacao = document.getElementById('ligacao').style.animation = 'reveal 0.5s linear';
+        }
+
+        if(id == 4){
+            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
+            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
+            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
+            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
+
+            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
+            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
+            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
+            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
+
+            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
+            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
+            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
+            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
+            planeta = document.getElementById('planeta').style.display = 'none'
+            carro = document.getElementById('carro').style.display = 'none'
+            rustman = document.getElementById('rustman').style.display = 'none'
+            steve = document.getElementById('steve').style.display = 'none';
+            pontos = document.getElementById('pontos').style.display = 'none';
+            ligacao = document.getElementById('ligacao').style.display = 'none';
+            
+            retangulo4 = document.getElementById('retangulo4').style.zIndex = 10;
+            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
+            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'block';
+            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
+            
+
+            robo2 = document.getElementById('robo2').style.display = 'block';
+            robo2 = document.getElementById('robo2').style.animation = 'popUp 0.5s linear';
+            await sleep(500);
+            setaesq = document.getElementById('setaesq').style.display = 'block';
+            setaesq = document.getElementById('setaesq').style.animation = 'reveal 0.5s linear';
+            await sleep(500);
+            robo1 = document.getElementById('robo1').style.display = 'block';
+            robo1 = document.getElementById('robo1').style.animation = 'popUp 0.5s linear';
+            await sleep(500);
+            setadir = document.getElementById('setadir').style.display = 'block';
+            setadir = document.getElementById('setadir').style.animation = 'reveal 0.5s linear';
+        }
+    }
 
     document.addEventListener("scroll", windowPosition);
 
     function windowPosition(event){
 
-        console.log(window.pageYOffset);
         if(window.pageYOffset >= 3279){
             
             document.getElementById('bloco').style.display = 'block';

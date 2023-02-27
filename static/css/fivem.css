@@ -1657,7 +1657,7 @@ body {
 }
 
 .retangulo2 p{
-    width: 418px;
+    width: 389px;
     height: 63px;
     position: inherit;
     left: 40px;
@@ -1712,6 +1712,64 @@ body {
     font-size: 14px;
 }
 
+#planeta{
+    position: absolute;
+    width: auto;
+    height: auto;
+    z-index: 5;
+    display: none;
+}
+
+#steve{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 207px;
+    left: 85px;
+    z-index: 10;
+    display: none;
+}
+
+#rustman{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 70px;
+    left: 326px;
+    z-index: 10;
+    display: none;
+}
+
+#carro{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 63px;
+    left: 48px;
+    z-index: 10;
+    display: none;
+}
+
+#pontos{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 93px;
+    left: 79px;
+    z-index: 8;
+    display: none;
+}
+
+#ligacao{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 86px;
+    left: 77px;
+    z-index: 7;
+    display: none;
+}
+
 .retangulo4{
 
     position: relative;
@@ -1756,6 +1814,74 @@ body {
     top: 41px;
     font-family: SFPro, Sans-serif;
     font-size: 14px;
+}
+
+@keyframes popUp {
+
+    0%{
+        opacity: 0.3;
+        transform: scale(0.5);
+    }
+
+    50%{
+        opacity: 0.5;
+        transform: scale(0.8);
+    }
+
+    100%{
+        opacity: 0.7;
+        transform: scale(1);
+    }
+    
+}
+
+@keyframes reveal {
+    
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+#robo1{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 0px;
+    left: 312px;
+    z-index: 10;
+    display: none;
+
+}
+
+#robo2{
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 11px;
+    z-index: 10;
+    display: none;
+    
+}
+
+#setadir{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 143px;
+    top: 121px;
+    display: none;
+}
+
+#setaesq{
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 132px;
+    display: none;
 }
 
 #see-infra{
