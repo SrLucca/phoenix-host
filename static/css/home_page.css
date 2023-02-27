@@ -368,6 +368,10 @@ body {
     opacity: 1;
 }
 
+#dedicatedBtn:hover{
+    cursor: pointer;
+}
+
 #dedicatedBtn a{
     position: inherit;
     top: 10px;
@@ -390,6 +394,297 @@ body {
     top: 10px;
     left: 98px;
 }
+
+@keyframes rangeOpacity {
+    
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+.balao{
+    position: absolute;
+    display: none;
+    top: -550px;
+    left: 257px;
+    animation: opacity 0.2s 1 ease-in;
+    animation-fill-mode: forwards;
+    opacity: 1;
+    z-index: 1000;
+    animation: rangeOpacity 0.3s forwards linear;
+}
+
+.balao:hover{
+    display: block;
+}
+
+.bubble {
+    height: 543px;
+    width: 356px;
+    /* min-width: 200px; */
+    background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
+    radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
+    margin: 0 auto;
+    border-radius: 29px;
+    margin-top: 50px;
+    font-size: 200px;
+    text-align: center;
+    z-index: 1000;
+    position: relative;
+    box-shadow: 4px 0px 3px 0px #000000;
+}
+
+.bubble{
+    text-decoration: none;
+}
+
+#outro a{
+    position: relative;
+    top: -126px;
+    left: -3px;
+}
+
+#outro a button{
+    position: relative;
+    border: solid 2px #FFFFFF;
+    border-radius: 25px;
+    height: 39px;
+    width: 111px;
+    background: transparent;
+    font-family: SFPro, sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+}
+
+#outro img {
+    position: relative;
+    height: 101px;
+    width: 178px;
+    top: -84px;
+    left: 8px;
+}
+
+#outro hr{
+    position: relative;
+    height: 2px;
+    background-color: #D1D1D1;
+    top: -132px;
+}
+
+#mta a{
+    position: relative;
+    top: -254px;
+    left: -3px;
+}
+
+#mta a button{
+    position: relative;
+    border: solid 2px #FFFFFF;
+    border-radius: 25px;
+    height: 39px;
+    width: 111px;
+    background: transparent;
+    font-family: SFPro, sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+}
+
+#mta img {
+    position: relative;
+    height: 101px;
+    width: 178px;
+    top: -211px;
+    left: 8px;
+}
+
+#mta hr{
+    position: relative;
+    height: 2px;
+    background-color: #D1D1D1;
+    top: -260px;
+}
+
+#mta a{
+    position: relative;
+    top: -254px;
+    left: -3px;
+}
+
+#mta a button{
+    position: relative;
+    border: solid 2px #FFFFFF;
+    border-radius: 25px;
+    height: 39px;
+    width: 111px;
+    background: transparent;
+    font-family: SFPro, sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+}
+
+#mta img {
+    position: relative;
+    height: 101px;
+    width: 178px;
+    top: -211px;
+    left: 8px;
+}
+
+#mta hr{
+    position: relative;
+    height: 2px;
+    background-color: #D1D1D1;
+    top: -260px;
+}
+
+#fivem{
+    position: inherit;
+    top: -132px;
+}
+
+#fivem a{
+    position: relative;
+    top: -254px;
+    left: -3px;
+}
+
+#fivem a button{
+    position: relative;
+    border: solid 2px #FFFFFF;
+    border-radius: 25px;
+    height: 39px;
+    width: 111px;
+    background: transparent;
+    font-family: SFPro, sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+}
+
+#fivem img {
+    position: relative;
+    height: 101px;
+    width: 178px;
+    top: -211px;
+    left: 8px;
+}
+
+#fivem hr{
+    position: relative;
+    height: 2px;
+    background-color: #D1D1D1;
+    top: -260px;
+}
+
+#minecraft{
+    position: inherit;
+    top: -261px;
+}
+
+#minecraft a{
+    position: relative;
+    top: -254px;
+    left: -3px;
+}
+
+#minecraft a button{
+    position: relative;
+    border: solid 2px #FFFFFF;
+    border-radius: 25px;
+    height: 39px;
+    width: 111px;
+    background: transparent;
+    font-family: SFPro, sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+}
+
+#minecraft img {
+    position: relative;
+    height: 101px;
+    width: 178px;
+    top: -211px;
+    left: 8px;
+}
+
+#minecraft hr{
+    position: relative;
+    height: 2px;
+    background-color: #D1D1D1;
+    top: -260px;
+}
+
+#rust{
+    position: inherit;
+    top: -397px;
+}
+
+#rust a{
+    position: relative;
+    top: -254px;
+    left: -3px;
+}
+
+#rust a button{
+    position: relative;
+    border: solid 2px #FFFFFF;
+    border-radius: 25px;
+    height: 39px;
+    width: 111px;
+    background: transparent;
+    font-family: SFPro, sans-serif;
+    color: #FFFFFF;
+    font-weight: 800;
+    font-size: 14px;
+    text-align: left;
+}
+
+#rust img {
+    position: relative;
+    height: 101px;
+    width: 178px;
+    top: -211px;
+    left: 8px;
+}
+
+#rust hr{
+    position: relative;
+    height: 2px;
+    background-color: #D1D1D1;
+    top: -260px;
+}
+
+
+#p-balao{
+    top: 12px;
+    font-size: 17px;
+    color: #F2F2F2;
+    font-weight: normal;
+    left: 20px;
+}
+
+#dedicatedBtn:hover{
+    background-color: #3870c8;
+    transition: 0.3s;
+}
+
+#dedicatedBtn:hover > .balao{
+    display: block;
+}
+
 
 .game-servers{
     position:  relative;
@@ -3116,6 +3411,7 @@ body {
         width: 12px;
     }
 
+    
     .game-servers{
         width: 230px;
         height: 224px;
