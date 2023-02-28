@@ -2082,6 +2082,10 @@ body {
     left: 164px;
 }
 
+.garantias-mobile{
+    display: none;
+}
+
 .garantias{
     position: relative;
     top: -891px;
@@ -3537,10 +3541,16 @@ display: none;
     /* styles for screens with max-width of 480px */
     .locations {
     top: 258px;
-    left: 10px;
+    left: auto !important;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .locations h1 {
@@ -3561,7 +3571,7 @@ display: none;
 }
 
 .coutry-1, .coutry-2 {
-    width: 514px;
+    width: 409px;
     left: 10px;
     margin-bottom: 20px;
 }
@@ -3584,7 +3594,7 @@ display: none;
     font-size: 24px;
     line-height: 30px;
     top: 12px;
-    left:  -79px;
+    left:  -26px;
     text-align: center;
 }
 
@@ -3592,7 +3602,7 @@ display: none;
     font-size: 24px;
     line-height: 30px;
     top: 12px;
-    left:  -16px;
+    left:  40px;
     text-align: center;
 }
 
@@ -3653,13 +3663,19 @@ display: none;
 .processor{
     position: relative;
     top: 282px;
-    left: 171px;
+    left: auto !important;
 
     width: 0;
     height: 552px;
 
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
 
@@ -3667,7 +3683,7 @@ display: none;
     font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 50px;
-    left: 5px;
+    left: -143px !important;
     top: 107px;
     position: inherit;
 
@@ -3686,7 +3702,7 @@ display: none;
     box-sizing: border-box;
 
     top: 130px;
-    left: 9px;
+    left: 45px;
     position: inherit;
     width: 411px;
 
@@ -3709,7 +3725,7 @@ display: none;
 
     width: 364px;
     height: 119px;
-    left: 9px;
+    left: 37px;
     top: 158px;
 
     /* UI Properties */
@@ -3767,7 +3783,7 @@ display: none;
     
     width: 364px;
     height: 119px;
-    left: 9px;
+    left: 37px;
     top: 187px;
 
     /* UI Properties */
@@ -3824,10 +3840,6 @@ display: none;
 .infos{
     top: 450px;
     display: none;
-}
-
-.garantias{
-    top: 400px;
 }
 
 #contador-str-1{
@@ -3917,6 +3929,7 @@ display: none;
     font-style: normal;
     text-align: center;
     color: #FFFFFF;
+    left: 21px;
 }
 
 .info1{
@@ -3928,6 +3941,8 @@ display: none;
     border-radius: 18px;
     top: 71px;
     margin-bottom: 38px;
+    left: 21px;
+
 }
 
 .info1 h1{
@@ -3938,6 +3953,7 @@ display: none;
     position: relative !important;
     top: 13px !important;
     color: black !important;
+    left: auto !important;
 
 }
 
@@ -3950,6 +3966,162 @@ display: none;
 
 }
 
+.info1-mobile{
+    position: inherit;
+    width: 384px;
+    height: 167px;  
+    top: 71px;
+    margin-bottom: 38px;
+    left: 21px;
+
+    --c: #FFFFFF; /* the border color */
+    --b: 2px;    /* the border thickness*/
+    --g: 5px;     /* the gap on hover */
+
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    cursor: pointer;    
+}
+
+.info1-mobile:hover {
+    --_i: 100%;
+    transition: .6s, background-size .6s .6s;
+    
+}
+
+.info1-mobile h1{
+    font-family: SFPro, sans-serif !important;
+    font-size: 33px !important;
+    font-style: normal !important;
+    text-align: center !important;
+    position: relative !important;
+    top: 13px !important;
+    color: #FFFFFF !important;
+    left: auto !important;
+
+}
+
+.info1-mobile p{
+    font-family: SFPro, sans-serif;
+    text-align: center;
+    width: 337px;
+    top: 35px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.info2-mobile{
+    position: inherit;
+    width: 197px;
+    height: 167px;
+    top: 71px;
+    margin-bottom: 38px;
+    align-self: flex-start;
+
+    opacity: 1;
+
+    --c: #FFFFFF; /* the border color */
+    --b: 2px;    /* the border thickness*/
+    --g: 5px;     /* the gap on hover */
+
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    cursor: pointer;    
+}
+
+.info2-mobile:hover {
+    --_i: 100%;
+    transition: .6s, background-size .6s .6s;
+    
+}
+
+.info2-mobile h1{
+    font-family: SFPro, sans-serif !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    text-align: center !important;
+    position: relative !important;
+    top: 13px !important;
+    color: #FFFFFF !important;
+    left: auto !important;
+
+}
+
+.info2-mobile p{
+    font-family: SFPro, sans-serif;
+    text-align: center;
+    width: 190px;
+    top: 28px;
+    position: relative;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+
+.info3-mobile{
+    position: inherit;
+    width: 197px;
+    height: 167px;
+    top: -134px;
+    left: 37px;
+    margin-bottom: 38px;
+    align-self: flex-end;
+
+    opacity: 1;
+
+    --c: #FFFFFF; /* the border color */
+    --b: 2px;    /* the border thickness*/
+    --g: 5px;     /* the gap on hover */
+
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    cursor: pointer;    
+}
+
+.info3-mobile:hover {
+    --_i: 100%;
+    transition: .6s, background-size .6s .6s;
+    
+}
+
+
+.info3-mobile h1{
+    font-family: SFPro, sans-serif !important;
+    font-size: 24px !important;
+    font-style: normal !important;
+    text-align: center !important;
+    position: relative !important;
+    top: 13px !important;
+    color: #FFFFFF !important;
+    left: auto !important;
+
+}
+
+.info3-mobile p{
+    font-family: SFPro, sans-serif;
+    text-align: center;
+    width: 190px;
+    top: 28px;
+    position: relative;
+    font-size: 13px;
+    color: #FFFFFF;
+
+}
+
 .info2{
     position: inherit;
     width: 384px;
@@ -3959,6 +4131,7 @@ display: none;
     border-radius: 18px;
     top: 71px;
     margin-bottom: 38px;
+    left: 21px;
 }
 
 .info2 h1{
@@ -3990,6 +4163,7 @@ display: none;
     border-radius: 18px;
     top: 71px;
     margin-bottom: 38px;
+    left: 21px;
 }
 
 .info3 h1{
@@ -4000,6 +4174,7 @@ display: none;
     position: relative !important;
     top: 13px !important;
     color: black !important;
+    left: auto !important;
 
 }
 
@@ -4009,7 +4184,7 @@ display: none;
     width: 337px;
     top: 35px;
     position: relative;
-
+    color: #FFFFFF;
 }
 
 .info4{
@@ -4019,7 +4194,8 @@ display: none;
     background-color: #FFFFFF;
     border: solid 1px #FFFFFF;
     border-radius: 18px;
-    top: 71px;
+    top: -136px;
+    left: 21px;
     margin-bottom: 38px;
 }
 
@@ -4031,6 +4207,7 @@ display: none;
     position: relative !important;
     top: 13px !important;
     color: black !important;
+    left: auto !important;
 
 }
 
@@ -4042,8 +4219,164 @@ display: none;
     position: relative;
 
 }
+
+.info4-mobile{
+    position: inherit;
+    width: 384px;
+    height: 167px;  
+    top: -130px;
+    margin-bottom: 38px;
+    left: 21px;
+
+    --c: #FFFFFF; /* the border color */
+    --b: 2px;    /* the border thickness*/
+    --g: 5px;     /* the gap on hover */
+
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    cursor: pointer;    
+}
+
+.info4-mobile:hover {
+    --_i: 100%;
+    transition: .6s, background-size .6s .6s;
+    
+}
+
+.info4-mobile h1{
+    font-family: SFPro, sans-serif !important;
+    font-size: 33px !important;
+    font-style: normal !important;
+    text-align: center !important;
+    position: relative !important;
+    top: 13px !important;
+    color: #FFFFFF !important;
+    left: auto !important;
+
+}
+
+.info4-mobile p{
+    font-family: SFPro, sans-serif;
+    text-align: center;
+    width: 337px;
+    top: 35px;
+    position: relative;
+    color: #FFFFFF;
+
+}
+
+.info5{
+    position: inherit;
+    width: 384px;
+    height: 167px;
+    background-color: #FFFFFF;
+    border: solid 1px #FFFFFF;
+    border-radius: 18px;
+    margin-bottom: 38px;
+    top: -136px;
+    left: 21px;
+}
+
+.info5 h1{
+    font-family: SFPro, sans-serif !important;
+    font-size: 33px !important;
+    font-style: normal !important;
+    text-align: center !important;
+    position: relative !important;
+    top: 13px !important;
+    color: black !important;
+
+}
+
+.info5 p{
+    font-family: SFPro, sans-serif;
+    text-align: center;
+    width: 337px;
+    top: 35px;
+    position: relative;
+
+}
+
+.info5-mobile{
+    position: inherit;
+    width: 384px;
+    height: 167px;  
+    top: -130px;
+    margin-bottom: 38px;
+    left: 21px;
+
+    --c: #FFFFFF; /* the border color */
+    --b: 2px;    /* the border thickness*/
+    --g: 5px;     /* the gap on hover */
+
+    padding: calc(var(--g) + var(--b));
+    --_g: #0000 25%,var(--c) 0;
+    background: 
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g))
+    var(--_i,200%) 0  /200% var(--_i,var(--b))  no-repeat,
+    conic-gradient(            at bottom var(--b) left  var(--b),var(--_g))
+    0   var(--_i,200%)/var(--_i,var(--b)) 200%  no-repeat;
+    cursor: pointer;    
+}
+
+.info5-mobile:hover {
+    --_i: 100%;
+    transition: .6s, background-size .6s .6s;
+    
+}
+
+.info5-mobile h1{
+    font-family: SFPro, sans-serif !important;
+    font-size: 33px !important;
+    font-style: normal !important;
+    text-align: center !important;
+    position: relative !important;
+    top: 13px !important;
+    color: #FFFFFF !important;
+    left: auto !important;
+
+}
+
+.info5-mobile p{
+    font-family: SFPro, sans-serif;
+    text-align: center;
+    width: 337px;
+    top: 35px;
+    position: relative;
+    color: #FFFFFF;
+}
+
+.garantias{
+    display: none;
+}
+
+.garantias-mobile{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 545px;
+    position: relative;
+}
+
+.garantias-mobile h1{
+    position: inherit;
+    font-family: SFPro, sans-serif;
+    text-align: center;
+    left: 21px;
+    color: #FFFFFF;
+}
+
+
 .discord{
-    top: 0px;
+    top: 1000px;
 }
 
 .questions{
