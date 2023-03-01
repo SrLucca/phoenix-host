@@ -1,10 +1,10 @@
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Heavy.otf);
+    src: url(/static/fonts/SF-Pro-Text-Heavy.ttf);
     font-family: SFPro;
 }
 
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Regular.otf);
+    src: url(/static/fonts/SF-Pro-Text-Regular.ttf);
     font-family: SFProRegular;
 }
 
@@ -138,6 +138,60 @@ body {
     height: 940px;
 }
 
+.show-plans{
+
+    position: relative;
+
+    /* Layout Properties */
+    top: -286px;
+    left: 208px;
+    width: 352px;
+    height: 138px;
+}
+
+#nuvem-2{
+    position: relative;
+    top: -16px;
+    left: -2px;
+}
+
+.show-btn{
+    position: relative;
+    top: -121px;
+    left: 17px;
+    width: 320px;
+    height: 60px;
+    background: 0% 0% no-repeat padding-box padding-box #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+}
+
+.show-btn a{
+    position: relative;
+    left: 27px;
+    width: 161px;
+    height: 37px;
+    top: 16px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3358A7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.show-btn img{
+    position: relative;
+    left: 111px !important;
+    top: 13px !important;
+    width: auto !important;
+    height: auto !important;
+}
 
 #paraquedas{
     position: inherit;
@@ -208,8 +262,6 @@ body {
     font-weight: 900;
     color: #F2F2F2;
     opacity: 1;
-    letter-spacing: -4px;
-    word-spacing: -8px;
     line-height: 84px;
 }
 
@@ -279,7 +331,7 @@ body {
 .click p{
     font-family: SFProRegular, Sans-serif;
     font-style: normal;
-    font-size: 17px;
+    font-size: 23px;
     text-align: left;
     color: #1C376B;
     opacity: 1;
@@ -292,11 +344,10 @@ body {
 
 .click img{
     position: inherit;
-    top: 16px;
     width: 34px;
     height: 18px;
     left: 395px;
-    top: -4px;
+    top: -9px;
 }
 
 .bloco-1{   
@@ -397,6 +448,12 @@ body {
     opacity: 1;
     top: 12px;
     left: 14px;;
+}
+
+.button-1 img{
+    position: inherit;
+    top: -5px;
+    left: 137px;
 }
 
 @keyframes opacity {
@@ -564,6 +621,12 @@ body {
     left: 14px;;
 }
 
+.button-2 img{
+    position: inherit;
+    top: -5px;
+    left: 137px;
+}
+
 .bloco-3{   
 
 
@@ -670,6 +733,12 @@ body {
     left: 14px;;
 }
 
+.button-3 img{
+    position: inherit;
+    top: -5px;
+    left: 137px;
+}
+
 .bloco-3:hover > .balao{
 
     display: block;
@@ -773,6 +842,12 @@ body {
     opacity: 1;
     top: 12px;
     left: 14px;;
+}
+
+.button-4 img{
+    position: inherit;
+    top: -5px;
+    left: 137px;
 }
 
 .bloco-4:hover > .balao{
@@ -881,6 +956,12 @@ body {
     left: 14px;;
 }
 
+.button-5 img{
+    position: inherit;
+    top: -5px;
+    left: 137px;
+}
+
 .bloco-5:hover > .balao{
 
     display: block;
@@ -987,6 +1068,12 @@ body {
     left: 14px;;
 }
 
+.button-6 img{
+    position: inherit;
+    top: -5px;
+    left: 137px;
+}
+
 .bloco-6:hover > .balao{
 
     display: block;
@@ -1012,13 +1099,20 @@ body {
     font-weight: 900;
     font-family: SFProRegular, Sans-serif;
     font-style: normal;
-    font-size: 17px;
+    font-size: 23px;
     text-align: left;
     color: #F2F2F2;
     opacity: 1;
     top: 16px;
     left: 36px;
 
+}
+
+.additional-packs img{
+    top: -8px;
+    position: inherit;
+    /* text-align: end; */
+    left: 499px;
 }
 
 .ranking{

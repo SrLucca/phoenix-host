@@ -1,10 +1,10 @@
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Heavy.otf);
+    src: url(/static/fonts/SF-Pro-Text-Heavy.ttf);
     font-family: SFPro;
 }
 
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Regular.otf);
+    src: url(/static/fonts/SF-Pro-Text-Regular.ttf);
     font-family: SFProRegular;
 }
 

@@ -1,10 +1,10 @@
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Heavy.otf);
+    src: url(/static/fonts/SF-Pro-Text-Heavy.ttf);
     font-family: SFPro;
 }
 
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Regular.otf);
+    src: url(/static/fonts/SF-Pro-Text-Regular.ttf);
     font-family: SFProRegular;
 }
 
@@ -338,7 +338,7 @@ body {
     background-color: rgb(37, 150, 190);
     width: 42px;
     height: 17px;
-    top: -272px;
+    top: -372px;
     left: 86px;
     opacity: 0.5;
 
@@ -772,7 +772,7 @@ body {
     height: 11px;
     top: -34px;
     width: 329px;
-    left: 34
+    left: 34px;
 }
 
 .game-servers p{
@@ -797,7 +797,7 @@ body {
     top: 1px;
 
     position: inherit;
-    font-family: SFProRegularRegular, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 21px;
     
@@ -1621,6 +1621,7 @@ body {
     top: -216px;
     z-index: 1;
     margin-inline-end: 576px;
+    width: 507px;
 
 }
 
@@ -3118,6 +3119,7 @@ body {
 .contract-button-2 a{
     position: inherit;
     text-decoration: none;
+    left: 13px;
 }
 
 .contract-button-2 a p{
@@ -3143,7 +3145,7 @@ body {
 .contract-button-2 a img{
     position: inherit;
     top: -5px;
-    left: 244px;
+    left: 216px;
 
     width: 21px;
     height: 19px;

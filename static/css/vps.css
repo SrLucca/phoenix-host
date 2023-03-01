@@ -1,10 +1,10 @@
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Heavy.otf);
+    src: url(/static/fonts/SF-Pro-Text-Heavy.ttf);
     font-family: SFPro;
 }
 
 @font-face{
-    src: url(/static/fonts/SF-Pro-Text-Regular.otf);
+    src: url(/static/fonts/SF-Pro-Text-Regular.ttf);
     font-family: SFProRegular;
 }
 
@@ -29,7 +29,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 8410px;
+    height: 8554px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -138,6 +138,61 @@ body {
     height: 901px;
 }
 
+.show-plans{
+
+    position: relative;
+
+    /* Layout Properties */
+    top: -286px;
+    left: 208px;
+    width: 352px;
+    height: 138px;
+}
+
+#nuvem-2{
+    position: relative;
+    top: -16px;
+    left: -2px;
+}
+
+.show-btn{
+    position: relative;
+    top: -121px;
+    left: 17px;
+    width: 320px;
+    height: 60px;
+    background: 0% 0% no-repeat padding-box padding-box #FFFFFF;
+    border-radius: 41px;
+    opacity: 1;
+}
+
+.show-btn a{
+    position: relative;
+    left: 27px;
+    width: 161px;
+    height: 37px;
+    top: 16px;
+
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    
+    
+    text-align: left;
+    letter-spacing: 0px;
+    color: #3358A7;
+    opacity: 1;
+    text-decoration: none;
+}
+
+.show-btn img{
+    position: relative;
+    left: 111px !important;
+    top: 13px !important;
+    width: auto !important;
+    height: auto !important;
+}
+
 
 #paraquedas{
     position: inherit;
@@ -208,8 +263,6 @@ body {
     font-weight: 900;
     color: #F2F2F2;
     opacity: 1;
-    letter-spacing: -4px;
-    word-spacing: -8px;
     line-height: 78px;
 }
 
@@ -246,7 +299,7 @@ body {
     color: #F2F2F2;
     opacity: 1;
     letter-spacing: -1px;
-    word-spacing: -8px;
+    
 }
 
 .plans p{
@@ -279,7 +332,7 @@ body {
 .click p{
     font-family: SFProRegular, Sans-serif;
     font-style: normal;
-    font-size: 17px;
+    font-size: 23px;
     text-align: left;
     color: #1C376B;
     opacity: 1;
@@ -292,11 +345,10 @@ body {
 
 .click img{
     position: inherit;
-    top: 16px;
     width: 34px;
     height: 18px;
     left: 395px;
-    top: -4px;
+    top: -9px;
 }
 
 .tabela{
@@ -762,7 +814,7 @@ body {
     position: absolute;
     width: auto;
     height: auto;
-    top: 91px;
+    top: 32px;
     left: 882px;
 
     animation: shine 2s infinite linear;
@@ -772,7 +824,7 @@ body {
     position: absolute;
     width: auto;
     height: auto;
-    top: 157px;
+    top: 97px;
     left: 1137px;
 
     animation: shine 2s infinite linear;
@@ -1408,6 +1460,7 @@ body {
 
     color: #F2F2F2;
     opacity: 1;
+    width: 719px;
 }
 
 .custom-plans{
@@ -1610,6 +1663,7 @@ body {
 
     color: #F2F2F2;
     opacity: 1;
+    width: 536px;
 }
 
 .hdd{
@@ -1678,6 +1732,7 @@ body {
 
     color: #F2F2F2;
     opacity: 1;
+    width: 424px;
 }
 
 #hr-1{
