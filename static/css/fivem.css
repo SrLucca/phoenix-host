@@ -1141,6 +1141,7 @@ body {
     font-size: 18px;
     color: #F2F2F2;
     opacity: 1;
+    width: 404px;
 }
 
 .in-time h1{
@@ -1323,6 +1324,7 @@ body {
     opacity: 1;
 
     word-spacing: -2px;
+    width: 500px;
 
 }
 
@@ -1338,13 +1340,15 @@ body {
     font-size: 18px;
     color: #F2F2F2;
     opacity: 1;
+    width: 500px;
+    height: 100px;
 }
 
 .control-ddos img{
     position: inherit;
     width: 570px;
     height: 395px;
-    top: -91px;
+    top: -225px;
     left: 700px;
 
     
@@ -1363,7 +1367,7 @@ body {
 
 #notebook{
     position: absolute;
-    top: 342px;
+    top: 71px;
     left: 671px;
     width: auto;
     height: auto;
@@ -1371,7 +1375,7 @@ body {
 
 #check{
     position: absolute;
-    top: 364px;
+    top: 91px;
     left: 769px;
     width: auto;
     height: auto;
@@ -1392,6 +1396,7 @@ body {
     transform: scale(1, -1);
     transform: rotateX(180deg);
     transform: rotateY(180deg);
+
 }
 
 .control-ddos-2 h1{
@@ -1459,7 +1464,7 @@ body {
     position: absolute;
     width: 167px;
     height: 132px;
-    top: 217px;
+    top: 237px;
     left: 962px;
 }
 
@@ -1467,7 +1472,7 @@ body {
     position: absolute;
     width: auto;
     height: auto;
-    top: 257px;
+    top: 276px;
     left: 1028px;
 
     display: none;

@@ -185,6 +185,7 @@ body {
     opacity: 1;
 
     margin-inline-end: -11em;
+    width: 613px;
 }
 
 
@@ -306,7 +307,7 @@ body {
     top: -13px;
 
     position: inherit;
-    font-family: SFProRegular, Sans-serif;
+    font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 40px;
     
@@ -395,7 +396,7 @@ body {
     top: 10px;
     left: 13px;
 
-    font-family: SFProRegular, Sans-serif;
+    font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 21px;
     
@@ -779,7 +780,7 @@ body {
     top: -13px;
 
     position: inherit;
-    font-family: SFProRegular, Sans-serif;
+    font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 40px;
     
@@ -812,7 +813,7 @@ body {
 #dedicatedBtn-2{
     position: inherit;
     left: 30px;
-    top: 10px;
+    top: 33px;
     height: 43px;
     width: 272px;
 
@@ -827,7 +828,7 @@ body {
     top: 10px;
     left: 13px;
 
-    font-family: SFProRegular, Sans-serif;
+    font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 21px;
     
@@ -930,7 +931,7 @@ body {
     top: -277px;
 
     position: inherit;
-    font-family: SFProRegular, Sans-serif;
+    font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 40px;
     
@@ -963,7 +964,7 @@ body {
 #dedicatedBtn-3{
     position: inherit;
     left: 30px;
-    top: -255px;
+    top: -234px;
     height: 43px;
     width: 272px;
 
@@ -1039,7 +1040,7 @@ body {
     letter-spacing: 0px;
     color: #FFFFFF;
     opacity: 1;
-    width: 411px;
+    width: 391px;
     word-break: break-all;
 
 }
@@ -1216,6 +1217,8 @@ body {
     margin-inline-end: -363px;
     line-height: 67px;
     
+    width: 549px;
+
 }
 
 .processor p{
@@ -1227,7 +1230,7 @@ body {
     top: 130px;
     left: 9px;
     position: inherit;
-    width: 411px;
+    width: 360px;
 
     text-align: left;
     font-family: SFProRegular, Sans-serif;
@@ -1351,7 +1354,7 @@ body {
 
 .block-2 p{
     position: inherit;
-    top: -57px;
+    top: -75px;
     left: 129px;
     
 
@@ -2197,6 +2200,7 @@ body {
 
     color: #F2F2F2;
     opacity: 1;
+    width: 727px;
 }
 
 .custom-plans{
@@ -2399,6 +2403,7 @@ body {
 
     color: #F2F2F2;
     opacity: 1;
+    width: 531px;
 }
 
 .hdd{
@@ -2467,6 +2472,7 @@ body {
 
     color: #F2F2F2;
     opacity: 1;
+    width: 423px;
 }
 
 #hr-1{

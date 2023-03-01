@@ -583,6 +583,7 @@ body {
     font-size: 18px;
     color: #F2F2F2;
     opacity: 1;
+    width: 401px;
 }
 
 .in-time h1{
@@ -851,7 +852,7 @@ body {
 
 #notebook{
     position: absolute;
-    top: 375px;
+    top: 294px;
     left: 726px;
     width: auto;
     height: auto;
@@ -859,7 +860,7 @@ body {
 
 #check{
     position: absolute;
-    top: 396px;
+    top: 316px;
     left: 818px;
     width: auto;
     height: auto;
