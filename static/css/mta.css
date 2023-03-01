@@ -1,6 +1,11 @@
 @font-face{
-    src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+    src: url(/static/fonts/SF-Pro-Text-Heavy.otf);
     font-family: SFPro;
+}
+
+@font-face{
+    src: url(/static/fonts/SF-Pro-Text-Regular.otf);
+    font-family: SFProRegular;
 }
 
 * {
@@ -209,7 +214,7 @@ body {
 }
 
 .top-page-rust p{
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 19px;
     text-align: left;
@@ -245,7 +250,7 @@ body {
 }
 
 .plans p{
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18.70px;
     text-align: center;
@@ -272,7 +277,7 @@ body {
 }
 
 .click p{
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 17px;
     text-align: left;
@@ -312,7 +317,7 @@ body {
     top: 50px;
     left: 35px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 19px;
     text-align: left;
@@ -360,7 +365,7 @@ body {
     position: inherit;
     font-weight: normal;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 20px;
     text-align: left;
@@ -384,7 +389,7 @@ body {
 .button-1 p{
     position: inherit;
     font-weight: 900; 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 14px;
     text-align: left;
@@ -436,6 +441,7 @@ body {
     color: #F2F2F2;
     font-weight: normal;
     left: 20px;
+    font-family: SFProRegular, sans-serif;
 }
 
 .pointer {
@@ -476,7 +482,7 @@ body {
     top: 50px;
     left: 35px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 19px;
     text-align: left;
@@ -524,7 +530,7 @@ body {
     position: inherit;
     font-weight: normal;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 20px;
     text-align: left;
@@ -548,7 +554,7 @@ body {
 .button-2 p{
     position: inherit;
     font-weight: 900; 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 14px;
     text-align: left;
@@ -582,7 +588,7 @@ body {
     top: 50px;
     left: 35px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 19px;
     text-align: left;
@@ -630,7 +636,7 @@ body {
     position: inherit;
     font-weight: normal;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 20px;
     text-align: left;
@@ -654,7 +660,7 @@ body {
 .button-3 p{
     position: inherit;
     font-weight: 900; 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 14px;
     text-align: left;
@@ -687,7 +693,7 @@ body {
     top: 50px;
     left: 35px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 19px;
     text-align: left;
@@ -735,7 +741,7 @@ body {
     position: inherit;
     font-weight: normal;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 20px;
     text-align: left;
@@ -759,7 +765,7 @@ body {
 .button-4 p{
     position: inherit;
     font-weight: 900; 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 14px;
     text-align: left;
@@ -793,7 +799,7 @@ body {
     top: 50px;
     left: 35px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 19px;
     text-align: left;
@@ -841,7 +847,7 @@ body {
     position: inherit;
     font-weight: normal;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 20px;
     text-align: left;
@@ -865,7 +871,7 @@ body {
 .button-5 p{
     position: inherit;
     font-weight: 900; 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 14px;
     text-align: left;
@@ -899,7 +905,7 @@ body {
     top: 50px;
     left: 35px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 19px;
     text-align: left;
@@ -947,7 +953,7 @@ body {
     position: inherit;
     font-weight: normal;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 20px;
     text-align: left;
@@ -971,7 +977,7 @@ body {
 .button-6 p{
     position: inherit;
     font-weight: 900; 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 14px;
     text-align: left;
@@ -1004,7 +1010,7 @@ body {
 .additional-packs P{
     position: inherit;
     font-weight: 900;
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 17px;
     text-align: left;
@@ -1066,7 +1072,7 @@ body {
 
     text-align: left;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #F2F2F2;
@@ -1095,7 +1101,7 @@ body {
     top: 113px;
 
     font-weight: 500;
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     color: #262624;
     opacity: 1;
@@ -1263,7 +1269,7 @@ body {
 
     text-align: left;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #F2F2F2;
@@ -1321,7 +1327,7 @@ body {
     width: 379px;
     text-align: left;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18px;
     color: #F2F2F2;
@@ -1480,7 +1486,7 @@ body {
 
 .info-content p{
     position: inherit;
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-size: 17px;
     top: 663px;
     left: 265px;
@@ -1531,7 +1537,7 @@ body {
     position: inherit;
     left: 40px;
     top: 41px;
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-size: 14px;
 }
 
@@ -1578,7 +1584,7 @@ body {
     position: inherit;
     left: 40px;
     top: 41px;
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-size: 14px;
 }
 
@@ -1625,7 +1631,7 @@ body {
     position: inherit;
     left: 40px;
     top: 41px;
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-size: 14px;
     z-index: 100;
 }
@@ -1699,7 +1705,7 @@ body {
     position: inherit;
     left: 40px;
     top: 41px;
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-size: 14px;
 }
 
@@ -1802,7 +1808,7 @@ body {
     left: -20px;
     top: 16px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 21px;
 
@@ -1876,7 +1882,7 @@ body {
     left: 91px;
     top: 309px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18px;
 
@@ -1991,7 +1997,7 @@ body {
     left: 231px;
     top: -105px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18px;
 
@@ -2069,7 +2075,7 @@ body {
     left: 231px;
     top: -105px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18px;
 
@@ -2147,7 +2153,7 @@ body {
     left: 231px;
     top: -105px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 18px;
 
@@ -2254,13 +2260,13 @@ body {
     
     left: 200px;
     top: 121px;
-    width: 248px;
+    width: 265px;
 
 
     text-align: left;
     line-height: 38px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 23px;
     
@@ -2298,13 +2304,13 @@ body {
     
     left: 200px;
     top: 121px;
-    width: 248px;
+    width: 265px;
 
 
     text-align: left;
     line-height: 38px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 23px;
     
@@ -2342,13 +2348,13 @@ body {
     
     left: 200px;
     top: 121px;
-    width: 248px;
+    width: 265px;
 
 
     text-align: left;
     line-height: 38px;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 23px;
     
@@ -2388,7 +2394,7 @@ body {
 
     text-align: left;
 
-    font-family: SFPro, Sans-serif;
+    font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 22px;
     
