@@ -7,6 +7,8 @@
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
     <link rel="stylesheet" href="static/css/home_page.css">
     <link rel="icon" href="static/img/home_page/LOGO VERTICAL BRANCO.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     <title>Landing page</title>
 </head>
 <body>
@@ -15,578 +17,214 @@
 
     <div class="base">
         <div class="gradient">
-            <div class="header">
-                <div class="header-content">
-                    <img id="header-logo" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset="">
-                    <a href="">Serviços</a>
-                    <a href="">Infraestrutura</a>
-                    <a href="">Planos</a>
-                    <a href="">Jogos</a>
-                    <a href="">Sobre</a>
-                    <img id="carrinho" src="static/img/home_page/Icone de carrinho home.png" alt="CARRINHO DE COMPRA" srcset="">
+        <nav class="nav nav-pills nav-fill header header-content pt-5">
+                        <li class="nav-item float-start">
+                            <a href=""><img id="header-logo" class="ps-5 pe-5" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset=""></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Infraestrutura</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Planos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Jogos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <img id="carrinho"  src="static/img/home_page/Icone de carrinho home.png" alt="CARRINHO DE COMPRA" srcset="">
+                        </li>
+                        <li class="nav-item loginBtn pe-5">
+                            <a class="tex-center" href="">Login</a>
+                        </li>
+                    </ul>
                     
-                    <div class="loginBtn">
-                        <a href="">Login</a>
-                    </div>
-                </div>
+        </nav>
+
+            <img class="mb-5" src="static/img/home_page/Nuvem pequena.png" value="15" alt="nuvem" id="nuvem-1" srcset="">
+
+            <div class="container top-page pt-5 mt-5 pb-5 mb-5">
+                <img class="float-end pb-5" src="/static/img/home_page/Servidor.png" alt="">
+                <h1 class="text-md-start pt-5">HOSPEDAGEM DE<br>SERVIDORES DE JOGOS</h1>
+                <p class="text-md-start">Escolha o jogo que deseja hospedar, um de nossos planos acessíveis e vamos pro game!</p>
             </div>
 
-            <img src="static/img/home_page/Nuvem pequena.png" value="15" alt="nuvem" id="nuvem-1" srcset="">
 
-            <div class="top-page">
-                <h1>HOSPEDAGEM DE SERVIDORES DE JOGOS</h1>
-                <p>Escolha o jogo que deseja hospedar, um de nossos planos acessíveis e vamos pro game!</p>
-            </div>
-
-            <img id="servidor" src="/static/img/home_page/Servidor.png" alt="">
-
-            <div class="show-plans">
-                <img src="static/img/home_page/Nuvem pequena-1.png" id="nuvem-2" alt="">
-                <div class="show-btn">
-                    <a href="">VER JOGOS</a>
-                    <img src="static/img/uso-geral/setaazul.png" alt="">
-                </div>
-            </div>
-
-            <div class="dedicated-servers">
-                <img src="static/img/home_page/Servidor-1.png" alt="">
-                <div id="rectangle-1">
-                </div>
-                <p>
-                    SERVIDORES<br>DEDICADOS
-                </p>
-                <div style="top: -405px;" class="luzinha">
-
-                </div>
-
-                <div style="top: -438px;
-                animation: glowing 800ms infinite;
-                left: 45px;" class="luzinha">
-
-                </div>
-
-                <div style="    left: 129px;
-                top: -310px;
-                animation: glowing 1000ms infinite" class="luzinha">
-
-                </div>
-
-                <div style="    left: 45px;
-                top: -265px;" class="luzinha">
-
-                </div>
-
-                <div style="top:-264px; animation: glowing 1100ms infinite;" class="luzinha">
-
-                </div>
-
-                <p id="p-2">
-                    Ideal para grandes projetos pois oferece recursos garantidos e o melhor desempenho.
-                </p>
-
-
-                <div style="top: -56px;" id="dedicatedBtn">
-                    <div class="balao">
-                        <div class="bubble">
-                            <div id="outro">
-                                <a href=""><button> OUTRO</button></a>
-                                <img src="static/img/dedicated-servers/PRINCIPAL.png" alt="">
-                                <hr>
+            <div class="container-fluid cards text-center pt-5 mt-5 pb-5">
+                <div class="row align-items-center">
+                    <div class="col-4">
+                
+                        <div class="card dedicated-servers">
+                            <img src="static/img/home_page/Servidor-1.png" alt="">
+                            <div class="text-start" id="rectangle-1">
                             </div>
-                            <div id="mta">
-                                <a href=""><button> MTA:SA</button></a>
-                                <img src="static/img/mta/Completo.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="fivem">
-                                <a href=""><button> FIVEM</button></a>
-                                <img src="static/img/fivem/FIVEM completa.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="minecraft">
-                                <a href=""><button> minecraft</button></a>
-                                <img src="static/img/minecraft/Completo modelo 2.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="rust">
-                                <a href=""><button> rust</button></a>
-                                <img src="static/img/rust/Arvore + chão.png" alt="">
-                                <hr>
+                            <p>
+                                SERVIDORES DEDICADOS
+                            </p>
+
+                            <p id="p-2">
+                                Ideal para grandes projetos pois oferece recursos garantidos e o melhor desempenho.
+                            </p>
+
+
+                            <div id="dedicatedBtn">
+                                <div class="balao">
+                                    <div class="bubble">
+                                        <div id="outro">
+                                            <a href=""><button> OUTRO</button></a>
+                                            <img src="static/img/dedicated-servers/PRINCIPAL.png" alt="">
+                                            <hr>
+                                        </div>
+                                        <div id="mta">
+                                            <a href=""><button> MTA:SA</button></a>
+                                            <img src="static/img/mta/Completo.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="fivem">
+                                            <a href=""><button> FIVEM</button></a>
+                                            <img src="static/img/fivem/FIVEM completa.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="minecraft">
+                                            <a href=""><button> minecraft</button></a>
+                                            <img src="static/img/minecraft/Completo modelo 2.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="rust">
+                                            <a href=""><button> rust</button></a>
+                                            <img src="static/img/rust/Arvore + chão.png" alt="">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="text-start ps-2" href="">VER JOGOS</a>
+                                <img style="width: auto;" src="static/img/home_page/seta-direita.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <a href="">VER JOGOS</a>
-                    <img src="static/img/home_page/seta-direita.png" alt="">
-                </div>
-            </div>
 
-            <div class="game-servers">
-                <img src="static/img/home_page/Boneco Rust.png" alt="">
-                <div id="rectangle-2">
-                </div>
-                <p>
-                    HOSPEDAGEM DE JOGOS
-                </p>
+                    <div class="col-4">
+                        <div class="card dedicated-servers">
+                            <img src="static/img/home_page/Servidor-1.png" alt="">
+                            <div class="text-start" id="rectangle-1">
+                            </div>
+                            <p>
+                                SERVIDORES DEDICADOS
+                            </p>
 
-                <p id="p-3">
-                    Ideal para projetos que estão iniciando pois tem um baixo custo e é fácil de manusear.
-                </p>
+                            <p id="p-2">
+                                Ideal para grandes projetos pois oferece recursos garantidos e o melhor desempenho.
+                            </p>
 
-                <div id="dedicatedBtn-2">
-                    <div class="balao">
-                        <div class="bubble">
-                            <div id="outro">
-                                <a href=""><button> OUTRO</button></a>
-                                <img src="static/img/dedicated-servers/PRINCIPAL.png" alt="">
-                                <hr>
-                            </div>
-                            <div id="mta">
-                                <a href=""><button> MTA:SA</button></a>
-                                <img src="static/img/mta/Completo.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="fivem">
-                                <a href=""><button> FIVEM</button></a>
-                                <img src="static/img/fivem/FIVEM completa.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="minecraft">
-                                <a href=""><button> minecraft</button></a>
-                                <img src="static/img/minecraft/Completo modelo 2.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="rust">
-                                <a href=""><button> rust</button></a>
-                                <img src="static/img/rust/Arvore + chão.png" alt="">
-                                <hr>
+
+                            <div id="dedicatedBtn">
+                                <div class="balao">
+                                    <div class="bubble">
+                                        <div id="outro">
+                                            <a href=""><button> OUTRO</button></a>
+                                            <img src="static/img/dedicated-servers/PRINCIPAL.png" alt="">
+                                            <hr>
+                                        </div>
+                                        <div id="mta">
+                                            <a href=""><button> MTA:SA</button></a>
+                                            <img src="static/img/mta/Completo.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="fivem">
+                                            <a href=""><button> FIVEM</button></a>
+                                            <img src="static/img/fivem/FIVEM completa.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="minecraft">
+                                            <a href=""><button> minecraft</button></a>
+                                            <img src="static/img/minecraft/Completo modelo 2.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="rust">
+                                            <a href=""><button> rust</button></a>
+                                            <img src="static/img/rust/Arvore + chão.png" alt="">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="text-start ps-2" href="">VER JOGOS</a>
+                                <img style="width: auto;" src="static/img/home_page/seta-direita.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <a href="">VER JOGOS</a>
-                    <img src="static/img/home_page/seta-direita.png" alt="">
-                </div>
-            </div>
 
-            <div class="vps-servers">
-                <img src="static/img/home_page/SERVIDOR 2.png" alt="">
-                <div class="box glowing">
+                    <div class="col-4">
+                        <div class="card dedicated-servers">
+                            <img src="static/img/home_page/Servidor-1.png" alt="">
+                            <div class="text-start" id="rectangle-1">
+                            </div>
+                            <p>
+                                SERVIDORES DEDICADOS
+                            </p>
 
-                </div>
-                <div id="rectangle-3">
-                </div>
-                <p>
-                    SERVIDORES<br>VPS
-                </p>
+                            <p id="p-2">
+                                Ideal para grandes projetos pois oferece recursos garantidos e o melhor desempenho.
+                            </p>
 
-                <p id="p-4">
-                    Ideal para projetos médios e grandes pois oferecem maior liberdade e desempenho.
-                </p>
 
-                <div id="dedicatedBtn-3">
-                    <div class="balao">
-                        <div class="bubble">
-                            <div id="outro">
-                                <a href=""><button> OUTRO</button></a>
-                                <img src="static/img/dedicated-servers/PRINCIPAL.png" alt="">
-                                <hr>
-                            </div>
-                            <div id="mta">
-                                <a href=""><button> MTA:SA</button></a>
-                                <img src="static/img/mta/Completo.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="fivem">
-                                <a href=""><button> FIVEM</button></a>
-                                <img src="static/img/fivem/FIVEM completa.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="minecraft">
-                                <a href=""><button> minecraft</button></a>
-                                <img src="static/img/minecraft/Completo modelo 2.png" alt="">
-                                <hr>
-                            </div>
-    
-                            <div id="rust">
-                                <a href=""><button> rust</button></a>
-                                <img src="static/img/rust/Arvore + chão.png" alt="">
-                                <hr>
+                            <div id="dedicatedBtn">
+                                <div class="balao">
+                                    <div class="bubble">
+                                        <div id="outro">
+                                            <a href=""><button> OUTRO</button></a>
+                                            <img src="static/img/dedicated-servers/PRINCIPAL.png" alt="">
+                                            <hr>
+                                        </div>
+                                        <div id="mta">
+                                            <a href=""><button> MTA:SA</button></a>
+                                            <img src="static/img/mta/Completo.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="fivem">
+                                            <a href=""><button> FIVEM</button></a>
+                                            <img src="static/img/fivem/FIVEM completa.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="minecraft">
+                                            <a href=""><button> minecraft</button></a>
+                                            <img src="static/img/minecraft/Completo modelo 2.png" alt="">
+                                            <hr>
+                                        </div>
+                
+                                        <div id="rust">
+                                            <a href=""><button> rust</button></a>
+                                            <img src="static/img/rust/Arvore + chão.png" alt="">
+                                            <hr>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="text-start ps-2" href="">VER JOGOS</a>
+                                <img style="width: auto;" src="static/img/home_page/seta-direita.png" alt="">
                             </div>
                         </div>
                     </div>
-                    <a href="">VER PLANOS</a>
-                    <img src="static/img/home_page/seta-direita.png" alt="">
-                </div>
             </div>
+        </div>
 
-            <div class="locations">
-                <h1>LOCALIZAÇÃO ESTRATÉGICA</h1>
-                <p>Escolha a localização que estará mais próxima aos usuários 
-                    para garantir a melhor performance do seu projeto.</p>
-
-                <div class="coutry-1">
-                    <img src="static/img/home_page/brasil.png" alt="BRASIL" srcset="">
-
-                    <div id="line-1">
-                        <strong><h3>BRASIL</h3></strong>
-                        <p>São Paulo</p>
-                    </div>
-
-                </div>
-
-
-                <div class="coutry-2">
-
-                    <img src="static/img/home_page/Grupo de máscara 1.png" alt="EUA" srcset="">
-
-                    <div id="line-2">
-                        <strong><h3>ESTADOS UNIDOS</h3></strong>
-                        <p>Orlando City</p>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <img id="velocimetro-statico" src="static/img/home_page/VELOCÍMETRO.png" alt="">
-
-            <div class="processor">
-                <h1>PROCESSADORES DE ÚLTIMA GERAÇÃO</h1>
-                <p>Contamos com os processadores mais recentes e fortes do mercado 
-                    para poder proporcionar o melhor desempenho aos usuários.</p>
-
-                <div class="block-1">
-                    <img src="static/img/home_page/PROCESSADOR 2.png" alt="">
-                    <strong><h3>INTEL CORE I9</h3></strong>
-                    <p>
-                        Núcleos: 32 Threads: 16<br>Pontuação (CBench): 25480
-                    </p>
-                </div>
-
-                <div class="block-2">
-                    <img src="static/img/home_page/PROCESSADOR 2.png" alt="">
-                    <strong><h3>INTEL CORE I9</h3></strong>z
-                    <p>
-                        Núcleos: 32 Threads: 16<br>Pontuação (CBench): 25480
-                    </p>
-                </div>
-                
-                
-                <div class="velocimeter">
-                    
-                    <img  id="velocimetro-respons" src="static/img/home_page/VELOCÍMETRO.png" alt="">
-                    <img id="velocimetro" src="static/img/home_page/animation/VELOCÍMETRO.png" alt="">
-                    
-                    <h1 id="contador"></h1><h1 id="contador-str-1">.</h1><h1 id="contador-decimal"></h1><h1 id="contador-str-2">Ghz</h1>
-                    <h1 id="temp"></h1><h1 id="contador-str-3">º</h1>
-                    <h1 id="points"></h1><h1 id="contador-str-4">pts</h1>
-                    <img id="serv-1-velo" src="static/img/home_page/animation/SERVER 1.png" alt="">
-                    <img id="serv-2-velo" src="static/img/home_page/animation/SERVER 2.png" alt="">
-                    <div id="centro-ponteiro"></div>
-                    <div id="ponteiro">            
-                        <div id="seta1"></div>
-                        <div id="seta2"></div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="infos-mobile">
-                <h1>NOSSOS DIFERENCIAIS</h1>
-
-                <div class="info1">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-                <div class="info2">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-                <div class="info3">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-                <div class="info4">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-            </div>
-
-            <div class="infos">
-
-                <div id="retangulo1"  class="retangulo1" onclick="show_hide(1)">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <hr>
-                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
-                </div>
-                <div  id="retangulo2" class="retangulo2" onclick="show_hide(2)">
-                    <h1>DASHBOARD</h1>
-                    <hr>
-                    <p>Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos e logs.</p>
-                </div>
-                <div  id="retangulo3" class="retangulo3" onclick="show_hide(3)">
-                    <h1 id="h1-bloco3">HARDWARE DE ÚLTIMA GERAÇÃO</h1>
-                    <hr>
-                    <p id="p-bloco3">Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários.</p>
-                </div>
-                <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
-                    <h1>SUPORTE</h1>
-                    <hr>
-                    <p>Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia.</p>
-                </div>
-                <div class="info-content">
-                    
-                    <img id="img-retangulo1" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
-                    <img id="img-retangulo2" src="/static/img/home_page/infos/DASHBOARD COMPLETO.png" alt="">
-                    <img style="margin-left: 17%;" id="img-retangulo3" src="/static/img/dedicated-servers/SERVIDORES COM PROCESSADORES PARA JOGOS COMPLETO.png" alt="">
-                    <img id="controle" src="/static/img/dedicated-servers/CONTROLE.png" alt="">
-                    <img id="img-retangulo4" src="/static/img/home_page/infos/SUPORTE COMPLETA.png" alt="">
-                    <img id="balaoazul1" src="/static/img/home_page/infos/BALÃO AZUL.png" alt="">
-                    <img id="balaoazul2" src="/static/img/home_page/infos/BALÃO AZUL.png" alt="">
-                    <img id="balaocinza" src="/static/img/home_page/infos/BALÃO CINZA.png" alt="">
-
-                    <h1 id="h1-retangulo1">PROTEÇÃO DDOS</h1>
-                    <h1 id="h1-retangulo2">DASHBOARD</h1>
-                    <h1 id="h1-retangulo3">HARDWARE DE ÚLTIMA GERAÇÃO</h1>
-                    <h1 id="h1-retangulo4">SUPORTE</h1>
-                    
-                    <p id="p-retangulo1">Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. Também oferecemos planos de adicionais de Proteção DDoS disponíveis.</p>
-                    <p id="p-retangulo2">Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos, logs e ferramentas para administração. Além disso, o dashboard é responsivo para que você consiga administrar o serviço de qualquer lugar, inclusive, à partir de um celular.</p>
-                    <p id="p-retangulo3">Nossos servidores contam com hardware de última geração para que possam proporcionar o maior desempenho disponível do mercado aos usuários. Nossos servidores são apoiados por processadores de quinta e sétima geração AMD Ryzen, com memórias DDR4 e DDR5 além de NVMe 4° geração.</p>
-                    <p id="p-retangulo4">Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia.
-
-                        Estamos nos principais canais de atendimento, dentre eles: 
-                        WhatsApp, Discord e Instagram.</p>
-
-                </div>
-
-                <div id="see-infra">
-                    <a href="#">
-                        <strong><p>INFRAESTRUTURA COMPLETA</p></strong>
-                        <img src="static/img/home_page/seta-direita.png" alt="SETA">
-                    </a>
-                </div>
-            </div>
-
-            <div class="garantias-mobile">
-                <h1>NOSSAS GARANTIAS</h1>
-
-                <div class="info1-mobile">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-                <div class="info2-mobile">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-                <div class="info3-mobile">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-                <div class="info4-mobile">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-                <div class="info5-mobile">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <P>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</P>
-                </div>
-
-            </div>
-
-            <div class="garantias">
-
-                <strong><h1>NÓS GARANTIMOS</h1></strong>
-                <p>Com total comprometimento com o cliente nós garantmos alguns serviços essenciais.</p>
-
-                <div class="high-perfomance" id="high-perfomance">
-                    <strong><h2>ALTA<br>PERFORMANCE</h2></strong>
-                    <p>Nosso maior objetivo é fornecer a maior performance aos nossos usuários, para isso, não economizamos em nossa infraestrutura.</p>
-                </div>
-
-                <div id="uptime" class="uptime">
-                    <strong><h2>99% DE<br>UPTIME</h2></strong>
-                    <p>Contamos com servidores de última<br>geração e alta performance. Sua<br>aplicação sempre
-                        funcionará.</p>
-                </div>
-
-                <div  id="custom-plans" class="custom-plans">
-                    <strong><h2>PLANOS ADICIONAIS<br>DISPONÍVEIS</h2></strong>
-                    <p>Contamos com personalização de acordo com a necessidade do usuário, para<br> saber mais,
-                    basta entrar em contato.</p>
-
-                </div>
-
-                <div id="suport" class="suport">
-                    <strong><h2>SUPORTE<br>ESPECIALIZADO</h2></strong>
-                    <p>Nosso time é treinado e está pronto para te ajudar com quaisquer questões com um tempo de resposta ágil.</p>
-
-                </div>
-
-                <div id="hdd" class="hdd">
-                    <strong><h2>DEPLOY<br>AUTOMÁTICO</h2></strong>
-                    <p>Os serviços são entregues automaticamente após a confirmação do pagamento pelo gateway.</p>
-                </div>
-            </div>
-
-            <hr id="hr-1">
-
-            <div class="faixa">
-                    <strong><h1>5.0</h1></strong>
-
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA-1">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA-1">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA-1">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA">
-
-                    <p>Veja todas as avaliações<br>completas clicando aqui</p>
-
-                    <hr>
-
-                    <div class="contact-suport">
-                        <a href="#">
-                            <img src="static/img/home_page/operador-de-telemarketing-masculino.png" alt="">
-                        
-                            <strong><p>ENTRE EM CONTATO<br>COM O SUPORTE</p></strong>
-                        </a>
-                    </div>
-            </div>
-
-            <div class="depoiments-1">
-                <img src="static/img/home_page/Perfil.png" alt="">
-                <strong><h4>Phedro Vinícius do Nascimento Borges</h4></strong>
-                <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive<br> problemas com
-                    eles. Sempre fui bem atendido e o suporte sempre em dia.</p>
             
-                <div class="estrelinhas-1">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                </div>
-            </div>
+        
 
-            <div class="depoiments-2">
-                <img src="static/img/home_page/Perfil.png" alt="">
-                <strong><h4>Phedro Vinícius do Nascimento Borges</h4></strong>
-                <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive<br> problemas com
-                    eles. Sempre fui bem atendido e o suporte sempre em dia.</p>
             
-                <div class="estrelinhas-2">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                </div>
-            </div>
 
-            <div class="depoiments-3">
-                <img src="static/img/home_page/Perfil.png" alt="">
-                <strong><h4>Phedro Vinícius do Nascimento Borges</h4></strong>
-                <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive<br> problemas com
-                    eles. Sempre fui bem atendido e o suporte sempre em dia.</p>
-            
-                <div class="estrelinhas-3">
-                    <img src="static/img/home_page/estrela.png" alt="estrela-2">
-                    <img src="static/img/home_page/estrela.png" alt="estrela-2">
-                    <img src="static/img/home_page/estrela.png" alt="estrela-2">
-                </div>
-            </div>
-
-            <div class="discord">
-                <img src="static/img/home_page/ACAMPAMENTO PH.png" alt="">
-
-                <h1>COMUNIDADE<br>EXCLUSIVA NO<br>DISCORD</h1>
-
-                <div class="join-server">
-                    <a href="#">
-                        <p>QUERO SER MEMBRO</p>
-                        <img src="static/img/home_page/seta-direita_azul.png" alt="SETA">
-                    </a>
-                </div>
-            </div>
-
-            <hr id="hr-2">
-
-            <div class="questions">
-                <h1>ENTENDA PORQUE<br>SOMOS OS MELHORES</h1>
-                <p>Selecionamos algumas perguntas frequentes que costumam fazer para nós</p>
                 
-                <div class="questions-2">
-                    <h3 id="h3-especial">Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <p>Selecionamos algumas perguntas frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que costumam
-                        fazer para nósSelecionamos algumas perguntas<br>frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que
-                        costumam fazerSelecionamos algumas perguntas frequentes que<br>costumam fazer para nós selecionamos algumas perguntas frequentes que
-                        costumam.</p>
-
-                    <hr>
-                        
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                </div>
-            </div>
-
-            <div class="subscribe">
-                <h1>HOSPEDAGEM DE JOGOS<br>COM ATÉ 30% OFF</h1>
-
-                <div class="contract-button">
-                    <p>A PARTIR DE R$ 128,99</p>
-                    <div class="contract-button-2">
-                        <a href="">
-                            <p>ASSINAR AGORA</p>
-                            <img src="static/img/home_page/seta-direita_azul.png" alt="SETA">
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer">
-
-                <div class="services">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
-                </div>
-
-                <div class="services-1">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
-                </div>
-
-                <div class="services-2">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
-                </div>
-
-                <img src="static/img/home_page/FINAL.png" alt="LOGO-PHOENIX">
-
-                <div class="footer-2">
-                    <img src="static/img/home_page/LOGO VERTICAL BRANCO.png" alt="PHOENIX-LOGO">
-                    <p>Copyright 2021 by PhoenixHost | CNPJ - 37.245.530/0001-00</p>
-                </div>
             </div>
         </div>
     </div>
