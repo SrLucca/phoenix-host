@@ -3011,7 +3011,13 @@ body {
     }
 
     .countrys{
-        top: 1895px;
+        top: 1100px;
+        position: relative;
+    }
+
+    .col-coutry{
+        position: absolute;
+        top: 260px;
     }
 
     .countrys h1{
@@ -3026,7 +3032,7 @@ body {
     }
 
     .line-1{
-        height: 90%;
+        height: 100%;
     }
 
     .line-1 p{
@@ -3053,6 +3059,7 @@ body {
         max-width: 100%;
         font-size: 15.5px;
     }
+
     
 
 }
