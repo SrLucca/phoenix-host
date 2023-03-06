@@ -853,12 +853,22 @@ body {
 }
 
 
+.blocks{
+    display: flex;
+    /* width: 102%; */
+    height: 100%;
+    align-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 
 .block-1{
     position: inherit;
 
-    width: 30%;
-    height: 40%;
+    width: 48%;
+    height: 35%;
 
 
     /* UI Properties */
@@ -868,23 +878,15 @@ body {
 }
 
 .block-1 img{
-    position: inherit;
 
-    width: 77px;
-    height: 77px;
-    left: 33px;
-    top: 17px;
+    min-width: 20%;
+    max-width: 25%;
 }
 
-.block-1 strong{
-    position: inherit;
-}
 
-.block-1 strong h3{
+.block-1 h3{
 
     position: inherit;
-    top: -65px;
-    left: 129px;
 
     text-align: left;
     font-family: SFPro, Sans-serif;
@@ -899,75 +901,15 @@ body {
 
 .block-1 p{
     position: inherit;
-    top: -57px;
-    left: 129px;
-    
-
     font-family: SFProRegular, Sans-serif;
     font-style: normal;
     font-size: 15px;
-
     color: #FFFFFF;
     opacity: 1;
-}
-
-.block-2{
-    position: inherit;
-    
-    width: 364px;
-    height: 119px;
-    left: 9px;
-    top: 187px;
-
-    /* UI Properties */
-    border: 3px solid #FFFFFF;
-    border-radius: 32px;
-    opacity: 1
-}
-
-.block-2 img{
-    position: inherit;
-    
-    width: 77px;
-    height: 77px;
-    left: 33px;
-    top: 17px;
-}
-
-.block-2 strong{
-    position: inherit;
-}
-
-.block-2 strong h3{
-
-    position: inherit;
-    top: -65px;
-    left: 129px;
-
+    width: 65%;
     text-align: left;
-    font-family: SFPro, Sans-serif;
-    font-style: normal;
-    font-size: 20px;
-
-
-    letter-spacing: -1px;
-    color: #FFFFFF;
-    opacity: 1;
 }
 
-.block-2 p{
-    position: inherit;
-    top: -75px;
-    left: 129px;
-    
-
-    font-family: SFProRegular, Sans-serif;
-    font-style: normal;
-    font-size: 15px;
-
-    color: #FFFFFF;
-    opacity: 1;
-}
 
 #velocimetro-respons{
     display: none;
@@ -1256,19 +1198,12 @@ body {
 
 }
 
-.infos-mobile{
-    display: none;
-}
 
 
-.infos{
+.cu{
 
-    position: relative;
-    top: -1153px;
-    left: 167px;
-
-    width: 1541px;
-    height: 841px;
+    width: 200px;
+    height: 200px;
 
     border: 3px solid #FFFFFF;
     border-radius: 35px;
@@ -3046,7 +2981,7 @@ body {
     }
 
     .processor{
-        top: 2371px;
+        top: 2471px;;
     }
 
     .processor h1{
@@ -3060,6 +2995,44 @@ body {
         font-size: 15.5px;
     }
 
-    
+    .processor img{
+        width: 100%;
+    }
+
+    .blocks{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .block-1{
+        width: 89%;
+        height: 26%;
+        border: 3px solid #FFFFFF;
+        border-radius: 32px;
+        opacity: 1;
+        margin-bottom: 20px;
+    }
+
+    .block-1 p{
+        text-align: left !important;
+    }
+
+    .col-velocimetro{
+        padding-left: 0rem!important;
+        padding-top: 0rem!important;
+        top: 797px;
+        position: absolute;
+    }
+
+    .col-velocimetro img{
+        padding-left: 0!important;
+        padding-top: 0!important;
+        float:none !important;
+        width: 75%;
+    }
 
 }
