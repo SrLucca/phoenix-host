@@ -1202,78 +1202,43 @@ body {
 
 .infos{
 
-    height: 500px;
-
+    position: relative;
+    width: 70%;
+    height: 700px;
+    top: 2100px;
     border: 3px solid #FFFFFF;
     border-radius: 35px;
     opacity: 1;
-}
+    display: flex;
+}   
 
 .info-content{
-    position: absolute;
-    left: 460px;
-    top: -1px;
-    height: 836px;
-    width: 1076px;
-
+    max-width: 73% !important;
+    height: 100%;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 0px 30px 30px 0px;
     opacity: 1;
-    z-index: 50;
-    display: flex;
+    padding-left: 0 !important;
+    position: absolute;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    z-index: 10;
+    right: 0px;
     
-}
-.info-content img{
-    position: inherit;
-    margin-left: 25%;
-    margin-top: 5%;
 }
 
 #img-retangulo1{
     display: block;
 }
 
-#img-retangulo2{
-    display: none;
-}
-
-#img-retangulo3{
-    display: none;
-}
-
-#img-retangulo4{
-    display: none;
-}
-
 #h1-retangulo1{
     display: block;
-}
-
-#h1-retangulo2{
-    display: none;
-}
-#h1-retangulo3{
-    display: none;
-}
-#h1-retangulo4{
-    display: none;
 }
 
 #p-retangulo1{
     display: block;
 }
 
-#p-retangulo2{
-    display: none;
-}
-
-#p-retangulo3{
-    display: none;
-}
-
-#p-retangulo4{
-    display: none;
-}
 
 .info-content h1{
     position: inherit;
@@ -1281,34 +1246,41 @@ body {
     font-family: SFPro, Sans-serif;
     font-weight: 700;
     letter-spacing: -1px;
-    top: 615px;
-    left: 265px;
 }
 
 .info-content p{
     position: inherit;
     font-family: SFProRegular, Sans-serif;
     font-size: 17px;
-    top: 663px;
-    left: 265px;
-    width: 691px;
     
+}
+
+.retangulos{
+    display: inline-block;
+    height: 100%;
+    position: inherit;
+    width: 30%;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    z-index: 100;
+}
+
+.retangulo1, ::after, ::before{
+    box-sizing: inherit !important;
 }
 
 .retangulo1{
 
-    position: relative;
-    width: 500px;
-    height: 180px;
+    height: 22%;
+    max-width: 100% !important;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: 20px;
-    top: 25px;
     box-shadow: 27px -2px 99px #00000029;
-    z-index: 10;
     cursor: pointer;
-
+    position: inherit;
+    margin-right: 0 !important;
+    margin-top: 4.5%;
 }
 
 .retangulo1 h1{
@@ -1344,19 +1316,19 @@ body {
 
 .retangulo2{
 
-    position: relative;
-    width: 500px;
-    height: 180px;
+    height: 25%;
+    max-width: 40% !important;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: 20px;
-    top: 46px;
     box-shadow: 27px -2px 99px #00000029;
-    z-index: 100;
+    z-index: 10;
     cursor: pointer;
+    position: inherit;
+    left: -12px;
 
 }
+
 
 .retangulo2 h1{
     font-size: 24px;
@@ -1391,17 +1363,17 @@ body {
 
 .retangulo3{
 
-    position: relative;
-    width: 500px;
-    height: 180px;
+    height: 25%;
+    max-width: 40% !important;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: 20px;
-    top: 67px;
     box-shadow: 27px -2px 99px #00000029;
-    z-index: 100;
+    z-index: 10;
     cursor: pointer;
+    position: inherit;
+    left: -12px;
+
 }
 
 .retangulo3 h1{
@@ -1512,17 +1484,17 @@ body {
 
 .retangulo4{
 
-    position: relative;
-    width: 500px;
-    height: 180px;
+    height: 25%;
+    max-width: 40% !important;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border-radius: 27px;
     opacity: 1;
-    left: 20px;
-    top: 89px;
     box-shadow: 27px -2px 99px #00000029;
-    z-index: 100;
+    z-index: 10;
     cursor: pointer;
+    position: inherit;
+    left: -12px;
+
 }
 
 .retangulo4 h1{
