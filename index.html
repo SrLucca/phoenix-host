@@ -9,6 +9,7 @@
     <link rel="icon" href="static/img/home_page/LOGO VERTICAL BRANCO.png">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e2211b3575.js" crossorigin="anonymous"></script>
     <title>Landing page</title>
 </head>
 <body>
@@ -19,31 +20,41 @@
     <div class="gradient">
         
         <nav class="nav nav-pills nav-fill header header-content pt-5">
-                        <li class="nav-item float-start">
-                            <a href=""><img id="header-logo" class="ps-5 pe-5" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset=""></a>
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+                    <div class="mobile"></div>
+                    
+                        <li id="header-logo" class="nav-item float-start">
+                            <a href=""><img class="ps-5 pe-5" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset=""></a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item links">
+                            <a style="font-size: 50px;" class="nav-link" href="#">Menu</a>
+                        </li>
+                        <li class="nav-item links">
                             <a class="nav-link" href="">Serviços</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item links">
                             <a class="nav-link" href="">Infraestrutura</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item links">
                             <a class="nav-link" href="">Planos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item links">
                             <a class="nav-link" href="">Jogos</a>
                         </li>
-                        <li class="nav-item">
+                        <li class="nav-item links">
                             <a class="nav-link" href="">Sobre</a>
                         </li>
                         <li class="nav-item">
                             <img id="carrinho"  src="static/img/home_page/Icone de carrinho home.png" alt="CARRINHO DE COMPRA" srcset="">
                         </li>
-                        <li class="nav-item loginBtn pe-5">
+                        <li class="nav-item loginBtn me-5">
                             <a class="tex-center" href="">Login</a>
                         </li>
-                    </ul>
+                    
+                
                     
         </nav>
         
@@ -127,7 +138,7 @@
         </div>
         
 
-        <div class="row countrys text-center pt-5 mt-5 pb-5 me-3">
+        <div class="row countrys text-center pt-5 mt-5 pb-5">
             
             <div class="col">
                 <h1 class="text-start">LOCALIZAÇÃO ESTRATÉGICA</h1>
@@ -158,7 +169,7 @@
             </div>
         </div>
         
-        <div class="row processor text-center pt-5 mt-5 pb-5 me-3">
+        <div class="row processor text-center pt-5 mt-5 pb-5">
             
             <div class="col">
                 <h1 class="text-start">PROCESSADORES DE ÚLTIMA GERAÇÃO</h1>
