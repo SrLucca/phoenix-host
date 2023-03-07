@@ -2874,8 +2874,20 @@ body {
         right: 0;
     }
 
+    @keyframes show {
+        0%{
+            opacity: 0;
+        }
+
+        100%{
+            opacity: 1;
+        }
+    }
+
     #check:checked ~ .links{
         right: 0;
+        display: flex !important;
+        animation: show 1s forwards;
     }
 
     .mobile{
@@ -2884,7 +2896,7 @@ body {
         height: 100vh;
         background: #1d075f;
         text-align: center;
-        transition: all .5s;
+        transition: all .2s;
         z-index: 1000;
         margin-left: 50%;
         top: 0px;
@@ -2892,10 +2904,9 @@ body {
         right: -100%;
     }
     .links{
-        display: flex !important;
+        display: none;
         position: relative;
         width: 100%;
-        transition: all .5s;
         z-index: 10001;
         flex-direction: column;
         flex-wrap: nowrap;
@@ -2903,6 +2914,7 @@ body {
         justify-content: space-between;
         margin-left: 50% !important;
         right: -100%;
+        transition: all .5s;
     }
 
     .nav-item{
@@ -2990,6 +3002,7 @@ body {
     .col-coutry{
         position: absolute;
         top: 260px;
+        margin-top: 2rem !important;
     }
 
     .countrys h1{
