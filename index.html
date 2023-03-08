@@ -200,24 +200,28 @@
         
         <div  class="container infos">
             <div class="retangulos">
-                <div class="container-sm retangulo1 float-start"> 
-
+                <div class="container-sm retangulo1 float-start " onclick="show_hide(1)"> 
+                    <h1 class="text-start mt-3">Servidores Dedicados</h1>
+                    <p class="text-start">O Phedrao gosta de comer cu de viado que joga no time de volei da invasora</p>
                 </div>
 
-                <div class="container-sm retangulo1 float-start"> 
-
+                <div class="container-sm retangulo1 float-start" onclick="show_hide(2)"> 
+                    <h1 class="text-start mt-3">Servidores Dedicados</h1>
+                    <p class="text-start">O Phedrao gosta de comer cu de viado que joga no time de volei da invasora</p>
                 </div>
 
-                <div class="container-sm retangulo1 float-start"> 
-
+                <div class="container-sm retangulo1 float-start " onclick="show_hide(3)"> 
+                    <h1 class="text-start mt-3">Servidores Dedicados</h1>
+                    <p class="text-start">O Phedrao gosta de comer cu de viado que joga no time de volei da invasora</p>
                 </div>
 
-                <div class="container-sm retangulo1 float-start"> 
-
+                <div class="container-sm retangulo1 float-start" onclick="show_hide(4)"> 
+                    <h1 class="text-start mt-3">Servidores Dedicados</h1>
+                    <p class="text-start">O Phedrao gosta de comer cu de viado que joga no time de volei da invasora</p>
                 </div>
             </div>
             <div class="container-fluid info-content float-end">
-
+                <img id="img-info-content" class="rounded mx-auto d-block" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
             </div>
             
         </div>
@@ -250,124 +254,16 @@
 
     async function show_hide(id){
         if(id == 1){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'block';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'block';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'block';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
-            controle = document.getElementById('controle').style.display = 'none';
-
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
-            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
-            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
-            balaocinza = document.getElementById('balaocinza').style.display = 'none';
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png"
         }
-
         if(id == 2){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 10;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'block';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'block';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'block';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
-            controle = document.getElementById('controle').style.display = 'none';
-            
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
-            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
-            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
-            balaocinza = document.getElementById('balaocinza').style.display = 'none';
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/DASHBOARD COMPLETO.png"
         }
-
         if(id == 3){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 10;
-            h1_bloco3 = document.getElementById('h1-bloco3').style.zIndex = 100;
-            p_bloco3 = document.getElementById('p-bloco3').style.zIndex = 100;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'block';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'block';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'block';
-            controle = document.getElementById('controle').style.display = 'block';
-
-
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
-            balaoazul1 = document.getElementById('balaoazul1').style.display = 'none';
-            balaoazul2 = document.getElementById('balaoazul2').style.display = 'none';
-            balaocinza = document.getElementById('balaocinza').style.display = 'none';
-
-            controle = document.getElementById('controle').style.animation = 'popUp 0.5s linear';
-            await sleep(500);
-            controle = document.getElementById('controle').style.animation = 'trhdEffect 10s infinite linear none';
-            
-            
-
-            
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/DASHBOARD COMPLETO.png"
         }
-
         if(id == 4){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
-            controle = document.getElementById('controle').style.display = 'none';
-
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 10;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'block';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'block';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
-
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
-
-            await sleep(500);
-            balaoazul1 = document.getElementById('balaoazul1').style.display = 'block';
-            await sleep(500);
-            balaocinza = document.getElementById('balaocinza').style.display = 'block';
-            await sleep(500);
-            balaoazul2 = document.getElementById('balaoazul2').style.display = 'block';
-            
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/SUPORTE COMPLETA.png"
         }
     }
 

@@ -1234,6 +1234,11 @@ body {
     
 }
 
+.info-content img{
+    max-width: 55%;
+    margin-top: 3rem;
+}
+
 #img-retangulo1{
     display: block;
 }
@@ -1294,10 +1299,6 @@ body {
     font-size: 24px;
     font-family: SFPro, Sans-serif;
     font-weight: 800;
-    letter-spacing: -1px;
-    top: 20px;
-    position: relative;
-    left: 40px;
 
 }
 
@@ -1312,11 +1313,7 @@ body {
 }
 
 .retangulo1 p{
-    width: 418px;
-    height: 63px;
     position: inherit;
-    left: 40px;
-    top: 41px;
     font-family: SFProRegular, Sans-serif;
     font-size: 14px;
 }
@@ -2997,6 +2994,7 @@ body {
         top: 1100px;
         position: relative;
         margin-right: 0 !important;
+        margin-left: 4px !important;
     }
 
     .col-coutry{
@@ -3039,6 +3037,8 @@ body {
     .processor h1{
         text-align: center !important;
         width: 100%;
+        font-size: 41px;
+        line-height: 53px;
     }
 
     .processor p{
