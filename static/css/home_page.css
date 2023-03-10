@@ -28,7 +28,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 7227px;
+    height: 7453px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -167,65 +167,33 @@ body {
 }
 
 
-
-
-.show-plans{
-
+.nuvem-ver-jogos{
     position: relative;
-
-    /* Layout Properties */
-    top: -335px;
-    left: 230px;
-    width: 352px;
-    height: 138px;
+    width: 25% !important;
+    height: auto !important;
+    float: left;
 }
 
-#nuvem-2{
-    position: relative;
-    top: -16px;
-    left: -2px;
+.nuvem-ver-jogos img{
+    position: absolute;
+    width: 80% !important;
+    top: 0 !important;
+    max-width: none !important;
 }
 
-.show-btn{
-    position: relative;
-    top: -121px;
-    left: 17px;
-    width: 320px;
-    height: 60px;
-    background: 0% 0% no-repeat padding-box padding-box #FFFFFF;
-    border-radius: 41px;
-    opacity: 1;
-}
-
-.show-btn a{
-    position: relative;
-    left: 27px;
-    width: 161px;
-    height: 37px;
-    top: 16px;
-
-    font-family: SFPro, Sans-serif;
-    font-style: normal;
-    font-size: 25px;
-    
-    
-    text-align: left;
-    letter-spacing: 0px;
-    color: #3358A7;
-    opacity: 1;
-    text-decoration: none;
-}
-
-.show-btn img{
-    position: relative;
-    left: 111px;
-    top: 13px;
+.nuvem-ver-jogos h1{
+    position: absolute;
+    color: #034AA6;
+    font-size: 20px;
+    width: auto;
+    font-family: SFPro, sans-serif;
 }
 
 .cards{
     position: absolute;
     top: 900px;
     padding-left: 3rem!important;
+    margin-top: 3rem!important;
 }
 
 .row{
@@ -1841,6 +1809,10 @@ body {
 
 @media (max-width: 767.98px) { 
 
+    .gradient{
+        height: 8725px;
+    }
+
     .checkbtn{
         display: block;
         float: right !important;
@@ -1938,6 +1910,19 @@ body {
         font-size: 22px;
     }
 
+    .nuvem-ver-jogos{
+        float: none !important;
+        width: 70% !important;
+        
+    }
+
+
+    .nuvem-ver-jogos h1{
+        font-size: 19px !important;
+        
+    }
+
+
     .row{
         padding-left: 0rem !important;
         padding-right: 1rem;
@@ -1946,6 +1931,7 @@ body {
     .cards{
         top: 860px;
         padding-left: 0rem !important;
+        margin-top: 6rem !important;
     }
 
 
@@ -2030,8 +2016,8 @@ body {
     .processor h1{
         text-align: center !important;
         width: 100%;
-        font-size: 41px;
-        line-height: 53px;
+        font-size: 29px;
+        line-height: 41px;
     }
 
     .processor p{
@@ -2060,6 +2046,7 @@ body {
         border-radius: 32px;
         opacity: 1;
         margin-bottom: 20px;
+        margin-left: 2rem !important;
     }
 
     .block-1 p{
@@ -2081,7 +2068,212 @@ body {
     }
 
     .infos{
-        top: 2586px;
+        top: 2455px;
+        height: 655px !important;
+    }
+
+    .garantias{
+        top: 2675px;
+    }
+
+    .garantias p{
+        font-size: 9px !important;
+    }
+
+    .linha_garantias{
+        margin-bottom: 9rem !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .retangulos{
+        display: flex;
+        width: 100%;
+    }
+
+    .retangulo1 h1{
+        font-size: 17px;
+    }
+
+    .retangulo1 p{
+        font-size: 10px;
+    }
+
+    .info-content{
+        max-width: 100% !important;
+        border-radius: 30px;
+    }
+
+    .info-content img{
+        margin-top: 13rem;
+    }
+
+    #hr-1{
+        top: 3419px;
+    }
+
+    .avaliacoes{
+        top: 3415px;
+        width: 100% !important;
+    }
+
+    .depoiments{
+        max-width: 100% !important; 
+        margin-left: 0.5rem !important;
+        
+    }
+
+    .depoiments h1{
+        font-size: 17px;
+        margin-left: 19%;
+    }
+
+    .depoiments img{
+        position: relative;
+        width: 28%;
+        height: 58%;
+        max-width: 50%;
+        max-height: 80%;
+        /* left: -5%; */
+        margin-top: 2.5rem;
+        left: 0 !important;
+    }
+
+    .estrelas{
+        margin-top: 28% !important;
+        width: 36% !important;
+    }
+
+    .faixa{
+        display: none;
+    }
+
+    #hr-2{
+        top: 2958px;
+    }
+
+    .discord{
+        top: 3415px;
+    }
+
+    .discord h1{
+        font-size: 23px  !important;
+        top: -26% !important;
+    }
+
+    .member{
+        top: -20% !important;
+        left: 20% !important;
+        width: 30% !important;
+    }
+
+    .member h1{
+        font-size: 14px !important;
+        top: 5px !important;
+        left: 0px !important;
+    }
+
+    .member img{
+        margin-left: 0 !important;
+    }
+
+    .questions{
+        top: 2973px;
+    }
+
+    .questions-col-1 h1{
+        font-size: 30px !important;
+        width: 106% !important;
+    }
+
+    .questions-col-1 p{
+        width: 106% !important;
+        color: #FFFFFF;
+        font-size: 10px !important;
+    }
+
+    .questions-col-2{
+        height: 700px !important;
+        margin-left: 1rem !important;
+    }
+
+    .subscribe{
+        top: 2979px;
+    }
+
+    .subscribe h1{
+        width: 40%;
+        font-size: 40px !important;
+        padding-top: 20%!important;
+    }
+
+    .subscribe-button{
+        width: 30% !important;
+        margin-right: 1rem !important;
+    }
+
+
+    .subscribe-button h1{
+        font-size: 0.8rem !important;
+        width: 80% !important;
+        position: relative;
+        top: -12% !important;
+        padding-left: 20% !important;
+    }
+    
+
+    .subscribe-now h1{
+        font-size: 1.3rem !important;
+        width: 80% !important;
+        top: -20% !important;
+        padding-left: 10% !important;
+    }
+
+    #img-footer{
+        display: none;
+    }
+}
+
+@media (max-width: 342px) {
+    
+    .processor{
+        top: 2504px;
+    }
+
+    .retangulos{
+        max-width: 25% !important;
+    }
+
+    .retangulo1 h1{
+        font-size: 12px !important;
+    }
+
+    .retangulo1 p{
+        font-size: 8px !important;
+    }
+
+    .linha_garantias{
+        margin-bottom: 11rem !important;
+    }
+
+    .avaliacoes{
+        top: 3431px;
+    }
+
+    .depoiments h1{
+        font-size: 12px !important;
+    }
+
+    .depoiments p{
+        font-size: 10px !important;
+    }
+
+    #hr-1{
+        top: 3486px;
+    }
+
+    #hr-2{
+        top: 2934px;
     }
 
 }
