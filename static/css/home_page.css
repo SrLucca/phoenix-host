@@ -143,6 +143,7 @@ body {
 }
 
 .top-page img{
+    position: absolute;
     min-width: 30%;
     max-width: 40%;
     top: -50px;
@@ -1938,6 +1939,11 @@ body {
 
     #dedicatedBtn a{
         font-size: 12px;
+        padding-top: 0.7rem;
+    }
+
+    #dedicatedBtn img{
+        padding-top: 0.5rem !important;
     }
 
     .col-4{
@@ -2070,23 +2076,28 @@ body {
     }
 
     .high-perfomance{
-        margin-right: 0 !important;
+        margin-bottom: 2px !important;
+
     }
 
     .custom-plans{
-        margin-right: 0 !important;
+        margin-bottom: 2px !important;
+
     }
 
     .uptime{
-        margin-right: 0 !important;
+        margin-bottom: 2px !important;
+
     }
 
     .suport{
-        margin-right: 0 !important;
+        margin-bottom: 2px !important;
+
     }
 
     .hdd{
-        margin-right: 0 !important;
+        margin-bottom: 2px !important;
+
     }
 
     .retangulos{
@@ -2111,12 +2122,16 @@ body {
         border-radius: 30px;
     }
 
+    .info-content p{
+        top: 67% !important;
+    }
+
     .info-content img{
         margin-top: 13rem;
     }
 
     #hr-1{
-        top: 3419px;
+        top: 3453px;
     }
 
     .avaliacoes{
@@ -2131,7 +2146,7 @@ body {
     }
 
     .depoiments h1{
-        font-size: 17px;
+        font-size: 14px;
         margin-left: 19%;
     }
 
@@ -2147,8 +2162,9 @@ body {
     }
 
     .estrelas{
-        margin-top: 28% !important;
+        margin-top: 30% !important;
         width: 36% !important;
+
     }
 
     .faixa{
@@ -2200,7 +2216,7 @@ body {
     }
 
     .questions-col-2{
-        height: 760px !important;
+        height: 816px !important;
         margin-left: 1rem !important;
     }
 
@@ -2279,7 +2295,7 @@ body {
         top: 3486px;
     }
 
-    #hr-2{
+    #hr-2 {
         top: 2934px;
     }
 
