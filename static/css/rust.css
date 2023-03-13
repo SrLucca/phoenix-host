@@ -205,7 +205,7 @@ body {
 .planos{
     position: relative;
     top: 251px;
-    height: 600px;
+    height: 1000px;
 }
 
 .planos-1 h1{
@@ -244,13 +244,54 @@ body {
     position: relative;
 }
 
+.planos-2{
+    height: 100%;
+}
+
 .card{
     width: 30% !important;
 }
 
+.card h5,h1,h6{
+    font-family: SFPro, sans-serif;
+}
+
+.card h1{
+    color: #034AA6;
+}
+
+.card h5,h6{
+    color: #262624;
+}
+
+.card hr{
+    width: 65%;
+    height: 1px;
+    color: rgb(112, 110, 110);
+}
+
+.card p{
+    font-family: SFProRegular, sans-serif;
+    color: #262624;
+    font-weight: 900;
+    line-height: 2.5rem;
+}
+
+.card a{
+    font-family: SFPro, sans-serif;
+    color: #FFFFFF;
+}
+
+
+.card-body{
+    padding-left: 2rem !important;
+}
+
+
 .col-12{
     display: flex !important;
     justify-content: space-around;
+    height: 50%;
 
 }
 
@@ -1823,7 +1864,8 @@ body {
 
     .nuvem-ver-jogos{
         float: none !important;
-        width: 70% !important;
+        width: 40% !important;
+        margin-left: auto !important;
         
     }
 
@@ -1833,6 +1875,38 @@ body {
         
     }
 
+    .nuvem-ver-jogos img{
+        
+        margin-top: 6%;
+
+    }
+
+    .planos{
+        top: 0;
+        height: 2722px;
+    }
+
+    .planos-locais{
+        width: 90%;
+    }
+
+    .col-12{
+        display: flex !important;
+        justify-content: space-between;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: center;
+        
+    }
+
+    .card{
+        width: 80% !important;
+    }
+
+    .planos-locais h1{
+        font-size: 13px;
+        margin-left: 1rem !important;
+    }
 
     .row{
         padding-left: 0rem !important;
