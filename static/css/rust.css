@@ -28,7 +28,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 7453px;
+    height: 6200px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -406,16 +406,27 @@ body {
 
 .processor{
     position: absolute;
-    top: 1280px;
-    padding-left: 8rem !important; 
+    top: 2140px;
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
     margin-right: 1rem!important;
     
 }
 
 .wipe{
     position: absolute;
-    top: 1750px;
-    padding-left: 8rem !important; 
+    top: 2550px;
+    padding-left: 7rem !important;
+    padding-right: 7rem !important;
+    margin-right: 1rem!important;
+    
+}
+
+.plugin{
+    position: absolute;
+    top: 3010px;
+    padding-left: 7rem !important;
+    padding-right: 7rem !important; 
     margin-right: 1rem!important;
     
 }
@@ -489,6 +500,35 @@ body {
 }
 
 .wipe p{
+    min-width: 60%;
+    max-width: 80%;
+    font-family: SFProRegular, Sans-serif;
+    font-style: normal;
+    font-size: 21.5px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+
+}
+
+.plugin img{
+    width: 70%;
+}
+
+.plugin h1{
+    font-family: SFPro, Sans-serif;
+    font-style: normal;
+    font-size: 50px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width: 65%;
+    line-height: 67px;
+    
+}
+
+.plugin p{
     min-width: 60%;
     max-width: 80%;
     font-family: SFProRegular, Sans-serif;
@@ -846,14 +886,16 @@ body {
 
 }
 
-
+.informacoes{
+    display: flex;
+}
 
 .infos{
 
     position: relative;
     width: 70%;
     height: 700px;
-    top: 1800px;
+    top: 1700px;
     border: 3px solid #FFFFFF;
     border-radius: 35px;
     opacity: 1;
@@ -1417,7 +1459,7 @@ body {
 .avaliacoes{
     position: relative;
     height: 600px;
-    top: 2523px;
+    top: 1850px;
 }
 
 .linha_avaliacoes{
@@ -1439,7 +1481,6 @@ body {
     height: 65%;
     max-width: 50%;
     max-height: 80%;
-    left: -5%;
     margin-top: 1.5rem;
 }
 
@@ -1458,7 +1499,7 @@ body {
     width: auto;
     height: 20%;
     position: absolute;
-    margin-left: 7%;
+    margin-left: 10%;
     margin-top: 2%;
     
 }
@@ -1467,7 +1508,7 @@ body {
     font-family: SFProRegular;
     font-size: 13px;
     text-align: left;
-    margin-left: -5.5%;
+    margin-left: -1.5%;
     margin-top: 10%;
     width: 75%;
     height: 40%;
@@ -1577,22 +1618,17 @@ body {
 
 .discord{
     position: relative;
-    top: 2680px;
-    height: 600px;
+    top: 1950px;
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
 
-.discord img{
-    width: 100%;
-    height: auto;
-    position: relative;
-    opacity: 1;
+.linha_discord{
+    width: 100% !important;
 }
 
 
 .discord h1{
-    position: relative;
     font-family: SFPro, Sans-serif;
     font-style: normal;
     font-size: 50px;
@@ -1600,23 +1636,22 @@ body {
     color: #F2F2F2;
     opacity: 1;
     z-index: 100;
-    width: 33%;
-    top: -60%;
-    margin-left: 10%;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+
 
 }
 
 .member{
-    top: -25%;
-    position: relative;
     margin-left: 10%;
     background-color: #FFFFFF;
     border: 1px solid #FFFFFF;
     border-radius: 25px;
-    width: 25% !important;
-    min-height: 8%;
-    max-height: 15%;
-    left: -33% !important;
+    width: 50% !important;
+    min-height: 25%;
+    margin-top: 10%;
 }
 
 .member h1{
@@ -1625,7 +1660,6 @@ body {
     font-family: SFPro, sans-serif;
     color: #05244d;
     text-align: left;
-    top: 20% !important;
     width: auto;
     
 
@@ -1634,31 +1668,31 @@ body {
 .member img{
     width: auto;
     height: auto;
-    position: absolute;
-    top: 35% !important;
-    left: 80% !important;
-    margin-left: 10% !important;
+    left: 85%;
+    margin-top: 2%;
+    position: relative;
 }
 
 #hr-2{
-    top: 2489px;
-    width: 100%;
+    top: 1870px;
     position: relative;
     height: 20px;
-    /* UI Properties */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+    background: #FFFFFF  0% 0% no-repeat padding-box;
     box-shadow: 0px 11px 52px #00000029;
     opacity: 1;
+    z-index: 1000;
 }
 
 .questions{
     height: 1000px;
     position: relative;
-    top: 2530px;
+    top: 1805px;
 }
 
 .linha_questions{
-    padding-left: 0 !important;
+    padding-left: 0.5rem !important;
+    width: 100% !important;
+    padding-right: 0 !important;
 }
 
 .questions-col-1{
@@ -1720,7 +1754,7 @@ body {
 
 .subscribe{
     position: relative;
-    top: 2342px;
+    top: 2100px;
     height: 400px;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -1787,7 +1821,6 @@ body {
 }
 
 
-
 .footer{
     background: #193463;
     position: absolute;
@@ -1834,8 +1867,13 @@ body {
 
 @media (max-width: 767.98px) { 
 
+    .row>*{
+        padding-right: 0rem !important;
+        
+    }
+
     .gradient{
-        height: 8725px;
+        height: 7800px;
     }
 
     .checkbtn{
@@ -2073,7 +2111,7 @@ body {
     }
 
     .processor{
-        top: 2970px;
+        top: 3485px;
         margin-right: 0 !important;
         padding-right: 0 !important;
     }
@@ -2096,7 +2134,7 @@ body {
     }
 
     .wipe{
-        top: 3450px;
+        top: 4003px;
         margin-right: 0 !important;
         padding-right: 0 !important;
     }
@@ -2115,6 +2153,29 @@ body {
     }
 
     .wipe img{
+        width: 100%;
+    }
+
+    .plugin{
+        top: 4503px;
+        margin-right: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .plugin h1{
+        text-align: center !important;
+        width: 100%;
+        font-size: 29px;
+        line-height: 41px;
+    }
+
+    .plugin p{
+        text-align: center !important;
+        max-width: 100%;
+        font-size: 15.5px;
+    }
+
+    .plugin img{
         width: 100%;
     }
 
@@ -2179,8 +2240,21 @@ body {
         width: 55%;
     }
 
+    .col-img-plugin{
+        padding-top: 0rem!important;
+        top: 100%;
+        position: absolute;
+    }
+
+    .col-img-plugin img{
+        padding-left: 0!important;
+        padding-top: 0!important;
+        float:none !important;
+        width: 55%;
+    }
+
     .infos{
-        top: 2455px;
+        top: 1700px;
         height: 655px !important;
     }
 
@@ -2246,7 +2320,7 @@ body {
     }
 
     .info-content p{
-        top: 67% !important;
+        top: 60% !important;
     }
 
     .info-content img{
@@ -2259,7 +2333,7 @@ body {
     }
 
     .avaliacoes{
-        top: 3415px;
+        top: 1900px;
         width: 100% !important;
     }
 
@@ -2291,16 +2365,21 @@ body {
 
     }
 
+    .linha_avaliacoes{
+        padding-right: 1rem !important;
+    }
+
     .faixa{
         display: none;
     }
+    
 
     #hr-2{
-        top: 2958px;
+        top: 1800px;
     }
 
     .discord{
-        top: 3415px;
+        top: 1965px;
     }
 
     .discord h1{
@@ -2309,15 +2388,16 @@ body {
     }
 
     .member{
-        top: -20% !important;
-        left: 20% !important;
-        width: 30% !important;
+        width: 60% !important;
     }
 
     .member h1{
-        font-size: 14px !important;
-        top: 5px !important;
-        left: 0px !important;
+        font-size: 9px !important;
+        top: 28%!important;
+        /* left: 0px !important; */
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding-left: 0rem !important;
     }
 
     .member img{
@@ -2345,7 +2425,7 @@ body {
     }
 
     .subscribe{
-        top: 2979px;
+        top: 2025px;
     }
 
     .subscribe h1{
@@ -2393,7 +2473,7 @@ body {
     }
     
     .processor{
-        top: 2960px;
+        top: 3480px;
     }
 
     .planos-1{
@@ -2421,11 +2501,12 @@ body {
     }
 
     .avaliacoes{
-        top: 3431px;
+        top: 1900px;
     }
 
     .depoiments h1{
         font-size: 12px !important;
+        margin-left: 23.5% !important;
     }
 
     .depoiments p{
@@ -2437,7 +2518,91 @@ body {
     }
 
     #hr-2{
-        top: 2934px;
+        top: 1800px;
     }
 
+    .subscribe-button{
+        top: -55%;
+    }
+
+    .subscribe-button h1{
+        font-size: 1rem;
+    }
+
+    .member img{
+        
+        width: 13%;
+        height: auto;
+        left: 93%;
+        margin-top: 7%;
+
+    }
+
+    .subscribe-now h1{
+        font-size: 1rem !important;
+    }
+
+}
+
+@media (min-width: 1600px){
+
+    #hr-1{
+        top: 291px;
+    }
+    #hr-2{
+        top: 2021px;
+    }
+
+    .avaliacoes{
+        top: 2000px;
+    }
+
+    .discord{
+        top: 2160px;
+    }
+
+    .questions{
+        top: 2620px;
+    }
+
+    .subscribe{
+        top: 2340px;
+    }
+
+    .gradient{
+        height: 6491px;
+    }
+
+}
+
+@media (min-width: 1920px){
+    
+    .gradient{
+        height: 6586px;
+    }
+    
+    #hr-1{
+        top: 431px;
+    }
+
+    .planos{
+        top: 430px;
+    }
+
+    #hr-2{
+        top: 2021px;
+    }
+
+    .questions{
+        top: 2632px;
+    }
+
+    .subscribe{
+        top: 2340px;
+    }
+
+    .subscribe-now h1{
+        top: -30%;
+        padding-left: 13% !important;
+    }
 }
