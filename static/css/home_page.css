@@ -2261,6 +2261,7 @@ body {
 
 @media (min-width: 1600px){
 
+
     #hr-2{
         top: 2550px;
     }
@@ -2274,7 +2275,7 @@ body {
     }
 
     .gradient{
-        height: 7525px;
+        height: 7650px;
     }
 
 }
