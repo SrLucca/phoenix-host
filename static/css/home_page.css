@@ -2262,7 +2262,7 @@ body {
 @media (min-width: 1600px){
 
     #hr-2{
-        top: 2692px;
+        top: 2550px;
     }
 
     .questions{
@@ -2278,6 +2278,27 @@ body {
     }
 
 }
+
+@media (min-width: 1680px){
+
+    #hr-2{
+        top: 2710px;
+    }
+
+    .questions{
+        top: 2620px;
+    }
+
+    .subscribe{
+        top: 2566px;
+    }
+
+    .gradient{
+        height: 7525px;
+    }
+
+}
+
 
 @media (min-width: 1920px){
     
