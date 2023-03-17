@@ -7,678 +7,650 @@
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
     <link rel="stylesheet" href="static/css/minecraft.css">
     <link rel="icon" href="static/img/home_page/LOGO VERTICAL BRANCO.png">
-    <title>Minecraft</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e2211b3575.js" crossorigin="anonymous"></script>
+    <title>Landing page</title>
 </head>
 <body>
-    <div class="base">
-        <div class="gradient">
-            <div class="header">
-                <div class="header-content">
-                    <img id="header-logo" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset="">
-                    <a href="">Serviços</a>
-                    <a href="">Infraestrutura</a>
-                    <a href="">Planos</a>
-                    <a href="">Jogos</a>
-                    <a href="">Sobre</a>
-                    <img id="carrinho" src="static/img/home_page/Icone de carrinho home.png" alt="CARRINHO DE COMPRA" srcset="">
+    
+    
+
+<div class="base">
+    <div class="gradient">
+        
+        <nav class="nav nav-pills nav-fill header header-content pt-5">
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+                    <div class="mobile"></div>
                     
-                    <div class="loginBtn">
-                        <a href="">Login</a>
-                    </div>
-                </div>
-            </div>
+                        <li id="header-logo" class="nav-item float-start">
+                            <a href=""><img class="ps-5 pe-5" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset=""></a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Serviços</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Infraestrutura</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Planos</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Jogos</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <img id="carrinho"  src="static/img/home_page/Icone de carrinho home.png" alt="CARRINHO DE COMPRA" srcset="">
+                        </li>
+                        <li class="nav-item loginBtn me-5">
+                            <a class="tex-center" href="">Login</a>
+                        </li>
+                    
+                
+                    
+        </nav>
+        
 
-            <div class="top-page">
-                <img src="static/img/minecraft/Completo modelo 2.png" alt="">
-                <div id="linha1">
 
-                </div>
-                <div id="linha2">
-
-                </div>
-
-                <div class="top-page-rust">
-                    <h1>HOSPEDAGEM<br>DE SERVIDORES<br>DE MINECRAFT</h1>
-                    <p>Jogo escolhido, escolha um de nossos planos acessíveis<br>e vamos pro game!</p>
-                </div>
-            </div>
-
-            <div class="show-plans">
-                <div class="show-btn">
-                    <a href="">VER PLANOS</a>
+        <div class="container-fluid top-page pt-5 mt-5 pb-5 mb-5">
+            <img class="rounded mx-auto d-block" src="static/img/minecraft/Completo modelo 2.png" alt="">
+            <h1 class="text-md-start ">HOSPEDAGEM DE<br>SERVIDORES DE JOGOS</h1>
+            <p class="text-md-start ">Escolha o jogo que deseja hospedar, um de nossos planos acessíveis e vamos pro game!</p>
+            <div class="container nuvem-ver-jogos mt-5">
+                <a href="">
+                    <h1 class="text-center">VER PLANOS</h1>
                     <img src="static/img/uso-geral/setaazul.png" alt="">
+                </a>
+            </div>
+        </div>
+        
+        <hr id="hr-1">
+
+        
+        <div class="container planos mt-5">
+            <div class="row planos-1 align-items-center">
+                <div class="col">
+                    <h1 class="text-center">PLANOS DE HOSPEDAGEM</h1>
+                    <p class="text-center">Estão disponíveis planos acessíveis para todos os tipos de projeto.</p>
+                    <div class="planos-locais text-center">
+                        <h1 class="text-start">CLIQUE NO LOCAL DA HOSPEDAGEM</h1>
+                        <img class="float-end pe-3" src="static/img/uso-geral/brasil.png" alt="">
+                        <img class="float-end pe-3" src="static/img/uso-geral/eua.png" alt="">
+                    </div>
                 </div>
             </div>
 
-            <hr id="line-1">
+            <div class="row planos-2 align-items-center">
+                <div class="col-12 pt-5">
 
-            <div class="plans">
-                <h1>PLANOS DE HOSPEDAGEM</h1>
-                <p>Estão disponíveis planos acessíveis para todos os tipos de projeto.</p>
-            
-                <div class="click">
-                    <p>CLIQUE NO LOCAL DA HOSPEDAGEM</p>
-                    <img src="static/img/uso-geral/brasil.png" alt="">
-                    <img src="static/img/uso-geral/eua.png" alt="">
-                </div>
-
-
-                <div class="bloco-1">
-                    <div class="balao">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
+                    <div class="card">
+                        <div class="card-body">
+                        <h5>RYZEN 9 5900X</h5>
+                        <h1>$120/month</h1>
+                        <h6>0,179/hour</h6>
+                        <hr>
+                        <p class="card-text">
+                            2 × 240 GB SSD<br>
+                            4 cores / 8 threads @ 3.8GHz<br>
+                            32 GB Memory<br>
+                            5 TB Bandwidth<br>
+                            10 Gbps Network<br>
+                        </p>
+                        <a href="#" class="btn btn-primary">ASSINAR AGORA
+                            <img src="static/img/uso-geral/setabranca.png" alt=""></a>
+                        </a>
                         </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <p>RYZEN 9 5900X</p>
-                    <h1>$120/month</h1>
-
-                    <p id="p2">0,179/hour</p>
-
-                    <hr>
-
-                    <div class="infos-1">
-                        <p><strong>2</strong> × <strong>240</strong> GB SSD<br>
-                            <strong>4</strong> cores / <strong>8</strong> threads @<strong>3.8</strong>GHz<br>
-                            <strong>32</strong> GB Memory<br>
-                            <strong>5</strong> TB Bandwidth<br>
-                            <strong>10</strong> Gbps Network<br></p>
                     </div>
 
-                    <div class="button-1">
-                        <p>ASSINAR AGORA</p>
-                        <img src="static/img/uso-geral/setabranca.png" alt="">
+                    <div class="card">
+                        <div class="card-body">
+                        <h5>RYZEN 9 5900X</h5>
+                        <h1>$120/month</h1>
+                        <h6>0,179/hour</h6>
+                        <hr>
+                        <p class="card-text">
+                            2 × 240 GB SSD<br>
+                            4 cores / 8 threads @ 3.8GHz<br>
+                            32 GB Memory<br>
+                            5 TB Bandwidth<br>
+                            10 Gbps Network<br>
+                        </p>
+                        <a href="#" class="btn btn-primary">ASSINAR AGORA
+                            <img src="static/img/uso-geral/setabranca.png" alt=""></a>
+                        </a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-body">
+                        <h5>RYZEN 9 5900X</h5>
+                        <h1>$120/month</h1>
+                        <h6>0,179/hour</h6>
+                        <hr>
+                        <p class="card-text">
+                            2 × 240 GB SSD<br>
+                            4 cores / 8 threads @ 3.8GHz<br>
+                            32 GB Memory<br>
+                            5 TB Bandwidth<br>
+                            10 Gbps Network<br>
+                        </p>
+                        <a href="#" class="btn btn-primary">ASSINAR AGORA
+                            <img src="static/img/uso-geral/setabranca.png" alt=""></a>
+                        </a>
+                        </div>
                     </div>
                     
                 </div>
 
-                <div class="bloco-2">
-                    <div class="balao">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
+                <div class="col-12 pt-5">
+
+                    <div class="card">
+                        <div class="card-body">
+                        <h5>RYZEN 9 5900X</h5>
+                        <h1>$120/month</h1>
+                        <h6>0,179/hour</h6>
+                        <hr>
+                        <p class="card-text">
+                            2 × 240 GB SSD<br>
+                            4 cores / 8 threads @ 3.8GHz<br>
+                            32 GB Memory<br>
+                            5 TB Bandwidth<br>
+                            10 Gbps Network<br>
+                        </p>
+                        <a href="#" class="btn btn-primary">ASSINAR AGORA
+                            <img src="static/img/uso-geral/setabranca.png" alt=""></a>
+                        </a>
                         </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <p>RYZEN 9 5900X</p>
-                    <h1>$120/month</h1>
-
-                    <p id="p3">0,179/hour</p>
-
-                    <hr>
-
-                    <div class="infos-2">
-                        <p><strong>2</strong> × <strong>240</strong> GB SSD<br>
-                            <strong>4</strong> cores / <strong>8</strong> threads @<strong>3.8</strong>GHz<br>
-                            <strong>32</strong> GB Memory<br>
-                            <strong>5</strong> TB Bandwidth<br>
-                            <strong>10</strong> Gbps Network<br></p>
                     </div>
 
-                    <div class="button-2">
-                        <p>ASSINAR AGORA</p>
-                        <img src="static/img/uso-geral/setabranca.png" alt="">
-                    </div>
-                </div>
-
-                <div class="bloco-3">
-                    <div class="balao">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
+                    <div class="card">
+                        <div class="card-body">
+                        <h5>RYZEN 9 5900X</h5>
+                        <h1>$120/month</h1>
+                        <h6>0,179/hour</h6>
+                        <hr>
+                        <p class="card-text">
+                            2 × 240 GB SSD<br>
+                            4 cores / 8 threads @ 3.8GHz<br>
+                            32 GB Memory<br>
+                            5 TB Bandwidth<br>
+                            10 Gbps Network<br>
+                        </p>
+                        <a href="#" class="btn btn-primary">ASSINAR AGORA
+                            <img src="static/img/uso-geral/setabranca.png" alt=""></a>
+                        </a>
                         </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <p>RYZEN 9 5900X</p>
-                    <h1>$120/month</h1>
-
-                    <p id="p4">0,179/hour</p>
-
-                    <hr>
-
-                    <div class="infos-3">
-                        <p><strong>2</strong> × <strong>240</strong> GB SSD<br>
-                            <strong>4</strong> cores / <strong>8</strong> threads @<strong>3.8</strong>GHz<br>
-                            <strong>32</strong> GB Memory<br>
-                            <strong>5</strong> TB Bandwidth<br>
-                            <strong>10</strong> Gbps Network<br></p>
                     </div>
 
-                    <div class="button-3">
-                        <p>ASSINAR AGORA</p>
-                        <img src="static/img/uso-geral/setabranca.png" alt="">
-                    </div>
-                </div>
-
-                <div class="bloco-4">
-                    <div class="balao">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
+                    <div class="card">
+                        <div class="card-body">
+                        <h5>RYZEN 9 5900X</h5>
+                        <h1>$120/month</h1>
+                        <h6>0,179/hour</h6>
+                        <hr>
+                        <p class="card-text">
+                            2 × 240 GB SSD<br>
+                            4 cores / 8 threads @ 3.8GHz<br>
+                            32 GB Memory<br>
+                            5 TB Bandwidth<br>
+                            10 Gbps Network<br>
+                        </p>
+                        <a href="#" class="btn btn-primary">ASSINAR AGORA 
+                            <img src="static/img/uso-geral/setabranca.png" alt=""></a>
                         </div>
-                        <div class="pointer"></div>
                     </div>
-                    <p>RYZEN 9 5900X</p>
-                    <h1>$120/month</h1>
-
-                    <p id="p5">0,179/hour</p>
-
-                    <hr>
-
-                    <div class="infos-4">
-                        <p><strong>2</strong> × <strong>240</strong> GB SSD<br>
-                            <strong>4</strong> cores / <strong>8</strong> threads @<strong>3.8</strong>GHz<br>
-                            <strong>32</strong> GB Memory<br>
-                            <strong>5</strong> TB Bandwidth<br>
-                            <strong>10</strong> Gbps Network<br></p>
-                    </div>
-
-                    <div class="button-4">
-                        <p>ASSINAR AGORA</p>
-                        <img src="static/img/uso-geral/setabranca.png" alt="">
-                    </div>
-                </div>
-
-                <div class="bloco-5">
-                    <div class="balao">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
-                        </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <p>RYZEN 9 5900X</p>
-                    <h1>$120/month</h1>
-
-                    <p id="p6">0,179/hour</p>
-
-                    <hr>
-
-                    <div class="infos-5">
-                        <p><strong>2</strong> × <strong>240</strong> GB SSD<br>
-                            <strong>4</strong> cores / <strong>8</strong> threads @<strong>3.8</strong>GHz<br>
-                            <strong>32</strong> GB Memory<br>
-                            <strong>5</strong> TB Bandwidth<br>
-                            <strong>10</strong> Gbps Network<br></p>
-                    </div>
-
-                    <div class="button-5">
-                        <p>ASSINAR AGORA</p>
-                        <img src="static/img/uso-geral/setabranca.png" alt="">
-                    </div>
-                </div>
-
-                <div class="bloco-6">
-                    <div class="balao">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
-                        </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <p>RYZEN 9 5900X</p>
-                    <h1>$120/month</h1>
-
-                    <p id="p7">0,179/hour</p>
-
-                    <hr>
-
-                    <div class="infos-6">
-                        <p><strong>2</strong> × <strong>240</strong> GB SSD<br>
-                            <strong>4</strong> cores / <strong>8</strong> threads @<strong>3.8</strong>GHz<br>
-                            <strong>32</strong> GB Memory<br>
-                            <strong>5</strong> TB Bandwidth<br>
-                            <strong>10</strong> Gbps Network<br></p>
-                    </div>
-
-                    <div class="button-6">
-                        <p>ASSINAR AGORA</p>
-                        <img src="static/img/uso-geral/setabranca.png" alt="">
-                    </div>
+                    
+                    
                 </div>
                 
-                <div class="additional-packs">
-                    <p>ENTRE EM CONTATO PARA PACOTES ADICIONAIS</p>
-                    <img src="static/img/uso-geral/setabranca.png" alt="">
-                </div>
+                <a href="" class="btn btn-primary planos-adicionais mt-5">ENTRE EM CONTATO PARA PACOTES ADICIONAIS
+                    <img src="static/img/uso-geral/setabranca.png" alt=""></a>
+                </a>
+
             </div>
+        </div>
 
-            <div class="ranking">
 
-                <h1>RANKING<br>DE SERVIDORES</h1>
-                <p>Veja nosso ranking de servidores em tempo real e saiba o níveis de qualidade que nós entregamos para todos os nossos clientes.</p>
-                <div style="top: 252px;
-                        left: -5px;" class="show-btn">
-                            <a style="
-                            font-size: 17px;
-                            top: 19px;
-                        " href="">HOSPEDAR MEU SERVIDOR</a>
-                            <img style="    left: 67px !important;
-                            top: 21px !important;" src="static/img/uso-geral/setaazul.png" alt="">
-                        </div>
-
-                <div class="in-time">
-                    <h1>RANKING EM TEMPO REAL</h1>
-
-                    <p style="color: #D1D1D1;">Local</p>
-                    <img  src="static/img/uso-geral/brasil.png" alt="BRASIL">
-                    <img style="left: 117px;" src="static/img/rust/medalha-ouro.png" alt="OURO">
-
-                    <img style="
-                    left: 49px;
-                    top: 273px;" src="static/img/uso-geral/brasil.png" alt="BRASIL">
-                    <img style="top: 274px;left: 117px;" src="static/img/rust/medalha-prata.png" alt="PRATA">
-
-                    <img style="
-                    left: 49px;
-                    top: 358px;" src="static/img/uso-geral/eua.png" alt="EUA">
-                    <img style="
-                    left: 117px;
-                    top: 358px;" src="static/img/rust/medalha-de-ouro (1).png" alt="BRONZE">
-                    
-                    <p style="color: #D1D1D1; left: 164px;">Servidor</p>
-                    <p style="top: 180px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;" id="serv1">Los Hermanos</p>
-                    <div class="balao1">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
-                        </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <div class="barrinha-1">
-                    </div>
-
-                    <p style="top: 185px;left: 444px;font-weight: 700;word-spacing: -3px;font-size: 18px;">1664 Players</p>
-                    <p style="top: 273px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;" id="serv2">4FUN</p>
-                    <div class="balao2">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
-                        </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <div class="barrinha-2">
-                    </div>
-
-                    <p style="top: 279px;left: 444px;font-weight: 700;word-spacing: -3px;font-size: 18px;">1268 Players</p>
-                    <p style="top: 356px;left: 164px;font-weight: 900;word-spacing: -3px;font-size: 22px;" id="serv3">GAME4FUN</p>
-                    <div class="balao3">
-                        <div class="bubble">
-                            <p id="p-balao"><strong>Plano</strong> recomendado para<br>servidores com no <strong>máximo<br>200 jogadores.</strong></p>
-                        </div>
-                        <div class="pointer"></div>
-                    </div>
-                    <div class="barrinha-3">
-                    </div>
-                    <p style="top: 363px;left: 444px;font-weight: 700;word-spacing: -3px;font-size: 18px;">812 Players</p>
-
-                    <p style="color: #D1D1D1; left: 444px;">Jogadores</p>
-                    <div class="barrinha-4">
-                    </div>
-                    <p style="color: #80AD34; top: 185px;left: 621px;font-weight: 700;word-spacing: -3px;font-size: 18px;">23ms</p>
-                    <div class="barrinha-5">
-                    </div>
-                    <p style="color: #80AD34; top: 279px;left: 621px;font-weight: 700;word-spacing: -3px;font-size: 18px;">12ms</p>
-                    <div class="barrinha-6">
-                    </div>
-                    <p style="color: #80AD34; top: 363px;left: 621px;font-weight: 700;word-spacing: -3px;font-size: 18px;">45ms</p>
-                    <p style="color: #D1D1D1; left: 621px;">Ping</p>
-                </div>
-            </div>
-
-            <div class="control-ddos">
-            <h1>INSTALAÇÃO<br>SIMPLIFICADA</h1>
-                <p>Tenha a liberdade e facilidade de instalar plugins de forma rápida, 
-                    com apenas um clique. Todos os planos incluem diferentes versões, 
-                    incluindo oficiais e não oficiais, como Spigot, PaperMC, Bukkit, Forge, dentre outros.</p>
-
-            <img id="bloco" src="static/img/minecraft/INSTALAÇÃO SIMPLIFICADA COMPLETA.png" alt="">
-            </div>
-
-            <!--
-            <div class="control-ddos-2">
-                <h1>CONTROLE<br>TOTAL DO HOST</h1>
-                    <p>It is a long established fact that a reader will be<br>
-                        distracted by the reada. It is a long established<br>
-                        fact that a reader will be distracted by the <br>
-                        reada. It is a long established fact that a reader.</p>
-    
-                <img src="static/img/rust/PROTEÇÃO DDOS.png" alt="">
-            </div>
-            -->
-
-            <div class="infos">
-
-                <div id="retangulo1"  class="retangulo1" onclick="show_hide(1)">
-                    <h1>PROTEÇÃO DDOS</h1>
-                    <hr>
-                    <p>Todos os nossos serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade.</p>
-                </div>
-                <div  id="retangulo2" class="retangulo2" onclick="show_hide(2)">
-                    <h1>INFRAESTRUTURA</h1>
-                    <hr>
-                    <p>Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.</p>
-                </div>
-                <div  id="retangulo3" class="retangulo3" onclick="show_hide(3)">
-                    <h1>REDE</h1>
-                    <hr>
-                    <p>Rede de alta performance e redundante para que possa proporcionar baixa latência e estabilidade de conexão aos servidores de FiveM.</p>
-                </div>
-                <div  id="retangulo4" class="retangulo4" onclick="show_hide(4)">
-                    <h1>GARANTIA DE REEMBOLSO</h1>
-                    <hr>
-                    <p>Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço.</p>
-                </div>
-                <div class="info-content">
-                    
-                    <img id="img-retangulo1" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
-                    <img style="margin-top: 9%;" width="653" height="400" id="img-retangulo2" src="/static/img/rust/INFRAESTRUTURA.png" alt="">
-                    
-                    <img id="img-retangulo3" src="/static/img/fivem/REDE COMPLETA.png" alt="">
-                    <img id="planeta" src="/static/img/fivem/animation/PLANETA.png" alt="">
-                    <img id="steve" src="/static/img/fivem/animation/PERSONAGEM STEVE.png" alt="">
-                    <img id="rustman" src="/static/img/fivem/animation/PERSONAGEM RUST.png" alt="">
-                    <img id="carro" src="/static/img/fivem/animation/CARRO.png" alt="">
-                    <img id="pontos" src="/static/img/fivem/animation/PONTOS.png" alt="">
-                    <img id="ligacao" src="/static/img/fivem/animation/LIGAÇÃO.png" alt="">
-                    
-
-                    <img id="img-retangulo4" src="/static/img/rust/GARANTIA DE REEMBOLSO COMPLETA.png" alt="">
-                    <img id="robo1" src="/static/img/rust/animations/ROBO 1.png" alt="">
-                    <img id="robo2" src="/static/img/rust/animations/ROBO 2.png" alt="">
-                    <img id="setadir" src="/static/img/rust/animations/SETA DIREITA.png" alt="">
-                    <img id="setaesq" src="/static/img/rust/animations/SETA ESQUERDA.png" alt="">
-
-                    <h1 id="h1-retangulo1">PROTEÇÃO DDOS</h1>
-                    <h1 id="h1-retangulo2">INFRAESTRUTURA</h1>
-                    <h1 id="h1-retangulo3">REDE</h1>
-                    <h1 id="h1-retangulo4">GARANTIA DE REEMBOLSO</h1>
-                    
-
-                    <p id="p-retangulo1">Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. Também oferecemos planos de adicionais de Proteção DDoS disponíveis.</p>
-                    <p id="p-retangulo2">Nossa infraestrutura é redundante para entregamos grande disponibilidade de serviços. Em termos de hardware, contamos processadores Ryzen 5° e 7° geração, SSD NVMe 3° e 4° geração que podem ter velocidades de até 7000Mb/s de leitura, 
-                        assim garantindo que seu servidor usufrua de rápido tempo de resposta e performance. As configurações de hardware variam de acordo com o estoque e não é previsível.</p>
-                    <p id="p-retangulo3">Nossa rede de 170Tbps é fundamental para servidores de FiveM, pois eles exigem redes de alta performance para que os jogadores possam baixar os resources rapidamente. 
-                        Também contamos com links secundários para garantir conectividade em caso de falha dos links primários.</p>
-                    <p id="p-retangulo4">Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço.</p>
-
-                </div>
-
-                <div id="see-infra">
-                    <a href="#">
-                        <strong><p>INFRAESTRUTURA COMPLETA</p></strong>
-                        <img src="static/img/home_page/seta-direita.png" alt="SETA">
-                    </a>
-                </div>
-            </div>
-
-            <hr id="hr-1">
-
-            <div class="faixa">
-                    <strong><h1>5.0</h1></strong>
-
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA-1">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA-1">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA-1">
-                    <img src="static/img/home_page/estrela-1.png" alt="ESTRELA">
-
-                    <p>Veja todas as avaliações<br>completas clicando aqui</p>
-                    <hr>
-
-                    <div class="contact-suport">
-                        <a href="#">
-                            <img src="static/img/home_page/operador-de-telemarketing-masculino.png" alt="">
-                        
-                            <strong><p>ENTRE EM CONTATO<br>COM O SUPORTE</p></strong>
-                        </a>
-                    </div>
-            </div>
-
-            <div class="depoiments-1">
-                <img src="static/img/home_page/Perfil.png" alt="">
-                <strong><h4>Phedro Vinícius do Nascimento Borges</h4></strong>
-                <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive<br> problemas com
-                    eles. Sempre fui bem atendido e o suporte sempre em dia.</p>
+        <div class="row processor text-center pt-5 mt-5 pb-5">
             
-                <div class="estrelinhas-1">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                </div>
+            <div class="col">
+                <h1 class="text-start">PROCESSADORES DE ÚLTIMA GERAÇÃO</h1>
+                <p class="text-start">Contamos com os processadores mais recentes e fortes do 
+                    mercado para poder proporcionar o melhor desempenho aos usuários.</p>
+                    
             </div>
 
-            <div class="depoiments-2">
-                <img src="static/img/home_page/Perfil.png" alt="">
-                <strong><h4>Phedro Vinícius do Nascimento Borges</h4></strong>
-                <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive<br> problemas com
-                    eles. Sempre fui bem atendido e o suporte sempre em dia.</p>
+                    
+            <div class="col col-velocimetro">
+                <h1 class="text-center">RANKING EM TEMPO REAL</h1>
+                <table class="table ranking table-light">
+                    
+                    <thead>
+                        <tr>
+                            <th scope="col">Local</th>
+                            <th scope="col">Servidor</th>
+                            <th scope="col">Jogadores</th>
+                            <th scope="col">Ping</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">
+                                <img src="static/img/uso-geral/brasil.png" alt="">
+                                
+                            </th>
+                            <td>Los Hermanos</td>
+                            <td>1664 Players</td>
+                            <td>23ms</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img src="static/img/uso-geral/brasil.png" alt=""></th>
+                            <td>4FUN</td>
+                            <td>1664 Players</td>
+                            <td>12ms</td>
+                        </tr>
+                        <tr>
+                            <th scope="row"><img src="static/img/uso-geral/eua.png" alt=""></th>
+                            <td>GAME4FUN</td>
+                            <td>1664 Players</td>
+                            <td>45ms</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="table-bottom"></div>
+            </div>
             
-                <div class="estrelinhas-2">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                    <img src="static/img/home_page/estrela.png" alt="">
-                </div>
-            </div>
+        </div>
 
-            <div class="depoiments-3">
-                <img src="static/img/home_page/Perfil.png" alt="">
-                <strong><h4>Phedro Vinícius do Nascimento Borges</h4></strong>
-                <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive<br> problemas com
-                    eles. Sempre fui bem atendido e o suporte sempre em dia.</p>
+        <div class="row wipe text-center pt-5 mt-5 pb-5">
             
-                <div class="estrelinhas-3">
-                    <img src="static/img/home_page/estrela.png" alt="estrela-2">
-                    <img src="static/img/home_page/estrela.png" alt="estrela-2">
-                    <img src="static/img/home_page/estrela.png" alt="estrela-2">
-                </div>
+            <div class="col">
+                <h1 class="text-start">PROCESSADORES DE ÚLTIMA GERAÇÃO</h1>
+                <p class="text-start">Contamos com os processadores mais recentes e fortes do 
+                    mercado para poder proporcionar o melhor desempenho aos usuários.</p>
+                    
             </div>
 
-            <div class="discord">
-                <h1>COMUNIDADE<br>EXCLUSIVA NO DISCORD</h1>
-
-                <div class="member">
-                    <h1>QUERO SER MEMBRO</h1>
-                    <img style="    position: inherit;
-                    top: -49px;
-                    left: 237px;" src="static/img/uso-geral/setaazul.png" alt="">
-
-                </div>
+                    
+            <div class="col col-img-wipe">
+                <img src="static/img/minecraft/INSTALAÇÃO SIMPLIFICADA COMPLETA.png" alt="">
             </div>
-            <div class="footer">
+            
+        </div>
 
-                <div class="services">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
+        <div class="container garantias">
+            <h1>NÓS GARANTIMOS</h1>
+            <p class="mb-5">Com total comprometimento com o cliente nós garantmos alguns serviços essenciais.</p>
+            <div class="row linha_garantias">
+                <div class="col-sm-7 high-perfomance" id="high-perfomance">
+                    <h2 class="mb-3">ALTA<br>PERFORMANCE</h2>
+                    <p>Nosso maior objetivo é fornecer a maior performance aos nossos usuários, para isso, não economizamos em nossa infraestrutura.</p>
                 </div>
-
-                <div class="services-1">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
+                <div class="col-sm-4 custom-plans" id="custom-plans">
+                    <h2 class="mb-3">PLANOS ADICIONAIS DISPONÍVEIS</h2>
+                    <p>Contamos com pesonalização de planos de acordo com a necessidade do usuário, para saber mais, basta enrar em contato.</p>
                 </div>
-
-                <div class="services-2">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
+              </div>
+              <div class="row linha_garantias">
+                <div class="col-sm uptime" id="uptime">
+                    <h2 class="mb-3">99% DE<br>UPTIME</h2>
+                    <p>Contamos com servidores de última geração e alta performance. Sua aplicação sempre funcionará.</p>
                 </div>
-
-                <img src="static/img/home_page/FINAL.png" alt="LOGO-PHOENIX">
-
-                <div class="footer-2">
-                    <img src="static/img/home_page/LOGO VERTICAL BRANCO.png" alt="PHOENIX-LOGO">
-                    <p>Copyright 2021 by PhoenixHost | CNPJ - 37.245.530/0001-00</p>
+                <div class="col-sm suport" id="suport">
+                    <h2 class="mb-3">SUPORTE ESPECIALIZADO</h2>
+                    <p>Nosso time é treinado e está pronto para te ajudar com quaisquer questões com um tempo de resposta ágil.</p>
+                </div>
+                <div class="col-sm hdd" id="hdd">
+                    <h2 class="mb-3">DEPLOY AUTOMÁTICO</h2>
+                    <p>Os serviços são entregues automaticamente após a confirmação do pagamento pelo gateway.</p>
                 </div>
             </div>
         </div>
-    </div>
-    
-</body>
 
-<script>
+
+        
+        
+        <div  class="container infos">
+            <div class="retangulos">
+                <div class="container-sm retangulo1 float-start " id="r-1" onclick="show_hide(1)"> 
+                    <h1 class="text-start mt-3">PROTEÇÃO DDOS</h1>
+                    <p class="text-start">Todos os nossos serviços incluem Proteção DDoS e 
+                        ainda é possível personalizar de acordo com sua necessidade.</p>
+                </div>
+
+                <div class="container-sm retangulo1 float-start" id="r-2" onclick="show_hide(2)"> 
+                    <h1 class="text-start mt-3">INFRAESTRUTURA</h1>
+                    <p id="p-alto_desempenho" class="text-start">Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos 
+                        com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.</p>
+                </div>
+
+                <div class="container-sm retangulo1 float-start " id="r-3" onclick="show_hide(3)"> 
+                    <h1 class="text-start mt-3">GARANTIA DE REEMBOLSO</h1>
+                    <p class="text-start">Garantimos o reembolso total do valor pago no serviço para 
+                        solicitações feitas em até 7 dias da assinatura do serviço.</p>
+                </div>
+
+                <div class="container-sm retangulo1 float-start" id="r-4" onclick="show_hide(4)"> 
+                    <h1 class="text-start mt-3">SUPORTE</h1>
+                    <p class="text-start">Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível 
+                        e resolver as questões dos usuários com eficácia.</p>
+                </div>
+            </div>
+            <div class="container-fluid info-content float-end">
+                <p id="p-info-content" > Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. 
+                    Também oferecemos planos de adicionais de Proteção DDoS disponíveis.</p>
+                <img id="img-info-content" class="rounded mx-auto d-block" src="/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png" alt="">
+            </div>
+            
+    </div>
+
+        
+
+        <hr id="hr-2">
+
+        <div class="container avaliacoes">
+            <div class="row linha_avaliacoes">
+                <div class="col-sm-8">
+                    <div class="row depoiments">
+                        <img class="float-start" src="static/img/home_page/Grupo de máscara 2.png" alt="">
+                        <h1>Phedro Vinícius do Nascimento Borges</h1>
+                        <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive problemas com eles. 
+                            Sempre fui bem atendido e o suporte sempre em dia.</p>
+                            <img class="float-start estrelas" src="static/img/home_page/5-estrelas.png" alt="">
+                        
+                    </div>
+                    <div class="row depoiments">
+                        <img class="float-start" src="static/img/home_page/Grupo de máscara 2.png" alt="">
+                        <h1>Phedro Vinícius do Nascimento Borges</h1>
+                        <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive problemas com eles. 
+                            Sempre fui bem atendido e o suporte sempre em dia.</p>
+                            <img class="float-start estrelas" src="static/img/home_page/5-estrelas.png" alt="">
+                    </div>
+                    <div class="row depoiments">
+                        <img class="float-start" src="static/img/home_page/Grupo de máscara 2.png" alt="">
+                        <h1>Phedro Vinícius do Nascimento Borges</h1>
+                        <p>Uso a hospedagem da Phoenix a um bom tempo e desde então nunca tive problemas com eles. 
+                            Sempre fui bem atendido e o suporte sempre em dia.</p>
+                            <img class="float-start estrelas" src="static/img/home_page/3-estrelas.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-4 faixa float-end">
+                    <h1>5.0</h1>
+                    <img src="static/img/home_page/5-estrelas.png" alt="">
+
+                    <p>Veja todas as avaliações completas <a href="">clicando aqui</a></p>
+
+                    <hr>
+
+                    <div class="container contact-suport">
+                        <img src="/static/img/home_page/operador-de-telemarketing-masculino.png" alt="">
+                        <p><a href="">ENTRE EM CONTATO COM O SUPORTE</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid discord">
+
+            <div class="row linha_discord">
+                <div class="col">
+                    <h1 class="text-start">COMUNIDADE EXCLUSIVA NO DISCORD</h1>
+                </div>
+                <div class="col">
+                    <div  class="container member text-center">
+                        <h1>QUERO SER MEMBRO</h1><img class="float-start" src="static/img/uso-geral/setaazul.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid subscribe">
+            <h1 class="text-start ms-5 pt-5">
+                HOSPEDAGEM DE JOGOS COM ATÉ 30% OFF
+            </h1>
+
+            <div class="subscribe-button float-end">
+                <h1 class="text-center">A PARTIR DE R$ 128,99</h1>
+                <div class="subscribe-now">
+                    <h1 class="text-start">ASSINAR AGORA</h1><img class="text-center" src="static/img/uso-geral/setaazul.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="footer text-center text-lg-start navbar-fixed-bottom">
+            <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Servços</h5>
+        
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-light">Hospedagem de jogos</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Servidores VPS</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Servidores dedicados</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Sobre</h5>
+        
+                <ul class="list-unstyled">
+                <li>
+                    <a href="#!" class="text-light">Termos de atualização</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Infraestrutura</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Base de conhecimento</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Social</h5>
+        
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-light">Discord</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Instagram</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Whatsapp</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Endereço</h5>
+        
+                <ul class="list-unstyled">
+                <li>
+                    <a href="#!" class="text-light">Rua Visconde de Pirajá, 414 - Sala 718 </a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Ipanema, Rio de Janeiro/RJ</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">CEP: 22410-002</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            <img class="float-end" id="img-footer" src="static/img/home_page/FINAL.png" alt="">
+        </div>
+        <!-- Grid container -->
+        
+        <!-- Copyright -->
+        <div class="text-center p-3 footer2" style="background-color: rgba(0, 0, 0, 0.2);">
+            <img src="static/img/home_page/LOGO VERTICAL BRANCO.png" alt=""><h5>Copyright 2021 by PhoenixHost | CNPJ - 37.245.530/0001-00</h5>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    
+    </div>
+</div>
+
+
+    <script type="text/javascript">
+
+    document.addEventListener("mousemove", parallax);
+    document.addEventListener("scroll", windowPosition);
+
+
+    //var img1 = document.getElementById('servidor');
+    var img2 = document.getElementById('nuvem-1');
+    var img3 = document.getElementById('nuvem-2');
+
+    
+    let contador = 0;
+
+    var rect = 0;
+    var rect2 = 0;
+    var rect3 = 0;
+    
+
+    window.addEventListener('resize', function() {
+	// viewport and full window dimensions will change
+	var viewport_width = document.documentElement.clientWidth;
+
+    if (viewport_width <= 767.98){
+        document.getElementById('p-alto_desempenho').textContent = "Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços.";
+    }else{
+        document.getElementById('p-alto_desempenho').textContent = "Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.";
+    }
+    });
+
+    
 
     function sleep(ms) {
-                return new Promise(resolve => setTimeout(resolve, ms));
-            }
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
 
     async function show_hide(id){
         if(id == 1){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 10;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'block';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'block';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'block';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
-            planeta = document.getElementById('planeta').style.display = 'none'
-            carro = document.getElementById('carro').style.display = 'none'
-            rustman = document.getElementById('rustman').style.display = 'none'
-            steve = document.getElementById('steve').style.display = 'none';
-            pontos = document.getElementById('pontos').style.display = 'none';
-            ligacao = document.getElementById('ligacao').style.display = 'none';
-
-
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
-            robo1 = document.getElementById('robo1').style.display = 'none';
-            robo2 = document.getElementById('robo2').style.display = 'none';
-            setadir = document.getElementById('setadir').style.display = 'none';
-            setaesq = document.getElementById('setaesq').style.display = 'none';
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png"
+            document.getElementById('p-info-content').textContent = "Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. Também oferecemos planos de adicionais de Proteção DDoS disponíveis."
+            
+            document.getElementById('r-1').style.boxShadow = 'none';
+            document.getElementById('r-2').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-3').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-4').style.boxShadow = '27px -2px 99px #00000029';
+        
         }
-
         if(id == 2){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 10;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'block';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'block';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'block';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
-            planeta = document.getElementById('planeta').style.display = 'none'
-            carro = document.getElementById('carro').style.display = 'none'
-            rustman = document.getElementById('rustman').style.display = 'none'
-            steve = document.getElementById('steve').style.display = 'none';
-            pontos = document.getElementById('pontos').style.display = 'none';
-            ligacao = document.getElementById('ligacao').style.display = 'none';
-            
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
-            robo1 = document.getElementById('robo1').style.display = 'none';
-            robo2 = document.getElementById('robo2').style.display = 'none';
-            setadir = document.getElementById('setadir').style.display = 'none';
-            setaesq = document.getElementById('setaesq').style.display = 'none';
+            document.getElementById('img-info-content').src = "/static/img/rust/INFRAESTRUTURA.png"
+            document.getElementById('p-info-content').textContent = "Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos, logs e ferramentas para administração. Além disso, o dashboard é responsivo para que você consiga administrar o serviço de qualquer lugar, inclusive, à partir de um celular."
+        
+            document.getElementById('r-2').style.boxShadow = 'none';
+            document.getElementById('r-1').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-3').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-4').style.boxShadow = '27px -2px 99px #00000029';
         }
-
         if(id == 3){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 10;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'block';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'block';
-            planeta = document.getElementById('planeta').style.display = 'block'
-
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 100;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'none';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'none';
-            robo1 = document.getElementById('robo1').style.display = 'none';
-            robo2 = document.getElementById('robo2').style.display = 'none';
-            setadir = document.getElementById('setadir').style.display = 'none';
-            setaesq = document.getElementById('setaesq').style.display = 'none';
-
-            
-            await sleep(500);
-            carro = document.getElementById('carro').style.display = 'block'
-            carro = document.getElementById('carro').style.animation = 'popUp 0.5s linear';
-            await sleep(500);
-            rustman = document.getElementById('rustman').style.display = 'block'
-            rustman = document.getElementById('rustman').style.animation = 'popUp 0.5s linear';
-            await sleep(500);
-            steve = document.getElementById('steve').style.display = 'block';
-            steve = document.getElementById('steve').style.animation = 'popUp 0.5s linear';
-            await sleep(600);
-            pontos = document.getElementById('pontos').style.display = 'block';
-            pontos = document.getElementById('pontos').style.animation = 'reveal 0.5s linear';
-            await sleep(700);
-            ligacao = document.getElementById('ligacao').style.display = 'block';
-            ligacao = document.getElementById('ligacao').style.animation = 'reveal 0.5s linear';
+            document.getElementById('img-info-content').src = "/static/img/rust/GARANTIA DE REEMBOLSO COMPLETA.png"
+            document.getElementById('p-info-content').textContent = "Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço e que estejam de acordo com os nossos termos."
+        
+            document.getElementById('r-3').style.boxShadow = 'none';
+            document.getElementById('r-1').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-2').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-4').style.boxShadow = '27px -2px 99px #00000029';
         }
-
         if(id == 4){
-            retangulo1 = document.getElementById('retangulo1').style.zIndex = 100;
-            img_retangulo1 = document.getElementById('img-retangulo1').style.display = 'none';
-            h1_retangulo1 = document.getElementById('h1-retangulo1').style.display = 'none';
-            p_retangulo1 = document.getElementById('p-retangulo1').style.display = 'none';
-
-            retangulo2 = document.getElementById('retangulo2').style.zIndex = 100;
-            img_retangulo2 = document.getElementById('img-retangulo2').style.display = 'none';
-            h1_retangulo2 = document.getElementById('h1-retangulo2').style.display = 'none';
-            p_retangulo2 = document.getElementById('p-retangulo2').style.display = 'none';
-
-            retangulo3 = document.getElementById('retangulo3').style.zIndex = 100;
-            img_retangulo3 = document.getElementById('img-retangulo3').style.display = 'none';
-            h1_retangulo3 = document.getElementById('h1-retangulo3').style.display = 'none';
-            p_retangulo3 = document.getElementById('p-retangulo3').style.display = 'none';
-            planeta = document.getElementById('planeta').style.display = 'none'
-            carro = document.getElementById('carro').style.display = 'none'
-            rustman = document.getElementById('rustman').style.display = 'none'
-            steve = document.getElementById('steve').style.display = 'none';
-            pontos = document.getElementById('pontos').style.display = 'none';
-            ligacao = document.getElementById('ligacao').style.display = 'none';
-            
-            retangulo4 = document.getElementById('retangulo4').style.zIndex = 10;
-            img_retangulo4 = document.getElementById('img-retangulo4').style.display = 'none';
-            h1_retangulo4 = document.getElementById('h1-retangulo4').style.display = 'block';
-            p_retangulo4 = document.getElementById('p-retangulo4').style.display = 'block';
-            
-
-            robo2 = document.getElementById('robo2').style.display = 'block';
-            robo2 = document.getElementById('robo2').style.animation = 'popUp 0.5s linear';
-            await sleep(500);
-            setaesq = document.getElementById('setaesq').style.display = 'block';
-            setaesq = document.getElementById('setaesq').style.animation = 'reveal 0.5s linear';
-            await sleep(500);
-            robo1 = document.getElementById('robo1').style.display = 'block';
-            robo1 = document.getElementById('robo1').style.animation = 'popUp 0.5s linear';
-            await sleep(500);
-            setadir = document.getElementById('setadir').style.display = 'block';
-            setadir = document.getElementById('setadir').style.animation = 'reveal 0.5s linear';
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/SUPORTE COMPLETA.png"
+            document.getElementById('p-info-content').textContent = "Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia.Estamos nos principais canais de atendimento, dentre eles: WhatsApp, Discord e Instagram."
+        
+            document.getElementById('r-4').style.boxShadow = 'none';
+            document.getElementById('r-1').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-2').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-3').style.boxShadow = '27px -2px 99px #00000029';
         }
     }
 
-    document.addEventListener("scroll", windowPosition);
 
     function windowPosition(event){
+        
+        
 
-        if(window.pageYOffset >= 3279){
+        if(window.pageYOffset >= 3627){
+
             
-            document.getElementById('bloco').style.display = 'block';
-            document.getElementById('bloco').style.animation = 'popUp 0.5s 1 linear';
+            
+            document.getElementById('high-perfomance').style.transition = ".6s, background-size .6s .6s";
+            document.getElementById('high-perfomance').style.setProperty('--_i', '100%');
+
+            document.getElementById('uptime').style.transition = ".7s, background-size .7s .7s";
+            document.getElementById('uptime').style.setProperty('--_i', '100%');
+
+            document.getElementById('custom-plans').style.transition = ".8s, background-size .8s .8s";
+            document.getElementById('custom-plans').style.setProperty('--_i', '100%');
+
+            document.getElementById('suport').style.transition = ".9s, background-size .9s .9s";
+            document.getElementById('suport').style.setProperty('--_i', '100%');
+
+            document.getElementById('hdd').style.transition = "1s, background-size 1s 1s";
+            document.getElementById('hdd').style.setProperty('--_i', '100%');
+
         }
+        
+        if(window.pageYOffset >= 1500){
+
+            var ponteiro = document.getElementById('ponteiro');
+            var contador = document.getElementById('contador');
+            var contador_decimal = document.getElementById('contador-decimal');
+
+            var temp = document.getElementById('temp');
+            var points = document.getElementById('points');
+
+            ponteiro.style.animation = 'movimentaPonteiro 1500ms 1 ease-in';
+            ponteiro.style.transform = 'rotate(150deg)';
+            ponteiro.style.transformOrigin = 'bottom right';
+
+            contador.style.transition = '--num 2s';
+            contador.style.setProperty('--num','4');
+
+            contador_decimal.style.transition = '--decimal 2s';
+            contador_decimal.style.setProperty('--decimal','8');
+
+            temp.style.transition = ('--temp 2s');
+            temp.style.setProperty('--temp', '62');
+
+            points.style.transition = ('--points 2s');
+            points.style.setProperty('--points', '7830');
+
+        }
+
+
     }
-    
-</script>
+
+
+
+    </script>
+</body>
 </html>
