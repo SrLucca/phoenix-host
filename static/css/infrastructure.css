@@ -448,9 +448,19 @@ body {
     margin-right: 1%  !important; 
     position: relative;
     left: -0.9%;
-    box-shadow: inset 0px -49px 49px -34px rgba(0,0,0,0.52);
+    box-shadow: none;
 
     border-radius: 25px 25px 0px 0px;
+}
+
+.ddos:hover{
+    cursor: pointer;
+
+}
+
+.ddos h1:hover{
+    font-size: 32px;
+    transition: 0.2s all;
 }
 
 .ddos h1{
@@ -466,6 +476,16 @@ body {
     width: 20%;
     border-radius: 25px 25px 0px 0px;
     box-shadow: inset 0px -49px 49px -34px rgba(0,0,0,0.52);
+}
+
+.rede:hover{
+    cursor: pointer;
+
+}
+
+.rede h1:hover{
+    font-size: 32px;
+    transition: 0.2s all;
 }
 
 .rede h1{
