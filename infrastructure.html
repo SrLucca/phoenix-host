@@ -7,278 +7,434 @@
     <link href="https://fonts.cdnfonts.com/css/sf-pro-display" rel="stylesheet">
     <link rel="stylesheet" href="static/css/infrastructure.css">
     <link rel="icon" href="static/img/home_page/LOGO VERTICAL BRANCO.png">
-    <title>INFRAESTRUTURA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/e2211b3575.js" crossorigin="anonymous"></script>
+    <title>Landing page</title>
 </head>
 <body>
-    <div class="base">
-        <div class="gradient">
-            <div class="header">
-                <div class="header-content">
-                    <img id="header-logo" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset="">
-                    <a href="">Serviços</a>
-                    <a href="">Infraestrutura</a>
-                    <a href="">Planos</a>
-                    <a href="">Jogos</a>
-                    <a href="">Sobre</a>
-                    <img id="carrinho" src="static/img/home_page/Icone de carrinho home.png" alt="CARRINHO DE COMPRA" srcset="">
+    
+    
+
+<div class="base">
+    <div class="gradient">
+        
+        <nav class="nav nav-pills nav-fill header header-content pt-5">
+            <input type="checkbox" name="" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+                    <div class="mobile"></div>
                     
-                    <div class="loginBtn">
-                        <a href="">Login</a>
-                    </div>
-                </div>
+                        <li id="header-logo" class="nav-item float-start">
+                            <a href=""><img class="ps-5 pe-5" src="static/img/home_page/SIMBOLO BRANCO.png" alt="LOGO PHOENIX" srcset=""></a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Serviços</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Infraestrutura</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Planos</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Jogos</a>
+                        </li>
+                        <li class="nav-item links">
+                            <a class="nav-link" href="">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <img id="carrinho"  src="static/img/home_page/Icone de carrinho home.png" alt="CARRINHO DE COMPRA" srcset="">
+                        </li>
+                        <li class="nav-item loginBtn me-5">
+                            <a class="tex-center" href="">Login</a>
+                        </li>
+                    
+                
+                    
+        </nav>
+        
+
+
+        <div class="container-fluid top-page pt-5 mt-5 pb-5 mb-5">
+            <img class="rounded mx-auto d-block float-end" src="static/img/infrastructure/CAPA INFRA COMPLETA.png" alt="">
+            <h1 class="text-center ">INFRAESTRUTURA DA<br>PHOENIXHOST</h1>
+            <p class="text-center ">Sempre evoluindo nossa estrutura para entregar um trabalho de qualidade para nossos clientes!</p>
+            <div class="container nuvem-ver-jogos mt-5">
+                <a href="">
+                    <h1 class="text-center ps-2">VER MAIS</h1>
+                    <img src="static/img/uso-geral/setaazul.png" alt="">
+                </a>
             </div>
+        </div>
+        
+        <hr id="hr-1">
 
-            <div class="top-page">
-                <img src="static/img/infrastructure/CAPA INFRA COMPLETA.png" alt="">
-                <div id="linha1">
+        
+    
 
-                </div>
-                <div id="linha2">
-
-                </div>
-
-                <div class="top-page-rust">
-                    <h1>INFRAESTRUTURA DA<br>PHOENIXHOST</h1>
-                    <p>Sempre evoluindo nossa estrutura para entregar<br>um trabalho de qualidade para nossos clientes!</p>
-                    <div  id="see-more">
-                        <p>VER MAIS</p>
-                        <img style="position: inherit;
-                        top: -4px;
-                        left: 133px;" src="static/img/uso-geral/setaazul.png" alt="">
-                    </div>
-                </div>
-            </div>
-
-            <hr id="linha-top">
-
-
-
-            <div class="locations">
-                <h1>LOCALIZAÇÃO ESTRATÉGICA</h1>
-                <p>Escolha a localização que estará mais próxima aos usuários 
+        <div class="row countrys text-center pt-5 mt-5 pb-5">
+            
+            <div class="col">
+                <h1 class="text-start">LOCALIZAÇÃO ESTRATÉGICA</h1>
+                <p class="text-start">Escolha a localização que estará mais próxima aos usuários 
                     para garantir a melhor performance do seu projeto.</p>
+            </div>
 
+            
+            <div class="col col-coutry">
                 <div class="coutry-1">
-                    <img src="static/img/home_page/brasil.png" alt="BRASIL" srcset="">
+                    <img class="float-start ps-3 pt-2" src="static/img/home_page/brasil.png" alt="BRASIL" srcset="">
 
-                    <div id="line-1">
-                        <strong><h3>BRASIL</h3></strong>
+                    <div class="line-1 float-end ps-3">
+                        <h3 class="text-start pt-3">BRASIL</h3>
                         <p>São Paulo</p>
                     </div>
 
                 </div>
 
+                <div class="coutry-1">
+                    <img class="float-start ps-3 pt-2" src="static/img/home_page/Grupo de máscara 1.png" alt="BRASIL" srcset="">
 
-                <div class="coutry-2">
-
-                    <img src="static/img/home_page/Grupo de máscara 1.png" alt="EUA" srcset="">
-
-                    <div id="line-2">
-                        <strong><h3>ESTADOS UNIDOS</h3></strong>
+                    <div class="line-1 float-end ps-3">
+                        <h3 class="text-start pt-3">ESTADOS UNIDOS</h3>
                         <p>Orlando City</p>
                     </div>
-
-                </div>
-            </div>
-
-
-            <div id="cat-1-1" class="category-1" onclick="selectCategory(1)">
-
-                <h1>PROTEÇÃO DDOS</h1>
-
-            </div>
-
-            <div id="cat-2-1" class="category-2" onclick="selectCategory(2)">
-                <h1>REDE</h1>
-            </div>
-
-            <div id="infos-1" class="important-infos-1">
-
-                <div class="block-1">
-                    <img src="static/img/infrastructure/170 TBPS DE CAPACIDADE DE MITIGAÇÃO.png" alt="">
-                    <p>170 Tbps de capacidade<br>de mitigação</p>
-                </div>
-
-                <div class="block-2">
-                    <img src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA JOGOS.png" alt="">
-                    <p>Filtros Layer 7 caracterizados<br>para jogos</p>
-                </div>
-
-                <div class="block-3">
-                    <img src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA APLICAÇÕES.png" alt="">
-                    <p>Filtros Layer 7 simples<br>para aplicações</p>
-                </div>
-
-                <div class="block-4">
-                    <img src="static/img/infrastructure/PROTEÇÃO FLEXÍVEL.png" alt="">
-                    <p>Proteção<br>flexível</p>
-                </div>
-
-                <div class="block-5">
-                    <img src="static/img/infrastructure/SEM USO DE NULL ROUTE.png" alt="">
-                    <p>Sem uso de<br>null route</p>
-                </div>
-
-                <div class="block-6">
-                    <img src="static/img/infrastructure/IA PARA IDENTIFICAR TRÁFEGO MALICIOSO.png" alt="">
-                    <p>Inteligência artificial para identificar o tráfego malicioso</p>
-                </div>
-
-                <p style="
-                top: -1441px;
-                width: 989px;
-                text-align: center;
-                position: inherit;
-                margin-left: auto;
-                margin-right: auto;
-                ">It is a long established fact that a reader will be distracted by the reada. It is a long established fact that a reader will be distracted by the reada. Font the reada. It is a long 
-                    established fact that a reader will be distracted by the reada. reader will be distracted by the reada. reader will be distracted by the reada.</p>
-
-                    <div class="know-more">
-                        <p style="top: 16px; position: inherit;
-                        font-weight: 800;">QUERO MAIS DETALHES SOBRE A INFRAESTRUTURA</p>
-                    </div>
-            </div>
-
-
-            <div id="infos-2" class="important-infos-2">
-
-                <div class="block-1">
-                    <img src="static/img/infrastructure/170 TBPS DE CAPACIDADE.png" alt="">
-                    <p>170 Tbps de capacidade<br>de mitigação</p>
-                </div>
-
-                <div class="block-2">
-                    <img src="static/img/infrastructure/CONECÇÃO COM OS PRICIPAIS PTT DO BRASIL.png" alt="">
-                    <p>Conexão com os principais<br>PTT do Brasil</p>
-                </div>
-
-                <div class="block-3">
-                    <img src="static/img/infrastructure/PING BAIXO.png" alt="">
-                    <p>Ping<br>baixo</p>
-                </div>
-
-
-                <div class="block-5-2">
-                    <img src="static/img/infrastructure/REDE ANYCAST.png" alt="">
-                    <p>Rede<br>Anycast</p>
-                </div>
-
-                <div class="block-6-2">
-                    <img src="static/img/infrastructure/REDE REDUNDANTE.png" alt="">
-                    <p>Rede<br>Redundante</p>
-                </div>
-
-                <p style="
-                top: -1441px;
-                width: 989px;
-                text-align: center;
-                position: inherit;
-                margin-left: auto;
-                margin-right: auto;
-                ">It is a long established fact that a reader will be distracted by the reada. It is a long established fact that a reader will be distracted by the reada. Font the reada. It is a long 
-                    established fact that a reader will be distracted by the reada. reader will be distracted by the reada. reader will be distracted by the reada.</p>
-
-                    <div class="know-more">
-                        <p style="top: 16px; position: inherit;
-                        font-weight: 800;">QUERO MAIS DETALHES SOBRE A INFRAESTRUTURA</p>
-                    </div>
-            </div>
-
-            <div class="discord">
-                <img src="static/img/home_page/ACAMPAMENTO PH.png" alt="">
-
-                <h1>COMUNIDADE<br>EXCLUSIVA NO<br>DISCORD</h1>
-
-                <div class="join-server">
-                    <a href="#">
-                        <p>QUERO SER MEMBRO</p>
-                        <img src="static/img/home_page/seta-direita_azul.png" alt="SETA">
-                    </a>
-                </div>
-            </div>
-
-            <hr id="hr-2">
-
-            <div class="questions">
-                <h1>ENTENDA PORQUE<br>SOMOS OS MELHORES</h1>
-                <p>Selecionamos algumas perguntas frequentes que costumam fazer para nós</p>
-                
-                <div class="questions-2">
-                    <h3 id="h3-especial">Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <p>Selecionamos algumas perguntas frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que costumam
-                        fazer para nósSelecionamos algumas perguntas<br>frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que
-                        costumam fazerSelecionamos algumas perguntas frequentes que<br>costumam fazer para nós selecionamos algumas perguntas frequentes que
-                        costumam.</p>
-
-                    <hr>
-                        
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                    <hr>
-                    <h3>Os serviços incluem proteção contra ataques DoS/DDoS?</h3>
-                </div>
-            </div>
-
-            <hr id="hr-1">
-            
-
-            <div class="footer">
-
-                <div class="services">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
-                </div>
-
-                <div class="services-1">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
-                </div>
-
-                <div class="services-2">
-                    <h1>SERVIÇOS</h1>
-                    <p>Hospedagem de jogos<br>Servidores VPS para jogos<br>Servidores dedicados</p>
-                </div>
-
-                <img src="static/img/home_page/FINAL.png" alt="LOGO-PHOENIX">
-
-                <div class="footer-2">
-                    <img src="static/img/home_page/LOGO VERTICAL BRANCO.png" alt="PHOENIX-LOGO">
-                    <p>Copyright 2021 by PhoenixHost | CNPJ - 37.245.530/0001-00</p>
                 </div>
             </div>
         </div>
+        
+
+        <div class="container infra">
+            <div class="row">
+                <div class="col opcoes">
+                    <div class="ddos">
+                        <h1 class="text-center">PROTEÇÃO DDOS</h1>
+                    </div>
+
+                    <div class="rede">
+                        <h1 class="text-center">REDE</h1>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+
+                <div class="col vantagens">
+                    <div class="card1">
+                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/170 TBPS DE CAPACIDADE DE MITIGAÇÃO.png" alt="">
+                        <p id="pcard1" >170 Tbps de capacidade de mitigação</p>
+                    </div>
+
+                    <div class="card1">
+                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA JOGOS.png" alt="">
+                        <p id="pcard1">170 Tbps de capacidade de mitigação</p>
+                    </div>
+
+                    <div class="card1">
+                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA APLICAÇÕES.png" alt="">
+                        <p id="pcard1">170 Tbps de capacidade de mitigação</p>
+                    </div>
+
+                    <div class="card1">
+                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/PROTEÇÃO FLEXÍVEL.png" alt="">
+                        <p id="pcard1">170 Tbps de capacidade de mitigação</p>
+                    </div>
+
+                    <div class="card1">
+                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/SEM USO DE NULL ROUTE.png" alt="">
+                        <p id="pcard1">170 Tbps de capacidade de mitigação</p>
+                    </div>
+
+                    <div class="card1">
+                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/IA PARA IDENTIFICAR TRÁFEGO MALICIOSO.png" alt="">
+                        <p id="pcard1">170 Tbps de capacidade de mitigação</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="container questions">
+            <div class="row linha_questions">
+                <div class="col questions-col-1">
+                    <h1 class="text-center">ENTENDA PORQUE<br>SOMOS OS MELHORES</h1>
+                    <p class="text-center pt-3">Selecionamos algumas perguntas frequentes que costumam fazer para nós</p>
+                </div>
+
+                <div class="w-100"></div>
+
+                <div class="col questions-col-2 mt-5">
+                    <div class="bloco-pergunta">
+                        <h1 class="text-start ms-5 mt-5">Os serviços incluem proteção contra ataques DoS/DDoS?</h1>
+                        <p class="text-start ms-5 mt-3 pergunta-expandivel">Selecionamos algumas perguntas frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nósSelecionamos algumas perguntas frequentes que costumam 
+                            fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nós.</p>
+                    </div>
+                    <hr class="ms-5">
+                    <div class="bloco-pergunta">
+                        <h1 class="text-start ms-5 mt-5">Os serviços incluem proteção contra ataques DoS/DDoS?</h1>
+                        <p class="text-start ms-5 mt-3 pergunta-expandivel">Selecionamos algumas perguntas frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nósSelecionamos algumas perguntas frequentes que costumam 
+                            fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nós.</p>
+                    </div>
+                    <hr class="ms-5">
+                    <div class="bloco-pergunta">
+                        <h1 class="text-start ms-5 mt-5">Os serviços incluem proteção contra ataques DoS/DDoS?</h1>
+                        <p class="text-start ms-5 mt-3 pergunta-expandivel">Selecionamos algumas perguntas frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nósSelecionamos algumas perguntas frequentes que costumam 
+                            fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nós.</p>
+                    </div>
+                    <hr class="ms-5">
+                    <div class="bloco-pergunta">
+                        <h1 class="text-start ms-5 mt-5">Os serviços incluem proteção contra ataques DoS/DDoS?</h1>
+                        <p class="text-start ms-5 mt-3 pergunta-expandivel">Selecionamos algumas perguntas frequentes que costumam fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nósSelecionamos algumas perguntas frequentes que costumam 
+                            fazer para nós selecionamos algumas perguntas frequentes que costumam fazer para nós.</p>
+                    </div>
+                    <hr class="ms-5">
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="container-fluid subscribe">
+            <h1 class="text-start ms-5 pt-5">
+                HOSPEDAGEM DE JOGOS COM ATÉ 30% OFF
+            </h1>
+
+            <div class="subscribe-button float-end">
+                <h1 class="text-center">A PARTIR DE R$ 128,99</h1>
+                <div class="subscribe-now">
+                    <h1 class="text-start">ASSINAR AGORA</h1><img class="text-center" src="static/img/uso-geral/setaazul.png" alt="">
+                </div>
+
+            </div>
+        </div>
+
+        <footer class="footer text-center text-lg-start navbar-fixed-bottom">
+            <!-- Grid container -->
+        <div class="container p-4">
+            <!--Grid row-->
+            <div class="row">
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Servços</h5>
+        
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-light">Hospedagem de jogos</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Servidores VPS</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Servidores dedicados</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Sobre</h5>
+        
+                <ul class="list-unstyled">
+                <li>
+                    <a href="#!" class="text-light">Termos de atualização</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Infraestrutura</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Base de conhecimento</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Social</h5>
+        
+                <ul class="list-unstyled mb-0">
+                <li>
+                    <a href="#!" class="text-light">Discord</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Instagram</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Whatsapp</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+        
+            <!--Grid column-->
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase mb-0">Endereço</h5>
+        
+                <ul class="list-unstyled">
+                <li>
+                    <a href="#!" class="text-light">Rua Visconde de Pirajá, 414 - Sala 718 </a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">Ipanema, Rio de Janeiro/RJ</a>
+                </li>
+                <li>
+                    <a href="#!" class="text-light">CEP: 22410-002</a>
+                </li>
+                </ul>
+            </div>
+            <!--Grid column-->
+            </div>
+            <!--Grid row-->
+            <img class="float-end" id="img-footer" src="static/img/home_page/FINAL.png" alt="">
+        </div>
+        <!-- Grid container -->
+        
+        <!-- Copyright -->
+        <div class="text-center p-3 footer2" style="background-color: rgba(0, 0, 0, 0.2);">
+            <img src="static/img/home_page/LOGO VERTICAL BRANCO.png" alt=""><h5>Copyright 2021 by PhoenixHost | CNPJ - 37.245.530/0001-00</h5>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    
     </div>
+</div>
+
+
+    <script type="text/javascript">
+
+    document.addEventListener("mousemove", parallax);
+    document.addEventListener("scroll", windowPosition);
+
+
+    //var img1 = document.getElementById('servidor');
+    var img2 = document.getElementById('nuvem-1');
+    var img3 = document.getElementById('nuvem-2');
+
+    
+    let contador = 0;
+
+    var rect = 0;
+    var rect2 = 0;
+    var rect3 = 0;
     
 
-    <script>
-        function selectCategory(category){
+    window.addEventListener('resize', function() {
+	// viewport and full window dimensions will change
+	var viewport_width = document.documentElement.clientWidth;
 
-            if(category == 1){
-                
-                document.getElementById('cat-1-1').style.boxShadow = 'none';
-                document.getElementById('cat-2-1').style.boxShadow = 'inset 0px -80px 45px -33px rgba(0,0,0,0.75)';
+    if (viewport_width <= 767.98){
+        document.getElementById('p-alto_desempenho').textContent = "Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços.";
+    }else{
+        document.getElementById('p-alto_desempenho').textContent = "Nossa infraestrutura é planejada visando a alta performance e disponibilidade dos serviços. Por isso, contamos com servidores de última geração e equipamentos das marcas mais confiáveis do mercado.";
+    }
+    });
 
-                document.getElementById('infos-1').style.display = 'block';
-                document.getElementById('infos-2').style.display = 'none';
-            }
+    
 
-            if(category == 2){
+    function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
 
-                document.getElementById('cat-1-1').style.boxShadow = 'inset 0px -80px 45px -33px rgba(0,0,0,0.75)';
-                document.getElementById('cat-2-1').style.boxShadow = 'none';
+    async function show_hide(id){
+        if(id == 1){
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/PROTEÇÃO DDOS COMPLETA.png"
+            document.getElementById('p-info-content').textContent = "Todos os serviços incluem Proteção DDoS e ainda é possível personalizar de acordo com sua necessidade. Nós possuímos filtros layer 7 para jogos e aplicações. Também oferecemos planos de adicionais de Proteção DDoS disponíveis."
+            
+            document.getElementById('r-1').style.boxShadow = 'none';
+            document.getElementById('r-2').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-3').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-4').style.boxShadow = '27px -2px 99px #00000029';
+        
+        }
+        if(id == 2){
+            document.getElementById('img-info-content').src = "/static/img/rust/INFRAESTRUTURA.png"
+            document.getElementById('p-info-content').textContent = "Contamos com um painel de controle de serviços intuitivo e prático, com visualização em tempo real de recursos, logs e ferramentas para administração. Além disso, o dashboard é responsivo para que você consiga administrar o serviço de qualquer lugar, inclusive, à partir de um celular."
+        
+            document.getElementById('r-2').style.boxShadow = 'none';
+            document.getElementById('r-1').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-3').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-4').style.boxShadow = '27px -2px 99px #00000029';
+        }
+        if(id == 3){
+            document.getElementById('img-info-content').src = "/static/img/rust/GARANTIA DE REEMBOLSO COMPLETA.png"
+            document.getElementById('p-info-content').textContent = "Garantimos o reembolso total do valor pago no serviço para solicitações feitas em até 7 dias da assinatura do serviço e que estejam de acordo com os nossos termos."
+        
+            document.getElementById('r-3').style.boxShadow = 'none';
+            document.getElementById('r-1').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-2').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-4').style.boxShadow = '27px -2px 99px #00000029';
+        }
+        if(id == 4){
+            document.getElementById('img-info-content').src = "/static/img/home_page/infos/SUPORTE COMPLETA.png"
+            document.getElementById('p-info-content').textContent = "Trabalhamos ao máximo para atender aos usuários com o menor tempo de resposta possível e resolver as questões dos usuários com eficácia.Estamos nos principais canais de atendimento, dentre eles: WhatsApp, Discord e Instagram."
+        
+            document.getElementById('r-4').style.boxShadow = 'none';
+            document.getElementById('r-1').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-2').style.boxShadow = '27px -2px 99px #00000029';
+            document.getElementById('r-3').style.boxShadow = '27px -2px 99px #00000029';
+        }
+    }
 
-                document.getElementById('infos-1').style.display = 'none';
-                document.getElementById('infos-2').style.display = 'block';
-            }
+
+    function windowPosition(event){
+        
+        
+
+        if(window.pageYOffset >= 3627){
+
+            
+            
+            document.getElementById('high-perfomance').style.transition = ".6s, background-size .6s .6s";
+            document.getElementById('high-perfomance').style.setProperty('--_i', '100%');
+
+            document.getElementById('uptime').style.transition = ".7s, background-size .7s .7s";
+            document.getElementById('uptime').style.setProperty('--_i', '100%');
+
+            document.getElementById('custom-plans').style.transition = ".8s, background-size .8s .8s";
+            document.getElementById('custom-plans').style.setProperty('--_i', '100%');
+
+            document.getElementById('suport').style.transition = ".9s, background-size .9s .9s";
+            document.getElementById('suport').style.setProperty('--_i', '100%');
+
+            document.getElementById('hdd').style.transition = "1s, background-size 1s 1s";
+            document.getElementById('hdd').style.setProperty('--_i', '100%');
 
         }
         
+        if(window.pageYOffset >= 1500){
+
+            var ponteiro = document.getElementById('ponteiro');
+            var contador = document.getElementById('contador');
+            var contador_decimal = document.getElementById('contador-decimal');
+
+            var temp = document.getElementById('temp');
+            var points = document.getElementById('points');
+
+            ponteiro.style.animation = 'movimentaPonteiro 1500ms 1 ease-in';
+            ponteiro.style.transform = 'rotate(150deg)';
+            ponteiro.style.transformOrigin = 'bottom right';
+
+            contador.style.transition = '--num 2s';
+            contador.style.setProperty('--num','4');
+
+            contador_decimal.style.transition = '--decimal 2s';
+            contador_decimal.style.setProperty('--decimal','8');
+
+            temp.style.transition = ('--temp 2s');
+            temp.style.setProperty('--temp', '62');
+
+            points.style.transition = ('--points 2s');
+            points.style.setProperty('--points', '7830');
+
+        }
+
+
+    }
+
+
+
     </script>
 </body>
 </html>
