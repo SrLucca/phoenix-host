@@ -28,7 +28,7 @@ body {
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 7000px;
+    height: 6300px;
     background-image: radial-gradient(farthest-corner circle at -9% 0%, #3B7EF8  0%, #3B76D445 53%, #3C6CA500 100%, transparent ), 
     radial-gradient(farthest-corner circle at 100% 0%, #05244d 0%, #071b3a 53%, #3b76d4 100%, transparent);
     opacity: 1;
@@ -198,14 +198,33 @@ body {
 .nuvem-ver-jogos img{
     width: auto !important;
     left: 80%;
-    margin-top: 9%;
+    margin-top: 7%;
 }
 
 .planos{
     position: relative;
-    top: 251px;
+    top: 350px;
     height: 1000px;
 }
+
+.table-button{
+    width: 50% !important;
+    background-color: transparent !important;
+    border-radius: 25px !important;
+    border: 1px solid #034AA6 !important;
+    height: 30px !important;
+}
+
+.table-button p{
+    font-size: 13px;
+    font-family: SFPro, sans-serif !important;
+    color: #034AA6;
+}
+
+.table-button::before{
+    position: absolute;
+}
+
 
 .planos-1 h1{
     font-family: SFPro, sans-serif;
@@ -244,8 +263,9 @@ body {
 }
 
 .planos-2{
-    height: 41%;
+    height: 33%;
     margin-top: 8rem !important;
+    font-family: SFPro, sans-serif;
 }
 
 
@@ -311,6 +331,7 @@ body {
     border: 1px solid #FFFFFF !important;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 3rem!important;;
 }
 
 .locations{
@@ -324,7 +345,7 @@ body {
 
 .countrys{
     position: absolute;
-    top: 1600px;
+    top: 1800px;
     padding-left: 8rem !important; 
     margin-right: 1rem;
     
@@ -407,7 +428,7 @@ body {
 
 .processor{
     position: absolute;
-    top: 3550px;
+    top: 2200px;
     padding-left: 7rem !important;
     padding-right: 7rem !important;
     margin-right: 1rem!important;
@@ -416,7 +437,7 @@ body {
 
 .wipe{
     position: absolute;
-    top: 4100px;
+    top: 3750px;
     padding-left: 7rem !important;
     padding-right: 7rem !important;
     margin-right: 1rem!important;
@@ -425,7 +446,7 @@ body {
 
 .plugin{
     position: absolute;
-    top: 3010px;
+    top: 4200px;
     padding-left: 7rem !important;
     padding-right: 7rem !important; 
     margin-right: 1rem!important;
@@ -903,7 +924,7 @@ body {
     position: relative;
     width: 70%;
     height: 700px;
-    top: 300px;
+    top: 1000px;
     border: 3px solid #FFFFFF;
     border-radius: 35px;
     opacity: 1;
@@ -1154,7 +1175,7 @@ body {
 
 .garantias{
     position: relative;
-    top: 100px;
+    top: 200px;
     height: 400px;
 
 }
@@ -1456,7 +1477,7 @@ body {
 
 #hr-1{
     position: relative;
-    top: 250px;
+    top: 345px;
     height: 20px;
     background: #A4C5F7  0% 0% no-repeat padding-box;
     box-shadow: 0px 11px 52px #00000029;
@@ -1694,7 +1715,7 @@ body {
 .questions{
     height: 1000px;
     position: relative;
-    top: 1805px;
+    top: 2140px;
 }
 
 .linha_questions{
@@ -1762,7 +1783,7 @@ body {
 
 .subscribe{
     position: relative;
-    top: 1618px;
+    top: 1958px;
     height: 400px;
     padding-left: 0 !important;
     padding-right: 0 !important;
@@ -1877,11 +1898,12 @@ body {
 
     .row>*{
         padding-right: 0rem !important;
+        padding-left: 0rem !important;
         
     }
 
     .gradient{
-        height: 8057px;
+        height: 6947px;
     }
 
     .checkbtn{
@@ -2038,6 +2060,12 @@ body {
         margin-left: 1rem !important;
     }
 
+    .planos-adicionais{
+        position: relative;
+        margin-top: 0% !important;
+        top: -15%;
+    }
+
     .row{
         padding-left: 0rem !important;
         padding-right: 1rem;
@@ -2090,7 +2118,7 @@ body {
     }
 
     .countrys{
-        top: 1100px;
+        top: -25%;
         position: relative;
         margin-right: 0 !important;
         margin-left: 4px !important;
@@ -2128,7 +2156,7 @@ body {
     }
 
     .processor{
-        top: 4000px;
+        top: 30%;
         margin-right: 0 !important;
         padding-right: 0 !important;
     }
@@ -2151,7 +2179,7 @@ body {
     }
 
     .wipe{
-        top: 4503px;
+        top: 3800px;
         margin-right: 0 !important;
         padding-right: 0 !important;
     }
@@ -2174,7 +2202,7 @@ body {
     }
 
     .plugin{
-        top: 4503px;
+        top: 4300px;
         margin-right: 0 !important;
         padding-right: 0 !important;
     }
@@ -2239,6 +2267,7 @@ body {
     }
 
     .col-velocimetro img{
+        margin-top: 15%;
         padding-left: 0!important;
         padding-top: 0!important;
         float:none !important;
@@ -2272,7 +2301,7 @@ body {
     }
 
     .infos{
-        top: -400px;
+        top: -600px;
         height: 655px !important;
     }
 
@@ -2400,7 +2429,7 @@ body {
     }
 
     .questions{
-        top: 900px;
+        top: 500px;
     }
 
     .questions-col-1 h1{
@@ -2420,7 +2449,7 @@ body {
     }
 
     .subscribe{
-        top: 900px;
+        top: 492px;
     }
 
     .subscribe h1{
