@@ -249,6 +249,10 @@ body {
     margin-top: 8rem !important;
 }
 
+.planos-2{
+    font-family: SFPro, sans-serif;
+}
+
 
 .card{
     width: 30% !important;
@@ -452,6 +456,24 @@ body {
     height: 10%;
     background-color: #f8f9fa;
     border-radius: 10px 10px 0px 0px;
+}
+
+.table-button{
+    width: 50% !important;
+    background-color: transparent !important;
+    border-radius: 25px !important;
+    border: 1px solid #034AA6 !important;
+    height: 30px !important;
+}
+
+.table-button p{
+    font-size: 13px;
+    font-family: SFPro, sans-serif !important;
+    color: #034AA6;
+}
+
+.table-button::before{
+    position: absolute;
 }
 
 .table-bottom{

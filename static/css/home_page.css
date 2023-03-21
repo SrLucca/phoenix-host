@@ -281,7 +281,7 @@ body {
 
 #dedicatedBtn{
     position: inherit;
-    height: 43px;
+    height: 38px;
     width: 76%;
 
     /* UI Properties */
@@ -1395,7 +1395,7 @@ body {
 .depoiments img{
     position: relative;
     width: 20%;
-    height: 65%;
+    height: 58%;
     max-width: 50%;
     max-height: 80%;
     left: -5%;
@@ -2079,21 +2079,25 @@ body {
 
     .high-perfomance{
         margin-bottom: 2px !important;
+        margin-right: 0 !important;
 
     }
 
     .custom-plans{
         margin-bottom: 2px !important;
+        margin-right: 0 !important;
 
     }
 
     .uptime{
         margin-bottom: 2px !important;
+        margin-right: 0 !important;
 
     }
 
     .suport{
         margin-bottom: 2px !important;
+        margin-right: 0 !important;
 
     }
 
@@ -2155,7 +2159,7 @@ body {
     .depoiments img{
         position: relative;
         width: 28%;
-        height: 58%;
+        height: 45%;
         max-width: 50%;
         max-height: 80%;
         /* left: -5%; */
@@ -2164,8 +2168,8 @@ body {
     }
 
     .estrelas{
-        margin-top: 30% !important;
-        width: 36% !important;
+        margin-top: 25% !important;
+        width:40% !important;
 
     }
 
@@ -2218,7 +2222,7 @@ body {
     }
 
     .questions-col-2{
-        height: 816px !important;
+        height: 831px !important;
         margin-left: 1rem !important;
     }
 
@@ -2325,6 +2329,22 @@ body {
     }
 }
 
+@media (max-width:420px) {
+    .subscribe-now img{
+        margin-top: 22%;
+    }
+
+    .depoiments h1{
+        margin-left: 19%;
+    }
+
+    .estrelas{
+        margin-top: 30% !important;
+        width: 55% !important;
+    }
+    
+}
+
 @media (max-width: 395px) {
     
     .processor{
@@ -2353,14 +2373,16 @@ body {
 
     .depoiments h1{
         font-size: 12px !important;
+        margin-top: 5% !important;
     }
 
     .depoiments p{
         font-size: 10px !important;
+        margin-top: 15% !important;
     }
 
     #hr-1{
-        top: 3486px;
+        top: 3465px;
     }
 
     #hr-2 {
@@ -2370,9 +2392,14 @@ body {
 
     .subscribe-button{
         top: -55%;
+        margin-top: 8%;
     }
 
     .subscribe-button h1{
         font-size: 1rem;
+    }
+
+    .subscribe-now img{
+        margin-top: 22%;
     }
 }

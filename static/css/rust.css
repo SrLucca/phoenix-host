@@ -2496,6 +2496,9 @@ body {
         font-size: 8px !important;
     }
 
+    .planos-adicionais{
+        width: 55% !important;
+    }
     .linha_garantias{
         margin-bottom: 11rem !important;
     }
@@ -2523,18 +2526,23 @@ body {
 
     .subscribe-button{
         top: -55%;
+        margin-top: 8%;
     }
 
     .subscribe-button h1{
         font-size: 1rem;
     }
 
+    .member h1{
+        top: 20% !important;
+    }
+
     .member img{
         
         width: 13%;
         height: auto;
-        left: 93%;
-        margin-top: 7%;
+        left: 50%;
+        margin-top: 24%;
 
     }
 
@@ -2544,7 +2552,68 @@ body {
 
 }
 
+@media (max-width: 1024px) {
+
+    .nuvem-ver-jogos h1{
+        font-size: 13px;
+        margin-top: 9% !important;
+    }
+
+    .nuvem-ver-jogos img{
+        margin-top: 12%;
+    }
+
+    #hr-1{
+        top: 0px !important;
+    }
+
+    .planos-locais h1{
+        margin-left: 1rem !important;
+        font-size: 12px !important;
+    }
+
+    .estrelas{
+        margin-top: 20% !important;
+    }
+
+    .member h1{
+        font-size: 1rem !important;
+        top: 33% !important;
+    }
+
+    .member img{
+        margin-top: 6% !important;
+    }
+
+    
+}
+
+@media (max-width: 1280px){
+
+    .nuvem-ver-jogos h1{
+        font-size: 16px !important;
+        margin-top: 5% !important;
+    }
+
+    #hr-1{
+        top: 153px;
+    }
+
+    .member h1{
+        top: 40%;
+    }
+
+    .member img{
+        margin-top: 5%;
+    }
+
+    .subscribe-now h1{
+        font-size: 1.5rem;
+    }
+}
+
 @media (min-width: 1600px){
+
 
     #hr-1{
         top: 291px;
@@ -2578,7 +2647,11 @@ body {
 @media (min-width: 1920px){
     
     .gradient{
-        height: 6586px;
+        height: 6580px;
+    }
+
+    .nuvem-ver-jogos img{
+        margin-top: 8% !important;
     }
     
     #hr-1{
@@ -2587,6 +2660,20 @@ body {
 
     .planos{
         top: 430px;
+    }
+
+    .processor{
+        top: 2350px;
+    }
+    .wipe{
+        top: 2742px;
+    }
+    .wipe img{
+        width: 53%;
+    }
+
+    .plugin{
+        top: 3210px;
     }
 
     #hr-2{

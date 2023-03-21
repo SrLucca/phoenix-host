@@ -325,15 +325,19 @@ body {
 }
 
 .planos-adicionais{
-    font-family: SFPro, sans-serif !important;
-    color: #FFFFFF;
+    position: absolute;
+    top: 90%;
     width: 50% !important;
     background-color: transparent !important;
     border-radius: 25px !important;
-    border: 1px solid #FFFFFF !important;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 3rem!important;;
+    border: 1px solid #034AA6 !important;
+    margin-left:24%;
+    height: 3%;
+}
+
+.planos-adicionais p{
+    font-family: SFPro, sans-serif !important;
+    color: #034AA6;
 }
 
 .locations{
@@ -432,6 +436,15 @@ body {
     height: 1130px;
     position: relative;
     top: 1000px;
+}
+
+#pinfra{
+    position: absolute;
+    top: 83%;
+    font-family: SFProRegular, sans-serif;
+    color: #1F4F99;
+    text-align: center;
+    left: 0%;
 }
 
 .opcoes{
