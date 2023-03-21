@@ -125,34 +125,45 @@
                         <p id="pcard1" >170 Tbps de capacidade de mitigação</p>
                     </div>
 
-                    <div class="card1">
-                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA JOGOS.png" alt="">
+                    <div class="card1" id="card2">
+                        <img id="imgcard2" class="rounded mx-auto d-block" src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA JOGOS.png" alt="">
                         <p id="pcard1">170 Tbps de capacidade de mitigação</p>
                     </div>
 
                     <div class="card1">
-                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA APLICAÇÕES.png" alt="">
+                        <img id="imgcard3" class="rounded mx-auto d-block" src="static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA APLICAÇÕES.png" alt="">
                         <p id="pcard1">170 Tbps de capacidade de mitigação</p>
                     </div>
 
-                    <div class="card1">
-                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/PROTEÇÃO FLEXÍVEL.png" alt="">
+                    <div class="card1" id="card4">
+                        <img id="imgcard4" class="rounded mx-auto d-block" src="static/img/infrastructure/PROTEÇÃO FLEXÍVEL.png" alt="">
                         <p id="pcard1">170 Tbps de capacidade de mitigação</p>
                     </div>
 
-                    <div class="card1">
-                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/SEM USO DE NULL ROUTE.png" alt="">
+                    <div class="card1" id="card5">
+                        <img id="imgcard5" class="rounded mx-auto d-block" src="static/img/infrastructure/SEM USO DE NULL ROUTE.png" alt="">
                         <p id="pcard1">170 Tbps de capacidade de mitigação</p>
                     </div>
 
-                    <div class="card1">
-                        <img id="imgcard1" class="rounded mx-auto d-block" src="static/img/infrastructure/IA PARA IDENTIFICAR TRÁFEGO MALICIOSO.png" alt="">
+                    <div class="card1" id="card6">
+                        <img id="imgcard6" class="rounded mx-auto d-block" src="static/img/infrastructure/IA PARA IDENTIFICAR TRÁFEGO MALICIOSO.png" alt="">
                         <p id="pcard1">170 Tbps de capacidade de mitigação</p>
                     </div>
                 </div>
             </div>
 
         </div>
+
+        <div class="container-fluid discord">
+            <img class="text-center" src="/static/img/home_page/ACAMPAMENTO PH.png" alt="">
+            <h1 class="float-start">COMUNIDADE EXCLUSIVA NO DISCORD</h1>
+            <div  class="container member float-start">
+                <h1>QUERO SER MEMBRO</h1><img class="float-start" src="static/img/uso-geral/setaazul.png" alt="">
+            </div>
+        </div>
+
+        <div class="fakehr"></div>
+        
 
 
         <div class="container questions">
@@ -322,13 +333,40 @@
     function change(id){
 
         if(id == 1){
+            var card2 = document.getElementById('card2');
+            var card4 = document.getElementById('card4');
+            card2.style.position = 'relative';
+            card2.style.left = '0%';
+            card4.style.position = 'relative';
+            card4.style.left = '0%';
             document.getElementById('ddos').style.boxShadow = 'none';
             document.getElementById('rede').style.boxShadow = 'inset 0px -49px 49px -34px rgba(0,0,0,0.52)';
+
+            document.getElementById('imgcard1').src = "static/img/infrastructure/170 TBPS DE CAPACIDADE DE MITIGAÇÃO.png";
+            document.getElementById('imgcard2').src = "static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA JOGOS.png";
+            document.getElementById('imgcard3').src = "static/img/infrastructure/FILTROS LAYER 7 SIMPLES PARA APLICAÇÕES.png";
+            document.getElementById('imgcard4').src = "static/img/infrastructure/PROTEÇÃO FLEXÍVEL.png"
+            document.getElementById('imgcard5').src = "static/img/infrastructure/SEM USO DE NULL ROUTE.png"
+            document.getElementById('card6').style.display = 'block';
+            document.getElementById('imgcard6').src = "static/img/infrastructure/IA PARA IDENTIFICAR TRÁFEGO MALICIOSO.png"
+
         }
 
         if(id == 2){
             document.getElementById('ddos').style.boxShadow = 'inset 0px -49px 49px -34px rgba(0,0,0,0.52)';
             document.getElementById('rede').style.boxShadow = 'none';
+            var card2 = document.getElementById('card2');
+            var card4 = document.getElementById('card4');
+            document.getElementById('imgcard1').src = "static/img/infrastructure/170 TBPS DE CAPACIDADE.png";
+            document.getElementById('imgcard2').src = "static/img/infrastructure/REDE ANYCAST.png";
+            document.getElementById('imgcard3').src = "static/img/infrastructure/REDE REDUNDANTE.png";
+            card2.style.position = 'relative';
+            card2.style.left = '13%';
+            card4.style.position = 'relative';
+            card4.style.left = '20%';
+            document.getElementById('imgcard4').src = "static/img/infrastructure/PING BAIXO.png"
+            document.getElementById('imgcard5').src = "static/img/infrastructure/CONECÇÃO COM OS PRICIPAIS PTT DO BRASIL.png"
+            document.getElementById('card6').style.display = 'none';
         }
 
     }
